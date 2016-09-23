@@ -21,15 +21,15 @@ class SellerRegisterType extends AbstractType{
     {
         $builder
             ->add('username', TextType::class, array(
-                'label' => 'seller_registser.username',
+                'label' => 'seller_register.username',
                 'translation_domain' => 'forms'
             ))
             ->add('firstName', TextType::class, array(
-                'label' => 'seller_registser.first_name',
+                'label' => 'seller_register.first_name',
                 'translation_domain' => 'forms'
             ))
             ->add('lastName', TextType::class, array(
-                'label' => 'seller_registser.last_name',
+                'label' => 'seller_register.last_name',
                 'translation_domain' => 'forms'
             ))
             ->add('dmAction', HiddenType::class, array(

@@ -12,8 +12,8 @@ class Defines{
         
         define('DM_FRAMEWORK_DIR',         DM_SRC_DIR.'/Framework');
         define('DM_CONFIG_DIR',            DM_SRC_DIR.'/Config');
-        
         define('DM_RESOURCES_DIR',         DM_SRC_DIR.'/Resources');
+        
         define('DM_VIEWS_DIR',             DM_RESOURCES_DIR.'/views');
         define('DM_VIEWS_FORMS_DIR',       DM_VIEWS_DIR.'/forms');
         define('DM_LOCALES_TRANS_DIR',     DM_RESOURCES_DIR.'/translations');

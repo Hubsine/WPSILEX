@@ -34,7 +34,6 @@ class BaseController {
     }
 
     public function get($serviceId){
-        echo 'bien';
         return $this->container->get($serviceId);
     }
 

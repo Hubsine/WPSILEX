@@ -29,7 +29,7 @@ use DMarketPlace\Init;
 
 $loader = new ClassLoader();
 $loader->addPsr4('DMarketPlace\\', __DIR__.'/src');
-#$loader->add('DMarketPlace\Framewwork', __DIR__.'/src/framewo');
+$loader->addPsr4('Framework\\', __DIR__.'/src/Framework');
 $loader->register();
 
  

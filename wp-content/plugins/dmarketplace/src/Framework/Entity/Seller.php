@@ -5,11 +5,12 @@ namespace DMarketPlace\Framework\Entity;
 use Symfony\Component\Validator\Constraints as Assert;
 use DMarketPlace\Framework\Traits\DmActionEntity;
 use DMarketPlace\Framework\Model\SellerInterface;
-use DMarketPlace\Framework\Mapping as WpMapping;
+use Framework\Mapping\Annotations as WpMapping;
 
 /**
  * Description of Seller
  *
+ * @WpMapping\WpUsers({WpUsers::TABLE_NAME})
  */
 class Seller implements SellerInterface {
     

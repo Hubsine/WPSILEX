@@ -1,0 +1,34 @@
+/*
+
+Theme Name: Sellegance Child Theme
+Theme URI: http://www.everthemes.com/sellegancewp/
+Description: This is a child theme for Sellegance
+Author: Everthemes
+Author URI: http://themeforest.net/user/luisvelaz/portfolio
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: light, responsive-layout, full-width-template, rtl-language-support, theme-options, translation-ready
+Template: sellegance
+Version: 1.0.4.4
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+*/
+
+@import url("../sellegance/style.css");
+
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+
+.shortcode_banner_simple {
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.shortcode_banner_simple:hover {
+    background-size: auto;
+}
+
+.product_title.entry-title, .product_details h4 a{
+text-transform: uppercase !important;
+}

@@ -1,0 +1,5317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sellegance\n"
+"POT-Creation-Date: 2015-04-28 20:49-0600\n"
+"PO-Revision-Date: 2015-04-28 21:50-0600\n"
+"Last-Translator: Artem <temash@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../themes/sellegance\n"
+"X-Poedit-SearchPathExcluded-0: ../../themes/sellegance/admin\n"
+
+#: ../../themes/sellegance/404.php:7
+msgid "Page Not Found"
+msgstr ""
+
+#: ../../themes/sellegance/404.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../../themes/sellegance/404.php:25
+msgid "Return To The Homepage"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:445
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1742
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:446
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1743
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:447
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1745
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:480
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:481
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/extensions/customizer/extension_customizer.php:482
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:257
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:257
+msgid "Redux Framework"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:261
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:265
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1326
+msgid "Options"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1265
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1266
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3205
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3277
+msgid "System Info"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1744
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1746
+msgid "Please Wait"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1891
+msgid "Hints"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:1892
+msgid "<p>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:2006
+msgid "Default"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:2979
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3051
+msgid "Expand"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3053
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3331
+#: ../../themes/sellegance/bbpress/form-user-edit.php:173
+msgid "Save Changes"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3055
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3333
+msgid "Reset Section"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3057
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3335
+msgid "Reset All"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3060
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3338
+msgid "Working..."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3078
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3091
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3103
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3115
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3131
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3138
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/framework.php:3145
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/class.redux_functions.php:254
+msgid "Dismiss"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/debug.php:43
+#: ../../themes/sellegance/admin_/ReduxCore/inc/debug.php:71
+#: ../../themes/sellegance/admin_/ReduxCore/inc/debug.php:78
+#: ../../themes/sellegance/admin_/ReduxCore/inc/debug.php:79
+msgid "Options Object"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/debug.php:56
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:119
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color/field_color.php:75
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:94
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:81
+msgid "Transparent"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:136
+msgid "Background Repeat"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:152
+msgid "Background Clip"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:168
+msgid "Background Origin"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:183
+msgid "Background Size"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:198
+msgid "Background Attachment"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:218
+msgid "Background Position"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:272
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:306
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/media/field_media.php:155
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:129
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:191
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:98
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:146
+msgid "Upload"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/background/field_background.php:312
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/media/field_media.php:161
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/multi_text/field_multi_text.php:72
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/multi_text/field_multi_text.php:79
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:136
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:193
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:471
+msgid "Remove"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:110
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:155
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:28
+msgid "All"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:123
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:179
+msgid "Top"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:130
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:186
+#: ../../themes/sellegance/functions/metabox/slider.php:32
+msgid "Right"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:137
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:193
+msgid "Bottom"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:144
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:200
+#: ../../themes/sellegance/functions/metabox/slider.php:31
+msgid "Left"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/border/field_border.php:158
+msgid "Border style"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:72
+msgid "From "
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:85
+msgid "To "
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/dimensions/field_dimensions.php:131
+msgid "Width"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/dimensions/field_dimensions.php:147
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:435
+#: ../../themes/sellegance/functions/metabox/page.php:89
+#: ../../themes/sellegance/functions/metabox/page.php:134
+msgid "Height"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/dimensions/field_dimensions.php:158
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/dimensions/field_dimensions.php:159
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:209
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/spacing/field_spacing.php:210
+msgid "Units"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/group/field_group.php:82
+msgid "New "
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/group/field_group.php:125
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:88
+#: ../../themes/sellegance/functions/taxonomy-meta.php:136
+#: ../../themes/sellegance/functions/taxonomy-meta.php:177
+#: ../../themes/sellegance/functions/taxonomy-meta.php:391
+#: ../../themes/sellegance/functions/taxonomy-meta.php:418
+msgid "Delete"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/group/field_group.php:129
+msgid "Add"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Regular"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Hover"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Visited"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/link_color/field_link_color.php:103
+msgid "Active"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/multi_text/field_multi_text.php:64
+msgid "Add More"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/password/field_password.php:59
+#: ../../themes/sellegance/bbpress/form-user-login.php:22
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:108
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:40
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/password/field_password.php:60
+#: ../../themes/sellegance/bbpress/form-user-edit.php:98
+#: ../../themes/sellegance/bbpress/form-user-login.php:17
+#: ../../themes/sellegance/bbpress/form-user-register.php:23
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:80
+msgid "Username"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/select/field_select.php:81
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/select_image/field_select_image.php:64
+msgid "Select an item"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/select/field_select.php:124
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/select_image/field_select_image.php:138
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:148
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:203
+#: ../../themes/sellegance/functions/metabox/page.php:228
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:225
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:967
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1014
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1034
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1053
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1068
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1093
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1124
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1137
+msgid "Title"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:152
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:207
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:430
+#: ../../themes/sellegance/functions/posttypes/brands.php:81
+#: ../../themes/sellegance/single-portfolio.php:266
+msgid "Description"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:156
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:210
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:389
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:258
+msgid "URL"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:170
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:223
+msgid "Delete Slide"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/slides/field_slides.php:226
+msgid "Add Slide"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "On"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/switch/field_switch.php:51
+msgid "Off"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:190
+msgid "Font Family"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:191
+msgid "Font family"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:208
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:266
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:267
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:280
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:287
+msgid "Font style"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:287
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1107
+msgid "Style"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:316
+msgid "Font subsets"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:317
+msgid "Font Subsets"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:318
+msgid "Subsets"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:318
+msgid "Font script"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:335
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:336
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:337
+msgid "Text Align"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:358
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:359
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:360
+msgid "Text Transform"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:381
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:382
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:383
+msgid "Font Variant"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:401
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:402
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:403
+msgid "Text Decoration"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:425
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:426
+msgid "Font Size"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:426
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:397
+msgid "Size"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:434
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:435
+msgid "Line Height"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:443
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:444
+msgid "Word Spacing"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:452
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:453
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:471
+msgid "Font Color"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:473
+msgid "Font color"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:839
+#: ../../themes/sellegance/admin_/ReduxCore/inc/fields/typography/field_typography.php:869
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:81
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:84
+msgid "Import Options"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:85
+msgid "Import from file"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:85
+msgid "Import from URL"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:88
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:93
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:97
+msgid "Import"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:97
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:100
+msgid "Export Options"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:103
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:107
+msgid "Copy"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:107
+msgid "Download"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:107
+msgid "Copy Link"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:143
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:152
+#: ../../themes/sellegance/admin_/ReduxCore/inc/import_export.php:153
+#: ../../themes/sellegance/includes/theme-options.php:1417
+msgid "Import / Export"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:130
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:131
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatability."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:136
+msgid "Allow tracking"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:141
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:152
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:153
+msgid "Getting Started"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:153
+msgid "our documentation"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:154
+msgid "Redux Generator"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:155
+msgid "Redux Extensions"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:155
+msgid "extensions directory"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:156
+msgid "Like Redux?"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:156
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:156
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:156
+msgid "donation"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:157
+msgid "Newsletter"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:157
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:158
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:87
+msgid "Email address"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:158
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:265
+#: ../../themes/sellegance/bbpress/loop-replies.php:24
+msgid "Subscribe"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/tracking.php:167
+msgid "Close"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/color/validation_color.php:16
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:15
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:17
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:17
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/date/validation_date.php:17
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/email/validation_email.php:17
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:17
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/no_html/validation_no_html.php:16
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:17
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/not_empty/validation_not_empty.php:17
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/numeric/validation_numeric.php:17
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/ReduxCore/inc/validation/url/validation_url.php:17
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:299
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:299
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:398
+msgid "Repo"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:399
+msgid "Generator"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:400
+msgid "Issues"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:401
+#: ../../themes/sellegance/includes/theme-options.php:1404
+#: ../../themes/sellegance/includes/theme-options.php:1439
+msgid "Documentation"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:406
+msgid "Deactivate Demo Mode"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/class.redux-plugin.php:408
+msgid "Activate Demo Mode"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:54
+msgid "Home Settings"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:55
+msgid ""
+"Redux Framework was created with the developer in mind. It allows for any "
+"theme developer to have an advanced theme panel with most of the features a "
+"developer would need. For more information check out the Github repo at: <a "
+"href=\"https://github.com/ReduxFramework/Redux-Framework\">https://github."
+"com/ReduxFramework/Redux-Framework</a>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:63
+msgid "Web Fonts"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:66
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:67
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:82
+#: ../../themes/sellegance/includes/theme-options.php:1450
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:83
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:89
+#: ../../themes/sellegance/includes/theme-options.php:1451
+#: ../../themes/sellegance/includes/theme-options.php:1457
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:88
+#: ../../themes/sellegance/includes/theme-options.php:1456
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:93
+#: ../../themes/sellegance/includes/theme-options.php:1461
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:113
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:114
+msgid "Sample Options"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:211
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:213
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/admin_/sample/barebones-config.php:217
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:27
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:35
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:38
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:41
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:44
+#: ../../themes/sellegance/sidebar.php:11
+msgid "Archives"
+msgstr ""
+
+#: ../../themes/sellegance/archive.php:90 ../../themes/sellegance/index.php:96
+msgid "Sorry, Couldn't find any Posts..!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:68
+msgid "bbPress Default"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:251
+msgid "favorites"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:252
+msgid "?"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:253
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:254
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:255
+msgid "&times;"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:256
+msgid "Add this topic to your favorites"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/bbpress-functions.php:266
+#: ../../themes/sellegance/bbpress/loop-replies.php:25
+msgid "Unsubscribe"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/content-single-topic-lead.php:18
+#: ../../themes/sellegance/bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/content-single-topic-lead.php:22
+#: ../../themes/sellegance/bbpress/content-single-topic-lead.php:94
+msgid "Topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/content-single-topic.php:36
+msgid "Tagged:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-search.php:13
+msgid "Oh bother! No search results were found here!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-anonymous.php:32
+msgid "Website:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:35
+#: ../../themes/sellegance/bbpress/form-topic.php:41
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:37
+#, php-format
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:37
+msgid "Create New Forum"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:47
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:55
+#: ../../themes/sellegance/bbpress/form-reply.php:44
+#: ../../themes/sellegance/bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:67
+#, php-format
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:78
+msgid "Forum Description:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:93
+#: ../../themes/sellegance/bbpress/form-reply.php:75
+#: ../../themes/sellegance/bbpress/form-topic.php:101
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:102
+msgid "Forum Type:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:111
+msgid "Status:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:120
+msgid "Visibility:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:129
+msgid "Parent Forum:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:134
+msgid "(No Parent)"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:149
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:94
+#: ../../themes/sellegance/bbpress/form-topic-split.php:98
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:172
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:180
+msgid "You cannot create new forums."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-forum.php:180
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-protected.php:14
+msgid "Protected"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:29
+#, php-format
+msgid "Reply To: %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:36
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:60
+#: ../../themes/sellegance/bbpress/form-topic.php:86
+msgid "Reply:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:86
+msgid "Tags:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:104
+#: ../../themes/sellegance/bbpress/form-topic.php:158
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:108
+#: ../../themes/sellegance/bbpress/form-topic.php:162
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:123
+#: ../../themes/sellegance/bbpress/form-topic.php:176
+msgid "Revision"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:126
+#: ../../themes/sellegance/bbpress/form-topic.php:179
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:130
+#: ../../themes/sellegance/bbpress/form-topic.php:183
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:149
+msgid "Post Reply"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:172
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:180
+#: ../../themes/sellegance/bbpress/form-topic.php:221
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:188
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-reply.php:188
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-search.php:14
+msgid "Search for:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:24
+#, php-format
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:51
+msgid "No topics were found to which the topic could be merged to!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:57
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:65
+#: ../../themes/sellegance/bbpress/form-topic-split.php:69
+msgid "Topic Extras"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:72
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:77
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:82
+msgid "Merge topic tags"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:90
+#: ../../themes/sellegance/bbpress/form-topic-split.php:94
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:107
+#: ../../themes/sellegance/bbpress/form-topic-split.php:111
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-merge.php:107
+#: ../../themes/sellegance/bbpress/form-topic-split.php:111
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:24
+#, php-format
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:41
+#, php-format
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:42
+#, php-format
+msgid "Split: %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:58
+msgid "No other topics found!"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:76
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:81
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-split.php:86
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:18
+#, php-format
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:59
+msgid "Merge"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:73
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic-tag.php:101
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:43
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:43
+msgid "Create New Topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:53
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:75
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:112
+msgid "Topic Tags:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:125
+msgid "Forum:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:139
+msgid "Topic Type:"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:198
+msgid "Post Topic"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:229
+msgid "You cannot create new topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-topic.php:229
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:14
+#: ../../themes/sellegance/bbpress/form-user-edit.php:19
+#: ../../themes/sellegance/functions/posttypes/brands.php:80
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:39
+msgid "Display Name"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:49
+#: ../../themes/sellegance/bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:57
+msgid "Website"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:74
+#: ../../themes/sellegance/bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:74
+#: ../../themes/sellegance/bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:90
+#: ../../themes/sellegance/bbpress/form-user-edit.php:93
+msgid "Account"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:103
+#: ../../themes/sellegance/bbpress/form-user-register.php:28
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:239
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:67
+msgid "Email"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:115
+#, php-format
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:124
+msgid "New Password"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:127
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:130
+msgid "Type your new password again."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:133
+msgid ""
+"Your password should be at least ten characters long. Use upper and lower "
+"case letters, numbers, and symbols to make it even stronger."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:143
+#: ../../themes/sellegance/bbpress/form-user-edit.php:146
+msgid "User Role"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:153
+msgid "Network Role"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:178
+msgid "Update Profile"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-edit.php:178
+msgid "Update User"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-login.php:14
+#: ../../themes/sellegance/bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-register.php:36
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:71
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:108
+msgid "Register"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-roles.php:2
+msgid "Blog Role"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/form-user-roles.php:9
+msgid "Forum Role"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-forum.php:16
+#, php-format
+msgid "Last updated %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-forum.php:26
+msgid "Forum: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-reply.php:30
+msgid "In reply to: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-topic.php:18
+msgid "Topic: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-topic.php:25
+msgid "in group forum "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-search-topic.php:29
+msgid "in forum "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-single-forum.php:64
+msgid "Topics: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-single-forum.php:65
+#: ../../themes/sellegance/bbpress/loop-single-topic.php:84
+msgid "Posts: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-single-topic.php:60
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-single-topic.php:68
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/loop-single-topic.php:83
+msgid "Voices: "
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:29
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:29
+#: ../../themes/sellegance/bbpress/user-profile.php:15
+msgid "Profile"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:35
+#, php-format
+msgid "%s's Topics Started"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:35
+msgid "Topics Started"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:41
+#, php-format
+msgid "%s's Replies Created"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:41
+msgid "Replies Created"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:48
+#, php-format
+msgid "%s's Favorites"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:48
+msgid "Favorites"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:58
+#, php-format
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:58
+msgid "Subscriptions"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:65
+#, php-format
+msgid "Edit Profile of User %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-details.php:65
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:26
+#: ../../themes/sellegance/page-sidebar.php:59
+#: ../../themes/sellegance/page.php:49 ../../themes/sellegance/single.php:237
+#: ../../themes/sellegance/taxonomy-port-group.php:140
+#: ../../themes/sellegance/template-contact.php:143
+#: ../../themes/sellegance/template-home-fullslider.php:35
+#: ../../themes/sellegance/template-portfolio-nofilter.php:169
+#: ../../themes/sellegance/template-portfolio.php:186
+msgid "Edit"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-favorites.php:15
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-favorites.php:26
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-favorites.php:26
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-profile.php:24
+#, php-format
+msgid "Forum Role: %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-profile.php:25
+#, php-format
+msgid "Topics Started: %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-profile.php:26
+#, php-format
+msgid "Replies Created: %s"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-replies-created.php:15
+msgid "Forum Replies Created"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-replies-created.php:26
+msgid "You have not replied to any topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-replies-created.php:26
+msgid "This user has not replied to any topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-subscriptions.php:19
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-subscriptions.php:30
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-subscriptions.php:30
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-topics-created.php:15
+msgid "Forum Topics Started"
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-topics-created.php:26
+msgid "You have not created any topics."
+msgstr ""
+
+#: ../../themes/sellegance/bbpress/user-topics-created.php:26
+msgid "This user has not created any topics."
+msgstr ""
+
+#: ../../themes/sellegance/comments.php:18
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../../themes/sellegance/comments.php:25
+#: ../../themes/sellegance/comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../themes/sellegance/comments.php:26
+#: ../../themes/sellegance/comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../../themes/sellegance/comments.php:27
+#: ../../themes/sellegance/comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../../themes/sellegance/comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:276
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:161
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:277
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:162
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:278
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:163
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:279
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:290
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:175
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:291
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:177
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1956
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:212
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:292
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:379
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:595
+#: ../../themes/sellegance/functions.php:597
+msgid "Previous Story"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:597
+msgid "There are no older stories."
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:601
+#: ../../themes/sellegance/functions.php:603
+msgid "Next Story"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:603
+msgid "This is the most recent story."
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:704
+msgid "Related Posts"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:757
+msgid "Sidebar"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:767
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:777
+msgid "Product Sidebar"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:787
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:827
+msgid "Primary Menu"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:828
+msgid "Mobile Menu (Same as Primary Menu if empty)"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:829
+msgid "Top Bar Menu"
+msgstr ""
+
+#: ../../themes/sellegance/functions.php:830
+msgid "Right Header Menu"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:345
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:372
+msgid "Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:373
+msgid "(Mega Menu)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:374
+msgid "Widget"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:377
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:379
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:396
+msgid "Navigation Label"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:402
+msgid "Title Attribute"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:409
+msgid "Link Target"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:411
+msgid "Same window or tab"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:412
+msgid "New window or tab"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:418
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:424
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:432
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:458
+msgid "Original:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/megamenu/mega_menu.php:475
+msgid "Cancel"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/all-custom-post-types.php:20
+msgid "Personal Information"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/all-custom-post-types.php:25
+msgid "Full name"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/better-include.php:16
+#: ../../themes/sellegance/functions/metabox/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/better-include.php:19
+#: ../../themes/sellegance/functions/metabox/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:11
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:15
+#: ../../themes/sellegance/functions/metabox/page.php:229
+msgid "Date"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:21
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:184
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:23
+msgid "Select Date"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:24
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:185
+msgid "yy-mm-dd"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:30
+msgid "Datetime"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/date-time-js-options.php:41
+msgid "Time"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:34
+msgid "Standard Fields"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:53
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:410
+msgid "Text"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:57
+msgid "Text description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:60
+msgid "Default text value"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:66
+msgid "Checkbox"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:74
+msgid "Radio"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:80
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:91
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:233
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:278
+msgid "Label1"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:81
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:92
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:234
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:279
+msgid "Label2"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:86
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:273
+msgid "Select"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:97
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:284
+msgid "Select an Item"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:104
+msgid "Hidden value"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:114
+msgid "Textarea"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:115
+msgid "Textarea description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:132
+msgid "Password is required"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:133
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:141
+msgid "Advanced Fields"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:147
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:282
+msgid "Heading"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:152
+msgid "Slider"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:157
+msgid "$"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:158
+msgid " USD"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:169
+msgid "Number"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:178
+msgid "Date picker"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:193
+msgid "Datetime picker"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:207
+msgid "Time picker"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:222
+msgid "Color picker"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:228
+msgid "Checkbox list"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:241
+msgid "Email description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:247
+msgid "Range"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:249
+msgid "Range description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:260
+msgid "URL description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:266
+msgid "oEmbed"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:268
+msgid "oEmbed description"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:288
+msgid "Taxonomy"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:302
+msgid "Posts (Pages)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:318
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:323
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:339
+#: ../../themes/sellegance/functions/metabox/demo/force-delete.php:15
+msgid "File Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:345
+msgid "File Advanced Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:353
+#: ../../themes/sellegance/functions/metabox/demo/force-delete.php:22
+msgid "Image Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:359
+#: ../../themes/sellegance/functions/metabox/demo/force-delete.php:28
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:365
+#: ../../themes/sellegance/functions/metabox/demo/force-delete.php:35
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/demo.php:372
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/force-delete.php:11
+msgid "Test Meta Box"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/map.php:9
+msgid "Google Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/map.php:13
+#: ../../themes/sellegance/functions/metabox/page.php:330
+msgid "Address"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/map.php:15
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/demo/map.php:19
+msgid "Location"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/classes/meta-box.php:252
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/classes/meta-box.php:426
+msgid "+"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/classes/meta-box.php:448
+msgid "&#8211;"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/inc/fields/post.php:68
+#: ../../themes/sellegance/functions/metabox/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:12
+msgid "Page Options"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:19
+#: ../../themes/sellegance/functions/metabox/portfolio.php:18
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:230
+msgid "Sub Title"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:21
+msgid ""
+"Set your Page Sub Title to be displayed beside the Main Page Title "
+"(Excluding the homepage)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:28
+msgid "Hide Title Area"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:31
+msgid "Check to Hide the Title Area from the Page"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:42
+#: ../../themes/sellegance/functions/metabox/post.php:11
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:50
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:54
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:55
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:58
+msgid "Select the position of the Sidebar on this page."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:71
+#: ../../themes/sellegance/functions/metabox/page.php:116
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:77
+#: ../../themes/sellegance/functions/metabox/page.php:122
+msgid "Portfolio Layout"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:81
+#: ../../themes/sellegance/functions/metabox/page.php:126
+msgid "2 Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:82
+#: ../../themes/sellegance/functions/metabox/page.php:127
+msgid "3 Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:83
+#: ../../themes/sellegance/functions/metabox/page.php:128
+msgid "4 Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:86
+#: ../../themes/sellegance/functions/metabox/page.php:131
+msgid "Select the Portfolio Layout Type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:91
+#: ../../themes/sellegance/functions/metabox/page.php:136
+msgid ""
+"The Portfolio Thumbnails Height (in px). Just enter a number. Default:400"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:97
+#: ../../themes/sellegance/functions/metabox/page.php:151
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:104
+#: ../../themes/sellegance/functions/metabox/page.php:158
+msgid ""
+"Choose the Categories you want to display on this Portfolio Page. Do not "
+"check anything if you want to show items from all categories"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:142
+msgid "No. of Items"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:144
+msgid ""
+"Enter the No. of Items you want to show on this Portfolio Items Page. Enter "
+"a Number only. 0 - display all portfolio posts in page"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:171
+msgid "Slider Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:178
+msgid "Slider post type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:187
+msgid "Enable Slider post type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:190
+msgid ""
+"Check to use the Slider Post type. <code>Leave unchecked to use Revolution "
+"Slider (enable on Appearance > Widgets)</code>."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:194
+msgid "divider"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:201
+msgid "Slider Category"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:208
+msgid "Choose a Category for the Slider"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:212
+msgid "Slide Order"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:220
+msgid "Select the Slide Order. (Works on all Sliders except Layer Slider)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:223
+msgid "Slide Order by"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:230
+msgid "Random"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:231
+msgid "Menu Order"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:234
+msgid ""
+"Select the parameter by which you want the Slide Order. (Works on all "
+"Sliders except Layer Slider)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:239
+#: ../../themes/sellegance/functions/metabox/post.php:48
+msgid "Slideshow"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:242
+#: ../../themes/sellegance/functions/metabox/portfolio.php:102
+#: ../../themes/sellegance/functions/metabox/post.php:51
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:247
+#: ../../themes/sellegance/functions/metabox/portfolio.php:107
+#: ../../themes/sellegance/functions/metabox/post.php:56
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:249
+#: ../../themes/sellegance/functions/metabox/portfolio.php:109
+#: ../../themes/sellegance/functions/metabox/post.php:58
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:265
+msgid "Contact Page Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:272
+msgid "Show Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:275
+msgid "Check to show the Map on the Contact Page"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:281
+msgid "Full-Width"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:284
+msgid "Check to show the Map Full-width"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:289
+msgid "Top padding"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:292
+msgid "Check to enable Top Padding for Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:297
+msgid "Inner Shadows"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:300
+msgid "Check to enable Inner Shadows for map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:306
+msgid "Map Height"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:308
+msgid "Enter the Height for the Map. Enter a Number"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:314
+msgid "Latitude"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:316
+msgid "Enter the Latitude Value for the Map. Enter a Float Number"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:322
+msgid "Longitude"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:324
+msgid "Enter the Longitude Value for the Map. Enter a Float Number"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:332
+msgid ""
+"Enter the Address in 4-5 Words for the Map. Enter Text. If you use \"Address"
+"\" Option, then \"Latitude\" and \"Longitude\" Values will not be considered"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:338
+msgid "Map Popup"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:339
+msgid "Content to show in the Map Popup. HTML Supported"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:346
+msgid "Zoom"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:366
+msgid "Select the amount of Zoom for the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:369
+msgid "Map Type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:379
+msgid "Select the Map Type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:382
+msgid "Scrollwheel"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:385
+msgid "Check to use Scrollwheel on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:389
+msgid "Pan Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:392
+msgid "Check to use Pan Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:396
+msgid "Zoom Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:399
+msgid "Check to use Zoom Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:403
+msgid "MapType Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:406
+msgid "Check to use MapType Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:410
+msgid "Scale Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:413
+msgid "Check to use Scale Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:417
+msgid "Street View Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:420
+msgid "Check to use Street View Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:424
+msgid "Overview Map Control"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/page.php:427
+msgid "Check to use Overview Map Control on the Map"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:12
+msgid "Details"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:20
+msgid ""
+"Set the Portfolio item subtitle. It will appear only on the porfolio details "
+"page.)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:27
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:60
+msgid "Item Type"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:31
+msgid "Picture"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:32
+msgid "Gallery"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:33
+msgid "Video"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:36
+msgid "Select the Portfolio Item Type."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:40
+msgid "Project Date"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:42
+msgid "When the project was done?"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:48
+msgid "Client"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:50
+msgid "For whom was the project completed"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:56
+msgid "Project URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:58
+msgid "The Project's Link Address. Include http://"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:70
+#: ../../themes/sellegance/functions/metabox/post.php:32
+msgid "Image Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:78
+#: ../../themes/sellegance/functions/metabox/post.php:40
+msgid "Images"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:79
+#: ../../themes/sellegance/functions/metabox/post.php:41
+msgid "Additional Images for your Gallery. Maximum 8 Images."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:86
+msgid "Show as thumbnails"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:89
+msgid ""
+"Show gallery as thumbnails instead of Slideshow (This disables the options "
+"below)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:94
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:367
+msgid "Divider"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:99
+msgid "Auto slide"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:121
+msgid "Video Settings"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:130
+#: ../../themes/sellegance/functions/metabox/post.php:78
+msgid "Video URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/portfolio.php:131
+msgid "Enter the direct URL from YouTube or Vimeo."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/post.php:19
+msgid "Featured Image/Slider/Video on Single Post Page"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/post.php:22
+msgid ""
+"Check this to show the featured image, slider or video at the beginning of "
+"the post on the single post page."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/post.php:79
+msgid "Enter the direct URL to a YouTube or Vimeo video page."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:11
+msgid "Slide Data"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:18
+msgid "Caption"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:19
+msgid "Text to be shown as a Caption. HTML not supported."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:27
+msgid "Title & Caption Position"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:33
+msgid "Center"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:35
+msgid "left"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:36
+msgid "Select Title & Caption Position."
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:40
+msgid "Title URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:42
+msgid "The Slide's Link Address. Include http://"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:48
+msgid "Header Content Color"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:52
+#: ../../themes/sellegance/functions/metabox/slider.php:55
+msgid "Dark"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:53
+msgid "Light"
+msgstr ""
+
+#: ../../themes/sellegance/functions/metabox/slider.php:56
+msgid ""
+"Select header content color. If your image is dark please select Light style."
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:32
+msgid "Search Brands"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:33
+msgid "All Brands"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:34
+msgid "Parent Brand"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:35
+msgid "Parent Brand:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:36
+msgid "Edit Brand"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:37
+msgid "Update Brand"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:38
+msgid "Add New Brand"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:39
+msgid "New Brand Name"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:40
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1133
+msgid "Brands"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:79
+#: ../../themes/sellegance/functions/posttypes/brands.php:204
+#: ../../themes/sellegance/functions/posttypes/brands.php:246
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:59
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:82
+msgid "Slug"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:83
+msgid "Count"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:142
+msgid "Choose an image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:144
+msgid "Use image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:212
+#: ../../themes/sellegance/functions/posttypes/brands.php:252
+msgid "Upload/Add image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/brands.php:213
+#: ../../themes/sellegance/functions/posttypes/brands.php:253
+msgid "Remove image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:8
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:9
+#: ../../themes/sellegance/includes/theme-options.php:995
+#: ../../themes/sellegance/single-portfolio.php:71
+#: ../../themes/sellegance/single-portfolio.php:253
+msgid "Portfolio"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:10
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:11
+msgid " Portfolio Items"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:29
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:43
+#: ../../themes/sellegance/functions/posttypes/slider.php:43
+msgid "Groups"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:30
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:61
+msgid "Group"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:31
+#: ../../themes/sellegance/functions/posttypes/slider.php:31
+msgid "Search Groups"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:32
+#: ../../themes/sellegance/functions/posttypes/slider.php:32
+msgid "Popular Groups"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:33
+#: ../../themes/sellegance/functions/posttypes/slider.php:33
+msgid "All Groups"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:36
+#: ../../themes/sellegance/functions/posttypes/slider.php:36
+msgid "Edit Group"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:37
+#: ../../themes/sellegance/functions/posttypes/slider.php:37
+msgid "Update Group"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:38
+#: ../../themes/sellegance/functions/posttypes/slider.php:38
+msgid "Add New Group"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:39
+#: ../../themes/sellegance/functions/posttypes/slider.php:39
+msgid "New Group Name"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:119
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:128
+msgid "Sort Portfolio Items"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/portfolio.php:119
+msgid "Sort Portfolio"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:24
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:25
+msgid "Add New"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:27
+#: ../../themes/sellegance/woocommerce/content-product.php:57
+#: ../../themes/sellegance/woocommerce/content-product.php:59
+msgid "New"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:29
+msgid "View"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:30
+#: ../../themes/sellegance/product-searchform.php:15
+#: ../../themes/sellegance/searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:31
+msgid "No"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:31
+msgid "Found"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:32
+msgid "No "
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:32
+msgid " found in Trash"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:60
+#, php-format
+msgid " updated. <a href=\"%s\">View "
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:61
+msgid "Custom field updated."
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:62
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:63
+msgid " updated."
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:64
+#, php-format
+msgid " restored to revision from %s"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:65
+#, php-format
+msgid " published. <a href=\"%s\">View "
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:66
+msgid " saved."
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:67
+#, php-format
+msgid " submitted. <a target=\"_blank\" href=\"%s\">Preview "
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:68
+#, php-format
+msgid ""
+" scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview "
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:69
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../../themes/sellegance/functions/posttypes/posttypes.class.php:70
+#, php-format
+msgid " draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+msgstr ""
+
+#: ../../themes/sellegance/functions/taxonomy-meta.php:145
+#: ../../themes/sellegance/functions/taxonomy-meta.php:398
+msgid "Select File"
+msgstr ""
+
+#: ../../themes/sellegance/functions/taxonomy-meta.php:186
+#: ../../themes/sellegance/functions/taxonomy-meta.php:425
+msgid "Select Image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:18
+msgid "Pingback:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:18
+#: ../../themes/sellegance/functions/theme-functions.php:36
+msgid "(Edit)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:34
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:265
+msgid "Page "
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:265
+msgid " of "
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:267
+msgid "First"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:269
+msgid "Previous"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:281
+#: ../../themes/sellegance/woocommerce/loop/pagination.php:28
+msgid "Next"
+msgstr ""
+
+#: ../../themes/sellegance/functions/theme-functions.php:283
+msgid "Last"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:72
+msgid "Remove Tab"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:72
+msgid "Add Tab"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:86
+msgid "Remove Bar"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:86
+msgid "Add Bar"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:99
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:147
+msgid "Remove Upload"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:156
+msgid "Remove Client"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/option-element.php:156
+msgid "Add Client"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcode-generator.php:24
+msgid "Choose a shortcode"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcode-generator.php:76
+msgid "Content: "
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcode-generator.php:84
+msgid "Add Shortcode"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:10
+msgid "Columns"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:16
+msgid "Container"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:23
+msgid "Full-width (1)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:25
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:62
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:74
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:84
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:96
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:106
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:117
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:127
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:137
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:147
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:159
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:170
+msgid "Boxed Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:26
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:63
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:75
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:85
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:97
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:107
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:118
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:128
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:138
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:148
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:160
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:171
+msgid "Centered Text"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:30
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:252
+msgid "Sets the background color. Default: #ffffff"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:35
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:257
+msgid "Background Image"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:36
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:258
+msgid ""
+"Sets the an image background for your banner (URL). Set it to none for a "
+"transparent background."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:44
+msgid "Sets the horizontal padding (size in px or percentage). Default: 0px"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:51
+msgid "Sets the vertical padding (size in px or percentage). Default: 0px"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:60
+msgid "One Half (1/2)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:64
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:76
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:86
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:98
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:108
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:119
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:129
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:139
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:149
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:161
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:172
+msgid "Last Column"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:64
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:76
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:86
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:98
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:108
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:119
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:129
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:139
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:149
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:161
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:172
+msgid ""
+"Check this for the last column in a row. i.e. when the columns add up to 1."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:72
+msgid "One Third Column (1/3)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:82
+msgid "Two Thirds Column (2/3)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:94
+msgid "One Fourth Column (1/4)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:104
+msgid "Three Fourths Column (3/4)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:115
+msgid "One Fifth Column (1/5)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:125
+msgid "Two Fifth Column (2/5)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:135
+msgid "Three Fifth Column (3/5)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:145
+msgid "Four Fifth Column (4/5)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:157
+msgid "One Sixth Column (1/6)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:168
+msgid "Five Sixth Column (5/6)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:185
+#: ../../themes/sellegance/includes/theme-options.php:837
+msgid "Elements"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:192
+msgid "Code"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:199
+msgid "Banner"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:204
+msgid "Content Color Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:205
+msgid "Select Color of Content. Default: Dark"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:214
+msgid "Title Align"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:215
+msgid "Select align for titles."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:240
+msgid "Show borders?"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:246
+msgid "Show divider?"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:266
+msgid "Sets the horizontal padding (size in px or percentage). Default: 20px"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:273
+msgid "Sets the vertical padding (size in px or percentage). Default: 20px"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:286
+msgid "Heading Size"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:297
+msgid "Heading Align"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:307
+msgid "Heading Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:317
+msgid "Bold Heading Weight?"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:324
+msgid "Sets the vertical padding (size in px or percentage). Default: 15px"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:332
+msgid "Blockquote"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:337
+msgid "Align"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:338
+msgid "Select the Blockquote Alignment"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:348
+msgid "Blockquote Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:349
+msgid "Select the Blockquote Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:358
+msgid "Author"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:359
+msgid "The Author of the Blockquote. Optional"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:371
+msgid "Show line?"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:378
+msgid "Sets the top margin (size in px)."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:384
+msgid "Sets the bottom margin (size in px)."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:393
+msgid "Button"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:419
+msgid "Icon"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:423
+msgid "Icon Size"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:424
+msgid ""
+"Tiny is recommended to be used inline with regular text. <br/> Small is "
+"recommended to be used inline right before heading text. <br> Large is "
+"recommended to be used at the top of columns."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:436
+msgid "Icon Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:965
+msgid "Toggle Panel"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:974
+msgid "Tabbed Section"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:979
+msgid "Tabs Style"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:997
+msgid "Shop Shortcodes"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1003
+msgid "Custom Big Featured Products"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1010
+msgid "Custom Featured Products"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1019
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1039
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1097
+msgid "Categories"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1020
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1098
+msgid "Use category slugs separated by commas. Leave empty to show all."
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1029
+msgid "Custom Latest Products"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1048
+msgid "Custom Best Sellers"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1063
+msgid "Custom On Sale Products"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1083
+msgid "Recent Posts/Work"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1089
+#: ../../themes/sellegance/functions/widgets/posts.php:13
+msgid "Recent Posts"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1102
+msgid "No. of Posts"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1108
+msgid "Select style. Default: Slider"
+msgstr ""
+
+#: ../../themes/sellegance/functions/tinymce/shortcode_generator/shortcodes-definitions.php:1120
+msgid "Recent Projects"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/brands.php:14
+msgid "Brands list"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/brands.php:29
+msgid "Widget Title:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/brands.php:33
+msgid "Show Brands at most:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/brands.php:37
+msgid "Show Logo:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:6
+msgid "Displays your Recent Portfolio Posts"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:7
+msgid "Sellegance / Recent Portfolio"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:13
+msgid "Recent Portfolio"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:21
+#: ../../themes/sellegance/functions/widgets/posts.php:23
+msgid "Title:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:26
+msgid "No. of Portfolio Items:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:31
+msgid "Filter by Category:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/portfolio.php:43
+msgid "\"All Portfolio\" Posts Button Text:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:6
+msgid "Displays your Recent or Popular Posts"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:7
+msgid "Sellegance / Blog Posts List"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:30
+msgid "No. of Posts:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:37
+msgid "Display Type:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:48
+msgid "All Blog Posts Button Text:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:137
+msgid "No Comments"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:137
+#: ../../themes/sellegance/includes/post-standard.php:151
+#: ../../themes/sellegance/includes/post-timeline.php:158
+msgid "1 Comment"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/posts.php:137
+#: ../../themes/sellegance/includes/post-standard.php:151
+#: ../../themes/sellegance/includes/post-timeline.php:158
+msgid "% Comments"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:6
+msgid "A widget that displays customized social icons "
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:10
+msgid "Sellegance / Social Icons"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:98
+msgid "Sellegance Social"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:121
+msgid "Widget title:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:126
+msgid "Intro text"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:131
+#: ../../themes/sellegance/includes/theme-options.php:1038
+msgid "Facebook URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:136
+#: ../../themes/sellegance/includes/theme-options.php:1044
+msgid "Twitter URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:141
+#: ../../themes/sellegance/includes/theme-options.php:1050
+msgid "Google+ URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:146
+#: ../../themes/sellegance/includes/theme-options.php:1056
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:151
+#: ../../themes/sellegance/includes/theme-options.php:1062
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:156
+msgid "Youtube URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:161
+#: ../../themes/sellegance/includes/theme-options.php:1074
+msgid "Flickr URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:167
+#: ../../themes/sellegance/includes/theme-options.php:1080
+msgid "Skype URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:173
+#: ../../themes/sellegance/includes/theme-options.php:1086
+msgid "Behance URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:179
+#: ../../themes/sellegance/includes/theme-options.php:1092
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:185
+#: ../../themes/sellegance/includes/theme-options.php:1098
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:190
+#: ../../themes/sellegance/includes/theme-options.php:1104
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:195
+#: ../../themes/sellegance/includes/theme-options.php:1122
+msgid "Instagram URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:200
+#: ../../themes/sellegance/includes/theme-options.php:1128
+msgid "Dropbox URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:205
+msgid "RSS URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/widgets/social.php:210
+#: ../../themes/sellegance/includes/theme-options.php:1146
+msgid "Paypal URL"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:49
+msgid "Previous Post"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:49
+msgid "Next Post"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:96
+#, php-format
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:172
+msgid "Wishlist"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:176
+msgid "View Wishlist"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:217
+msgid "item(s)"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:225
+#, php-format
+msgid "%d item in the shopping cart"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:242
+msgid "Quantity:"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:244
+#: ../../themes/sellegance/woocommerce/cart/cart.php:49
+msgid "Remove this item"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:254
+msgid "Cart subtotal"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:257
+msgid "View Cart"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:259
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: ../../themes/sellegance/functions/woo.php:263
+msgid "No products in the cart."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:164
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:176
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:178
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1644
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:213
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1638
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:179
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:180
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:532
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2173
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:544
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1167
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1348
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1170
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1351
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1175
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1178
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1185
+msgid "Required"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1178
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1181
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1183
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1288
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1409
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1290
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1312
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1410
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1312
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1372
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1388
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1389
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1390
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1391
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1939
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1940
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1941
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1942
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1943
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1944
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:1955
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2069
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2070
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2070
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2079
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2065
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2070
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2079
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2065
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2071
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2072
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2076
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2077
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2078
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2079
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2080
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation.php:2081
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../../themes/sellegance/includes/class-tgm-plugin-activation_OLD.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../../themes/sellegance/includes/header-loop.php:109
+msgid "Menu"
+msgstr ""
+
+#: ../../themes/sellegance/includes/header-loop.php:112
+#: ../../themes/sellegance/includes/theme-options.php:474
+msgid "Navigation"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-grid.php:39
+#: ../../themes/sellegance/woocommerce/content-product.php:132
+msgid " "
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-grid.php:44
+#: ../../themes/sellegance/includes/post-standard.php:146
+#: ../../themes/sellegance/includes/post-timeline.php:153
+#: ../../themes/sellegance/single.php:208
+msgid ", "
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-grid.php:46
+#: ../../themes/sellegance/includes/post-standard.php:148
+#: ../../themes/sellegance/includes/post-timeline.php:155
+#: ../../themes/sellegance/single.php:210
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:13
+#: ../../themes/sellegance/includes/post-timeline.php:12
+#: ../../themes/sellegance/includes/post-timeline.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:17
+#: ../../themes/sellegance/includes/post-timeline.php:24
+#: ../../themes/sellegance/single.php:38
+msgid "By"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:18
+#: ../../themes/sellegance/includes/post-timeline.php:25
+#: ../../themes/sellegance/single.php:39
+msgid "Posted on"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:140
+#: ../../themes/sellegance/includes/post-timeline.php:147
+msgid ""
+"<div class=\"clearfix\"></div><span class=\"btn btn-default moretag\">Read "
+"more</span>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:151
+#: ../../themes/sellegance/includes/post-timeline.php:158
+msgid "Leave a comment"
+msgstr ""
+
+#: ../../themes/sellegance/includes/post-standard.php:160
+#: ../../themes/sellegance/includes/post-timeline.php:168
+#: ../../themes/sellegance/page-full-width.php:55
+#: ../../themes/sellegance/page-sidebar.php:57
+#: ../../themes/sellegance/page.php:47 ../../themes/sellegance/single.php:166
+#: ../../themes/sellegance/template-contact.php:141
+#: ../../themes/sellegance/template-home-fullslider.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:111
+msgid "Section via hook"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:112
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:207
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:208
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:209
+msgid "Tags"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:214
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:214
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:244
+msgid "General Settings"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:249
+msgid "Main Layout"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:261
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:262
+msgid "2 responsive modes and 1 fixed mode"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:272
+msgid "Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:280
+msgid "Overlay Pattern"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:281
+msgid ""
+"Default option is pattern 5.<br>First option (0) is <em>transparent</em>."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:333
+msgid "Custom Overlay Pattern"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:335
+msgid ""
+"Upload your own <em>Pattern</em>.<br> Use <em>.png</em> images to preserve "
+"transparency."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:344
+msgid "Site Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:345
+msgid "For Boxed and Framed layouts. <br><br> Default <code>#FFFFFF</code>."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:353
+msgid "Colors"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:360
+msgid "Central Content Text Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:361
+#: ../../themes/sellegance/includes/theme-options.php:516
+#: ../../themes/sellegance/includes/theme-options.php:563
+#: ../../themes/sellegance/includes/theme-options.php:636
+msgid "Light or Dark text style."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:371
+msgid "Central Content Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:372
+msgid ""
+"It's the section between the header and footer.<br> Default <code>#FFFFFF</"
+"code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:379
+#: ../../themes/sellegance/includes/theme-options.php:386
+msgid "Favicon"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:387
+msgid "Add your custom Favicon image. 16x16px .ico or .png file required."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:396
+msgid "Retina Favicon"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:397
+msgid "The Retina version of your Favicon. 144x144px .png file required."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:410
+msgid "Back to Top button"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:416
+msgid "Show comments on pages"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:427
+msgid "Header"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:434
+msgid "Header Layout"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:435
+msgid ""
+"Choose header layout:<br><br>\n"
+"\t\t\t\t\t1. Centered Logo<br>\n"
+"\t\t\t\t\t2. Left Logo<br>\n"
+"\t\t\t\t\t3. Minimal"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:449
+#: ../../themes/sellegance/includes/theme-options.php:456
+msgid "Logo"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:458
+msgid ""
+"Upload your logo here.<br><br><em>*Use an image double size the logo "
+"container for better results on retina displays.</em>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:467
+msgid "Logo container size (Width/Height)"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:468
+msgid "The default container size is 250 x 100 px."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:480
+msgid "Sticky Menu"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:481
+msgid "Fixed navigation when scrolling"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:487
+msgid "Navigation inside central container"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:488
+msgid "Boxed layout only"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:494
+msgid "Custom Text"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:501
+msgid "Header Text"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:502
+msgid "Custom content on header"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:508
+msgid "Header Colors"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:515
+msgid "Header Text Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:526
+msgid "Header Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:527
+msgid "Default <code>transparent</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:534
+#: ../../themes/sellegance/includes/theme-options.php:540
+msgid "Top Bar"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:546
+msgid "Topbar Dropdown Title"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:547
+msgid "Configure dropdown items in <em>Appearance > Menus</em>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:553
+msgid "Top Bar Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:554
+msgid ""
+"Default <code>transparent</code> <br>The same color as the whole header."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:562
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:576
+msgid "Footer"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:582
+msgid "Footer Top widgets"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:583
+msgid "Number of columns for Footer Top widgets"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:593
+msgid "Footer Bottom widgets"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:594
+msgid "Number of columns for Footer Bottom widgets"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:604
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:605
+msgid "Add custom content to the copyright section"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:612
+msgid "Payment Icons"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:614
+msgid "Upload your own payment icon sprite"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:620
+msgid "Footer Colors"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:626
+msgid "Footer Top Background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:627
+msgid "Default <code>#F6F6F6</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:635
+msgid "Footer Top text color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:646
+msgid "Footer Bottom Background*"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:647
+msgid ""
+"Default:\n"
+"\t\t\t\t\t<br><br>-Boxed/Framed <code>transparent</code>\n"
+"\t\t\t\t\t<br>-Fullwidth/Transparent-header <code>#777777</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:657
+msgid "Footer Bottom text color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:658
+#: ../../themes/sellegance/includes/theme-options.php:682
+msgid ""
+"Default:\n"
+"\t\t\t\t\t<br><br>-Boxed/Framed <code>Light</code>\n"
+"\t\t\t\t\t<br>-Fullwidth/Transparent-header <code>Dark</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:670
+msgid "Footer Copyright Background*"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:671
+msgid ""
+"Default:\n"
+"\t\t\t\t\t<br><br>-Boxed/Framed <code>transparent</code>\n"
+"\t\t\t\t\t<br>-Fullwidth/Transparent-header <code>#5B5B5B</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:681
+msgid "Footer Copyright text color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:701
+msgid "Shop"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:708
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:709
+msgid "Select position for the shop sidebar."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:720
+msgid "Catalog Only"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:721
+msgid ""
+"Disable \"Add To Cart\" button and shopping cart. This option will turn off "
+"the shopping functionality of WooCommerce."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:727
+msgid "Global search"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:728
+msgid ""
+"Include pages, portfolios and posts in search results when WooCommerce is "
+"active. Otherwise, it will show only products."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:734
+#: ../../themes/sellegance/includes/theme-options.php:740
+msgid "Shop Banner"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:741
+msgid "Enable the banner on the shop main page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:748
+msgid "Shop banner image"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:750
+msgid "Upload your banner image"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:758
+#: ../../themes/sellegance/includes/theme-options.php:765
+msgid "Banner Description"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:759
+#: ../../themes/sellegance/includes/theme-options.php:766
+msgid "Your description for the shop main page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:775
+msgid "Banner description background"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:784
+msgid "Banner link"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:785
+msgid "Enter the full URL (e.g. <code>http://site.com/link</code>)"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:799
+msgid "Products Listing"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:805
+msgid "Products Default View"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:806
+msgid "Select default presentation."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:815
+msgid "Products per row"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:825
+msgid "Animation on hover"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:826
+msgid "The animation to switch 2 images on hover."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:843
+msgid "Show Quick View"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:849
+msgid "Category in product listing"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:855
+msgid "Rating in product listing"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:861
+msgid "'New' Badge"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:862
+msgid "Show 'New' badge on recent products"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:868
+msgid "'New' Badge Duration"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:869
+msgid "How many days 'New' badge will display"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:878
+msgid "Single Product"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:884
+msgid "Product Details Mode"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:885
+msgid "Select Tabs or Accordion."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:894
+msgid "Show Previous/Next product links"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:900
+msgid "Show share buttons"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:906
+msgid "Custom Tab"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:912
+msgid "Display custom tab"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:913
+msgid "Check to Show custom tab on Single product Page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:920
+msgid "Custom tab title"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:927
+msgid "Custom tab content"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:928
+msgid ""
+"Enter custom content you would like to output to the product custom tab (for "
+"all products)"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:943
+msgid "Blog"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:949
+msgid "Blog Layout"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:961
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:973
+msgid "Blog page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:974
+msgid "Select blog items page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:979
+msgid "Show Previous/Next posts links"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:985
+msgid "Show related posts"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1002
+msgid "Porftolio page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1003
+msgid "Select porfolio items page"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1008
+msgid "Show Portfolio related posts"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1015
+msgid "Related projects thumbnail height"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1021
+msgid "Show comments on portfolio"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1031
+msgid "Social Icons"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1032
+msgid "Enter the full URL to each of your social accounts"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1068
+msgid "YouTube URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1110
+msgid "Github URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1116
+msgid "Vine URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1134
+msgid "Feedburner RSS URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1140
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1152
+msgid "Etsy URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1158
+msgid "Foursquare URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1164
+msgid "SoundCloud URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1170
+msgid "Spotify URL"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1179
+msgid "Typography"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1185
+msgid "Main Body Font"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1186
+msgid ""
+"The main font for all your site.\n"
+"\t\t\t\t\t<br><br>Default:\n"
+"\t\t\t\t\t<code>font-size:14px</code>, <code>font-weight:normal</code>, "
+"<code>font-family:Open Sans</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1207
+msgid "Titles Font"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1215
+msgid ""
+"Font for the titles.\n"
+"\t\t\t\t\t<br><br>Default:\n"
+"\t\t\t\t\t<code>font-size:36px</code>, <code>font-weight:normal</code>, "
+"<code>font-family:Open Sans</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1230
+msgid "Other Font"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1231
+msgid ""
+"Fonts for the small texts. Use a font easy to read.\n"
+"\t\t\t\t\t<br><br>Default:\n"
+"\t\t\t\t\t<code>font-weight:normal</code>, <code>font-family:Open Sans</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1255
+msgid "Styling Options"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1261
+msgid "Primary Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1262
+msgid "Default: <code>#444444</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1263
+msgid ""
+"Change primary color. Used for primary buttons, shopping cart icon, etc."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1270
+msgid "Secondary Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1271
+msgid "Default: <code>#DD4B39</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1272
+msgid ""
+"Change secondary color. Used for Add to cart, checkout buttons, review stars "
+"and sale bubble."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1279
+msgid "Links Color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1280
+msgid "Default: <code>#428bca</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1291
+msgid "Price color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1292
+msgid "Default <code>#85ad74</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1299
+msgid "Sale tag color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1300
+#: ../../themes/sellegance/includes/theme-options.php:1309
+msgid "Default: <code>#dc4343</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1308
+msgid "Rating stars color"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1319
+msgid "Custom Code"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1320
+msgid "Use these options to add your own code for advanced cusomization."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1326
+#: ../../themes/sellegance/includes/theme-options.php:1333
+msgid "CSS Code"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1334
+msgid ""
+"Paste your custom CSS code here. The code will be added to the header of "
+"your site.<br>Example:<br><br>\n"
+"\t\t\t\t\t<code>h1{color:#000;}</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1343
+msgid "Enable custom.css"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1344
+msgid ""
+"Enable this option to load the custom stylesheet where you can override the "
+"default styling of the theme.<br><br> Rename the file <em>/css/sample.custom."
+"css</em> to <em>custom.css</em> located in theme directory."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1350
+msgid "JS Code"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1356
+msgid "Custom JS Code"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1357
+msgid ""
+"Paste your custom JS here. The code will be added to the footer of your "
+"site. <br>Example: <br><br>\n"
+"\t\t\t\t\t<code>jQuery(document).ready(function(){ });</code>"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1366
+msgid "Tracking"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1372
+msgid "Tracking Code"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1373
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added to the footer template of your theme."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1391
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1392
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1393
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1397
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1418
+msgid "Import and Export your Sellegance settings from file, text or URL."
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1481
+#: ../../themes/sellegance/includes/theme-options.php:1482
+msgid "Sellegance Options"
+msgstr ""
+
+#: ../../themes/sellegance/includes/theme-options.php:1580
+msgid ""
+"<p>Have a question about <em>Sellegance</em>? Send me a message using my <a "
+"href=\"http://themeforest.net/user/luisvelaz#contact\" target=\"_blank"
+"\">contact form</a>.</p>"
+msgstr ""
+
+#: ../../themes/sellegance/index.php:102
+msgid "&larr; Older Posts"
+msgstr ""
+
+#: ../../themes/sellegance/index.php:103
+msgid "Newer Posts &rarr;"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:6
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:28
+#: ../../themes/sellegance/woocommerce/archive-product.php:214
+msgid "Portfolios"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:61
+#: ../../themes/sellegance/woocommerce/archive-product.php:247
+msgid "No portfolios match the search terms"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:68
+#: ../../themes/sellegance/woocommerce/archive-product.php:254
+msgid "Pages"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:79
+#: ../../themes/sellegance/woocommerce/archive-product.php:265
+msgid "No pages match the search terms"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:86
+#: ../../themes/sellegance/woocommerce/archive-product.php:272
+msgid "Posts"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:97
+#: ../../themes/sellegance/woocommerce/archive-product.php:283
+msgid "No posts match the search terms"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:107
+#, php-format
+msgid "Your search for <em>\"%s\"</em> did not match any entries"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:119
+msgid "Suggestions:"
+msgstr ""
+
+#: ../../themes/sellegance/search.php:121
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: ../../themes/sellegance/search.php:122
+msgid "Try different keywords."
+msgstr ""
+
+#: ../../themes/sellegance/search.php:123
+msgid "Try more general keywords."
+msgstr ""
+
+#: ../../themes/sellegance/sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:71
+#: ../../themes/sellegance/single-portfolio.php:253
+msgid "Back to"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:220
+#: ../../themes/sellegance/single.php:173
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:47
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:221
+#: ../../themes/sellegance/single.php:174
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:48
+msgid "Tweet this item"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:223
+#: ../../themes/sellegance/single.php:176
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:50
+msgid "Share on Google+"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:227
+#: ../../themes/sellegance/single.php:180
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:56
+msgid "Email a Friend"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:228
+#: ../../themes/sellegance/single.php:181
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:57
+msgid "Permalink"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:276
+msgid "Date:"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:283
+msgid "Client:"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:289
+msgid "Categories:"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:295
+msgid "View Project"
+msgstr ""
+
+#: ../../themes/sellegance/single-portfolio.php:344
+msgid "Related Projects"
+msgstr ""
+
+#: ../../themes/sellegance/single.php:205
+msgid "Posted in"
+msgstr ""
+
+#: ../../themes/sellegance/taxonomy-brands.php:118
+#: ../../themes/sellegance/woocommerce/archive-product.php:188
+msgid "No products found which match your selection."
+msgstr ""
+
+#: ../../themes/sellegance/template-archive.php:36
+msgid "List of Last 25 Posts:"
+msgstr ""
+
+#: ../../themes/sellegance/template-archive.php:65
+msgid "Posts by Month (Last 3 Months)"
+msgstr ""
+
+#: ../../themes/sellegance/template-archive.php:102
+msgid "Posts by Subject (Categories)"
+msgstr ""
+
+#: ../../themes/sellegance/template-portfolio.php:62
+msgid "Show All"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart-empty.php:18
+#: ../../themes/sellegance/woocommerce/cart/empty.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart-empty.php:19
+#: ../../themes/sellegance/woocommerce/cart/empty.php:15
+msgid "Return To Shop"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:29
+#: ../../themes/sellegance/woocommerce/order/order-details.php:40
+msgid "Product"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:30
+msgid "Price"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:31
+msgid "Quantity"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:32
+#: ../../themes/sellegance/woocommerce/order/order-details.php:41
+msgid "Total"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:124
+msgid "Update Cart"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:132
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:134
+msgid "Enter coupon code"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cart.php:135
+msgid "Apply"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/cart/cross-sells.php:55
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-billing.php:40
+msgid "Create an account?"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-billing.php:51
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/checkout/form-checkout.php:62
+msgid "Your order"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product-slider.php:110
+#: ../../themes/sellegance/woocommerce/content-product-slider.php:127
+msgid "Read More"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product-slider.php:119
+msgid "Select options"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product-slider.php:123
+msgid "View options"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product-slider.php:131
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:85
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:157
+msgid "Add to cart"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product.php:65
+msgid "Out of Stock"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-product.php:114
+msgid "Quick View"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/content-single-product.php:52
+#: ../../themes/sellegance/woocommerce/content-single-product.php:128
+msgid "Back to "
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/loop/pagination.php:27
+msgid "Prev"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-change-password.php:18
+msgid "Change password"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-change-password.php:27
+msgid "You are not being able to change the password for this demo account."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-change-password.php:32
+msgid "New password"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-change-password.php:36
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-change-password.php:41
+msgid "Save"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-edit-address.php:16
+#: ../../themes/sellegance/woocommerce/order/order-details.php:212
+msgid "Billing Address"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-edit-address.php:16
+#: ../../themes/sellegance/woocommerce/order/order-details.php:231
+msgid "Shipping Address"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-edit-address.php:32
+#: ../../themes/sellegance/woocommerce/order/order-details.php:27
+msgid "My Account"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-edit-address.php:34
+#: ../../themes/sellegance/woocommerce/order/order-details.php:29
+msgid "Back to my account"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-edit-address.php:62
+msgid "Save Address"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:29
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:48
+msgid "Login"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:36
+msgid "Username or email address"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:50
+msgid "Remember me"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:54
+msgid "Lost your password?"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/form-login.php:101
+msgid "Anti-spam"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:24
+msgid "My Orders"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:26
+msgid "My Downloads"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:29
+msgid "Address Book"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:30
+msgid "Edit Account"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:31
+msgid "Logout"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:42
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/myaccount/my-account.php:47
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and edit your password and account details."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:15
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:36
+msgid "Order Details"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:79
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:145
+#: ../../themes/sellegance/woocommerce/order/order-details.php:149
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:167
+msgid "Refunded:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:176
+msgid "Note:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:186
+msgid "Customer details"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:192
+msgid "Email:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:195
+msgid "Telephone:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/order/order-details.php:217
+#: ../../themes/sellegance/woocommerce/order/order-details.php:236
+msgid "N/A"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/product-quick-view.php:114
+msgid "View Product"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/product-quick-view.php:118
+msgid "Product code"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:76
+msgid "Your Rating"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:77
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:78
+msgid "Perfect"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:79
+msgid "Good"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:80
+msgid "Average"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:81
+msgid "Not that bad"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:82
+msgid "Very Poor"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable.php:28
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:31
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:117
+msgid "Choose an option"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable.php:63
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:71
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable_v1.3_php.php:143
+msgid "Clear selection"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/add-to-cart/variable.php:94
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:23
+msgid "SKU:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:29
+msgid "Category:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:33
+msgid "Brand:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:38
+msgid "Tag:"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/meta.php:53
+msgid "Pin this item"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/product-image.php:48
+msgid "Placeholder"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/related.php:78
+msgid "Related Products"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/tabs/tabs.php:47
+#: ../../themes/sellegance/woocommerce/single-product/tabs/tabs.php:52
+msgid "About"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/tabs/tabs.php:59
+msgid "Show products"
+msgstr ""
+
+#: ../../themes/sellegance/woocommerce/single-product/up-sells.php:74
+msgid "You may also like&hellip;"
+msgstr ""
+
+#~ msgid "Cart Totals"
+#~ msgstr "Summe Warenkorb"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Zwischensumme Warenkorb"
+
+#~ msgid "Order Total"
+#~ msgstr "Total Bestellungen"
+
+#~ msgid "Item"
+#~ msgstr "Artikel"
+
+#~ msgid "Update Shopping Cart"
+#~ msgstr "Warenkorb aktualisieren"
+
+#~ msgid "Calculate Shipping"
+#~ msgstr "Lieferkosten berechnen"
+
+#~ msgid "Update Totals"
+#~ msgstr "Gesamtsumme aktualisieren"
+
+#~ msgid "Write a review"
+#~ msgstr "Schreibe eine Bewertung"
+
+#~ msgid "Default sorting"
+#~ msgstr "voreingestellte Sortierung"
+
+#~ msgid "Sort by popularity"
+#~ msgstr "Sortieren nach Beliebtheit"
+
+#~ msgid "Sort by average rating"
+#~ msgstr "Sortieren nach durchschnittlicher Bewertung"
+
+#~ msgid "Sort by newness"
+#~ msgstr "Sortieren nach Neuheit"
+
+#~ msgid "Sort by price: low to high"
+#~ msgstr "Sortieren nach Preis: günstig → teuer"
+
+#~ msgid "Sort by price: high to low"
+#~ msgstr "Sortieren nach Preis: teuer → günstig"
+
+#~ msgid "Showing the single product"
+#~ msgstr "Einzelprodukt anzeigen"
+
+#~ msgid "Showing all %d products"
+#~ msgstr "Alle %d Produkte anzeigen"
+
+#~ msgid "Confirm new password"
+#~ msgstr "Neues Passwort bestätigen"
+
+#~ msgid "Username or email"
+#~ msgstr "Benutzername oder E-Mail"
+
+#~ msgid "Lost Password?"
+#~ msgstr "Passwort verloren?"
+
+#~ msgid "Re-enter password"
+#~ msgstr "Passwort wiederholen"
+
+#~ msgid "My Addresses"
+#~ msgstr "Meine Adressen"
+
+#~ msgid "My Address"
+#~ msgstr "Meine Adresse"
+
+#~ msgid ""
+#~ "The following addresses will be used on the checkout page by default."
+#~ msgstr ""
+#~ "Die folgende Adresse wird automatisch auf der Zahlungsseite verwendet."
+
+#~ msgid "Available downloads"
+#~ msgstr "Verfügbare Downloads"
+
+#~ msgid "%s download remaining"
+#~ msgstr "%s download verbleibend"
+
+#~ msgid "Recent Orders"
+#~ msgstr "Neueste Bestellungen"
+
+#~ msgid "Order"
+#~ msgstr "Bestellung"
+
+#~ msgid "%s (%s item)"
+#~ msgstr "%s (%s Artikel)"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Ihr Kommentar wartet auf die Freigabe."

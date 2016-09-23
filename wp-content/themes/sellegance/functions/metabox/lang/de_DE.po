@@ -1,0 +1,3966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Barberry v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-23 22:08+0100\n"
+"PO-Revision-Date: 2013-10-07 12:39:05+0000\n"
+"Last-Translator: Johann Kratzik <johann@kratzik.com>\n"
+"Language-Team: Johann Kratzik <info@zoomdrive.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: AUSTRIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: functions/metabox/inc/classes/meta-box.php:252
+#@ rwmb
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Bitte beheben Sie die unten angeführten Fehler und versuchen Sie es erneut."
+
+#: functions/metabox/inc/classes/meta-box.php:426
+#@ rwmb
+msgid "+"
+msgstr "+"
+
+#: functions/metabox/inc/classes/meta-box.php:448
+#@ rwmb
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: functions/metabox/inc/fields/file.php:70
+#@ rwmb
+msgid "Error: Cannot delete file"
+msgstr "Fehler: Datei kann nicht gelöscht werden"
+
+#: functions/metabox/inc/fields/file.php:84
+#@ rwmb
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr "Dateien hochladen"
+
+#: functions/metabox/inc/fields/file.php:85
+#@ rwmb
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr "+ Neue Datei hinzufügen"
+
+#: functions/metabox/inc/fields/file-advanced.php:102
+#: functions/metabox/inc/fields/file.php:138
+#@ rwmb
+msgctxt "file upload"
+msgid "Delete"
+msgstr "Löschen"
+
+#: functions/metabox/inc/fields/file-advanced.php:103
+#: functions/metabox/inc/fields/file.php:139
+#@ rwmb
+msgctxt "file upload"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: functions/metabox/inc/fields/image-advanced.php:71
+#@ rwmb
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr "Bilder auswählen oder hochladen"
+
+#: functions/metabox/inc/fields/image.php:64
+#@ rwmb
+msgid "Order saved"
+msgstr "Reihenfolge gespeichert"
+
+#: functions/metabox/inc/fields/image.php:78
+#: functions/metabox/inc/fields/thickbox-image.php:35
+#@ rwmb
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr "Bilder hochladen"
+
+#: functions/metabox/inc/fields/image.php:79
+#@ rwmb
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr "+ Neues Bild hinzufügen"
+
+#: functions/metabox/inc/fields/image-advanced.php:107
+#: functions/metabox/inc/fields/image.php:144
+#@ rwmb
+msgctxt "image upload"
+msgid "Delete"
+msgstr "Löschen"
+
+#: functions/metabox/inc/fields/image-advanced.php:108
+#: functions/metabox/inc/fields/image.php:145
+#@ rwmb
+msgctxt "image upload"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: functions/metabox/inc/fields/map.php:48
+#@ rwmb
+msgid "Find Address"
+msgstr "Adresse finden"
+
+#: functions/metabox/inc/fields/plupload-image.php:104
+#@ rwmb
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr "Bilder hierher ziehen"
+
+#: functions/metabox/inc/fields/plupload-image.php:105
+#@ rwmb
+msgctxt "image upload"
+msgid "or"
+msgstr "oder"
+
+#: functions/metabox/inc/fields/plupload-image.php:106
+#@ rwmb
+msgctxt "image upload"
+msgid "Select Files"
+msgstr "Dateien auswählen"
+
+#: functions/metabox/inc/fields/plupload-image.php:181
+#@ rwmb
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr "Erlaubte Typen von Bilddateien"
+
+#: functions/metabox/inc/fields/post.php:54
+#@ rwmb
+msgid "Post"
+msgstr "Beitrag"
+
+#: functions/metabox/inc/fields/post.php:68
+#: functions/metabox/inc/fields/taxonomy.php:40
+#, php-format
+#@ rwmb
+msgid "Select a %s"
+msgstr "%s auswählen"
+
+#: 404.php:11
+#@ sellegance
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:35
+#@ sellegance
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: 404.php:36
+#@ sellegance
+msgid "Return To The Homepage"
+msgstr ""
+
+#: admin/classes/class.options_machine.php:556
+#@ default
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/front-end/options.php:43
+#: admin/front-end/options.php:67
+#@ default
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/front-end/options.php:68
+#@ default
+msgid "Options Reset"
+msgstr ""
+
+#: admin/functions/functions.options.php:252
+#: functions/widgets/social.php:122
+#@ sellegance
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:253
+#@ sellegance
+msgid "Enter your Facebook URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:260
+#: functions/widgets/social.php:127
+#@ sellegance
+msgid "Twitter URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:261
+#@ sellegance
+msgid "Enter your Twitter URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:267
+#: functions/widgets/social.php:132
+#@ sellegance
+msgid "Google+ URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:268
+#@ sellegance
+msgid "Enter your Google+ URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:274
+#: functions/widgets/social.php:137
+#@ sellegance
+msgid "Pinterest URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:275
+#@ sellegance
+msgid "Enter your Pinterest URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:282
+#: functions/widgets/social.php:142
+#@ sellegance
+msgid "Vimeo URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:283
+#@ sellegance
+msgid "Enter your Vimeo URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:290
+#@ sellegance
+msgid "YouTube URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:291
+#@ sellegance
+msgid "Enter your YouTube URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:297
+#: functions/widgets/social.php:152
+#@ sellegance
+msgid "Flickr URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:298
+#@ sellegance
+msgid "Enter your Flickr URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:304
+#@ sellegance
+msgid "Kippt URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:305
+#@ sellegance
+msgid "Enter your Kippt URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:312
+#: functions/widgets/social.php:158
+#@ sellegance
+msgid "Skype URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:313
+#@ sellegance
+msgid "Enter your Skype URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:319
+#: functions/widgets/social.php:164
+#@ sellegance
+msgid "Behance URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:320
+#@ sellegance
+msgid "Enter your Behance URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:326
+#: functions/widgets/social.php:170
+#@ sellegance
+msgid "Dribbble URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:327
+#@ sellegance
+msgid "Enter your Dribbble URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:333
+#: functions/widgets/social.php:176
+#@ sellegance
+msgid "Tumblr URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:334
+#@ sellegance
+msgid "Enter your Tumblr URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:340
+#: functions/widgets/social.php:181
+#@ sellegance
+msgid "LinkedIn URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:341
+#@ sellegance
+msgid "Enter your LinkedIn URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:348
+#@ sellegance
+msgid "Github URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:349
+#@ sellegance
+msgid "Enter your Github URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:355
+#@ sellegance
+msgid "Vine URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:356
+#@ sellegance
+msgid "Enter your Vine URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:363
+#: functions/widgets/social.php:186
+#@ sellegance
+msgid "Instagram URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:364
+#@ sellegance
+msgid "Enter your Instagram URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:370
+#@ sellegance
+msgid "Rdio URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:371
+#@ sellegance
+msgid "Enter your Rdio URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:378
+#: functions/widgets/social.php:191
+#@ sellegance
+msgid "Dropbox URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:379
+#@ sellegance
+msgid "Enter your Dropbox URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:385
+#@ sellegance
+msgid "Feedburner RSS URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:386
+#@ sellegance
+msgid "Enter your Feedburner URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:392
+#@ sellegance
+msgid "Cargo RSS URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:393
+#@ sellegance
+msgid "Enter your Cargo URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:400
+#@ sellegance
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:401
+#@ sellegance
+msgid "Enter your Stumbleupon URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:408
+#: functions/widgets/social.php:201
+#@ sellegance
+msgid "Paypal URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:409
+#@ sellegance
+msgid "Enter your Paypal URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:416
+#@ sellegance
+msgid "Zootool URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:417
+#@ sellegance
+msgid "Enter your Zootool URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:423
+#@ sellegance
+msgid "Etsy URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:424
+#@ sellegance
+msgid "Enter your Etsy URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:430
+#@ sellegance
+msgid "Foursquare URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:431
+#@ sellegance
+msgid "Enter your Foursquare URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:438
+#@ sellegance
+msgid "SoundCloud URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:439
+#@ sellegance
+msgid "Enter your SoundCloud URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:445
+#@ sellegance
+msgid "Spotify URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:446
+#@ sellegance
+msgid "Enter your Spotify URL here."
+msgstr ""
+
+#: admin/functions/functions.options.php:1410
+#@ sellegance
+msgid "Related Project Thumbnails Height"
+msgstr ""
+
+#: admin/functions/functions.options.php:1411
+#: functions/metabox/page.php:91
+#: functions/metabox/page.php:136
+#@ sellegance
+msgid "The Portfolio Thumbnails Height (in px). Just enter a number. Default:400"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+#@ sellegance
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:19
+#, php-format
+#@ sellegance
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:26
+#, php-format
+#@ sellegance
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+#@ sellegance
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+#@ sellegance
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:40
+#, php-format
+#@ sellegance
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:43
+#: sidebar.php:11
+#@ sellegance
+msgid "Archives"
+msgstr ""
+
+#: archive.php:93
+#: index.php:60
+#@ sellegance
+msgid "Sorry, Couldn't find any Posts..!"
+msgstr ""
+
+#: comments.php:18
+#, php-format
+#@ sellegance
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+#: comments.php:45
+#@ sellegance
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:46
+#@ sellegance
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:27
+#: comments.php:47
+#@ sellegance
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:57
+#@ sellegance
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: functions/megamenu/tdl_mega_menu.php:345
+#, php-format
+#@ default
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:372
+#@ sellegance
+msgid "Column"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:373
+#@ sellegance
+msgid "(Mega Menu)"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:374
+#@ sellegance
+msgid "Widget"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:377
+#: functions/megamenu/tdl_mega_menu.php:379
+#@ sellegance
+msgid "Edit Menu Item"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:389
+#: functions/metabox/demo/demo.php:258
+#@ sellegance
+#@ rwmb
+msgid "URL"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:396
+#@ sellegance
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:402
+#@ sellegance
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:409
+#@ sellegance
+msgid "Link Target"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:411
+#@ sellegance
+msgid "Same window or tab"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:412
+#@ sellegance
+msgid "New window or tab"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:418
+#@ sellegance
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:424
+#@ sellegance
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:430
+#: functions/posttypes/brands.php:81
+#: single-portfolio.php:221
+#@ sellegance
+msgid "Description"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:432
+#@ sellegance
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:459
+#@ sellegance
+msgid "Original:"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:472
+#@ sellegance
+msgid "Remove"
+msgstr ""
+
+#: functions/megamenu/tdl_mega_menu.php:476
+#: woocommerce/myaccount/my-orders.php:77
+#@ sellegance
+#@ woocommerce
+msgid "Cancel"
+msgstr ""
+
+#: functions/metabox/demo/all-custom-post-types.php:20
+#@ rwmb
+msgid "Personal Information"
+msgstr ""
+
+#: functions/metabox/demo/all-custom-post-types.php:25
+#@ rwmb
+msgid "Full name"
+msgstr ""
+
+#: functions/metabox/demo/better-include.php:16
+#: functions/metabox/demo/include-by-ID-or-page-template.php:8
+#@ rwmb
+msgid "Meta Box Title"
+msgstr ""
+
+#: functions/metabox/demo/better-include.php:19
+#: functions/metabox/demo/include-by-ID-or-page-template.php:14
+#@ rwmb
+msgid "Your images"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:11
+#@ rwmb
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:15
+#: functions/metabox/page.php:207
+#: woocommerce/myaccount/my-orders.php:32
+#@ rwmb
+#@ sellegance
+#@ woocommerce
+msgid "Date"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:21
+#: functions/metabox/demo/demo.php:184
+#@ rwmb
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:23
+#@ rwmb
+msgid "Select Date"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:24
+#: functions/metabox/demo/demo.php:185
+#@ rwmb
+msgid "yy-mm-dd"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:30
+#@ rwmb
+msgid "Datetime"
+msgstr ""
+
+#: functions/metabox/demo/date-time-js-options.php:41
+#@ rwmb
+msgid "Time"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:34
+#@ rwmb
+msgid "Standard Fields"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:53
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:410
+#@ rwmb
+#@ sellegance
+msgid "Text"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:57
+#@ rwmb
+msgid "Text description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:60
+#@ rwmb
+msgid "Default text value"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:66
+#@ rwmb
+msgid "Checkbox"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:74
+#@ rwmb
+msgid "Radio"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:80
+#: functions/metabox/demo/demo.php:91
+#: functions/metabox/demo/demo.php:233
+#: functions/metabox/demo/demo.php:278
+#@ rwmb
+msgid "Label1"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:81
+#: functions/metabox/demo/demo.php:92
+#: functions/metabox/demo/demo.php:234
+#: functions/metabox/demo/demo.php:279
+#@ rwmb
+msgid "Label2"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:86
+#: functions/metabox/demo/demo.php:273
+#@ rwmb
+msgid "Select"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:97
+#: functions/metabox/demo/demo.php:284
+#@ rwmb
+msgid "Select an Item"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:104
+#@ rwmb
+msgid "Hidden value"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:108
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:100
+#@ rwmb
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:114
+#@ rwmb
+msgid "Textarea"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:115
+#@ rwmb
+msgid "Textarea description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:132
+#@ rwmb
+msgid "Password is required"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:133
+#@ rwmb
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:141
+#@ rwmb
+msgid "Advanced Fields"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:147
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:282
+#@ rwmb
+#@ sellegance
+msgid "Heading"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:152
+#@ rwmb
+msgid "Slider"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:157
+#@ rwmb
+msgid "$"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:158
+#@ rwmb
+msgid " USD"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:169
+#@ rwmb
+msgid "Number"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:178
+#@ rwmb
+msgid "Date picker"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:193
+#@ rwmb
+msgid "Datetime picker"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:207
+#@ rwmb
+msgid "Time picker"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:222
+#@ rwmb
+msgid "Color picker"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:228
+#@ rwmb
+msgid "Checkbox list"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:239
+#: woocommerce/myaccount/form-login.php:93
+#: woocommerce/single-product-reviews.php:90
+#@ rwmb
+#@ woocommerce
+#@ sellegance
+msgid "Email"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:241
+#@ rwmb
+msgid "Email description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:247
+#@ rwmb
+msgid "Range"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:249
+#@ rwmb
+msgid "Range description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:260
+#@ rwmb
+msgid "URL description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:266
+#@ rwmb
+msgid "oEmbed"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:268
+#@ rwmb
+msgid "oEmbed description"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:288
+#@ rwmb
+msgid "Taxonomy"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:302
+#@ rwmb
+msgid "Posts (Pages)"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:318
+#@ rwmb
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:323
+#@ rwmb
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:339
+#: functions/metabox/demo/force-delete.php:15
+#@ rwmb
+msgid "File Upload"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:345
+#@ rwmb
+msgid "File Advanced Upload"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:353
+#: functions/metabox/demo/force-delete.php:22
+#@ rwmb
+msgid "Image Upload"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:359
+#: functions/metabox/demo/force-delete.php:28
+#@ rwmb
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:365
+#: functions/metabox/demo/force-delete.php:35
+#@ rwmb
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: functions/metabox/demo/demo.php:372
+#@ rwmb
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: functions/metabox/demo/force-delete.php:11
+#@ rwmb
+msgid "Test Meta Box"
+msgstr ""
+
+#: functions/metabox/demo/map.php:9
+#@ rwmb
+msgid "Google Map"
+msgstr ""
+
+#: functions/metabox/demo/map.php:13
+#: functions/metabox/page.php:308
+#@ rwmb
+#@ sellegance
+msgid "Address"
+msgstr ""
+
+#: functions/metabox/demo/map.php:15
+#@ rwmb
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: functions/metabox/demo/map.php:19
+#@ rwmb
+msgid "Location"
+msgstr ""
+
+#: functions/metabox/inc/fields/button.php:36
+#@ rwmb
+msgid "Click me"
+msgstr ""
+
+#: functions/metabox/inc/fields/file-advanced.php:23
+#@ rwmb
+msgid "Select Files"
+msgstr ""
+
+#: functions/metabox/inc/fields/file-advanced.php:66
+#@ rwmb
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: functions/metabox/inc/fields/file.php:19
+#, php-format
+#@ rwmb
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: functions/metabox/inc/fields/file.php:20
+#, php-format
+#@ rwmb
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: functions/metabox/inc/fields/image-advanced.php:22
+#@ rwmb
+msgid "Select Images"
+msgstr ""
+
+#: functions/metabox/page.php:12
+#@ sellegance
+msgid "Page Options"
+msgstr ""
+
+#: functions/metabox/page.php:19
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:230
+#@ sellegance
+msgid "Sub Title"
+msgstr ""
+
+#: functions/metabox/page.php:21
+#@ sellegance
+msgid "Set your Page Sub Title to be displayed beside the Main Page Title (Excluding the homepage)"
+msgstr ""
+
+#: functions/metabox/page.php:28
+#@ sellegance
+msgid "Hide Title Area"
+msgstr ""
+
+#: functions/metabox/page.php:31
+#@ sellegance
+msgid "Check to Hide the Title Area from the Page"
+msgstr ""
+
+#: functions/metabox/page.php:42
+#: functions/metabox/post.php:11
+#@ sellegance
+msgid "Sidebar Settings"
+msgstr ""
+
+#: functions/metabox/page.php:50
+#@ sellegance
+msgid "Sidebar Position"
+msgstr ""
+
+#: functions/metabox/page.php:54
+#@ sellegance
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions/metabox/page.php:55
+#@ sellegance
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions/metabox/page.php:58
+#@ sellegance
+msgid "Select the position of the Sidebar on this page."
+msgstr ""
+
+#: functions/metabox/page.php:71
+#: functions/metabox/page.php:116
+#@ sellegance
+msgid "Portfolio Settings"
+msgstr ""
+
+#: functions/metabox/page.php:77
+#: functions/metabox/page.php:122
+#@ sellegance
+msgid "Portfolio Layout"
+msgstr ""
+
+#: functions/metabox/page.php:81
+#: functions/metabox/page.php:126
+#@ sellegance
+msgid "2 Column"
+msgstr ""
+
+#: functions/metabox/page.php:82
+#: functions/metabox/page.php:127
+#@ sellegance
+msgid "3 Column"
+msgstr ""
+
+#: functions/metabox/page.php:83
+#: functions/metabox/page.php:128
+#@ sellegance
+msgid "4 Column"
+msgstr ""
+
+#: functions/metabox/page.php:86
+#: functions/metabox/page.php:131
+#@ sellegance
+msgid "Select the Portfolio Layout Type"
+msgstr ""
+
+#: functions/metabox/page.php:89
+#: functions/metabox/page.php:134
+#@ sellegance
+msgid "Height"
+msgstr ""
+
+#: functions/metabox/page.php:97
+#: functions/metabox/page.php:151
+#@ sellegance
+msgid "Portfolio Categories"
+msgstr ""
+
+#: functions/metabox/page.php:104
+#: functions/metabox/page.php:158
+#@ sellegance
+msgid "Choose the Categories you want to display on this Portfolio Page. Do not check anything if you want to show items from all categories"
+msgstr ""
+
+#: functions/metabox/page.php:142
+#@ sellegance
+msgid "No. of Items"
+msgstr ""
+
+#: functions/metabox/page.php:144
+#@ sellegance
+msgid "Enter the No. of Items you want to show on this Portfolio Items Page. Enter a Number only. 0 - display all portfolio posts in page"
+msgstr ""
+
+#: functions/metabox/page.php:171
+#@ sellegance
+msgid "Slider Settings"
+msgstr ""
+
+#: functions/metabox/page.php:179
+#@ sellegance
+msgid "Slider Category"
+msgstr ""
+
+#: functions/metabox/page.php:186
+#@ sellegance
+msgid "Choose a Category for the Slider"
+msgstr ""
+
+#: functions/metabox/page.php:190
+#@ sellegance
+msgid "Slide Order"
+msgstr ""
+
+#: functions/metabox/page.php:198
+#@ sellegance
+msgid "Select the Slide Order. (Works on all Sliders except Layer Slider)"
+msgstr ""
+
+#: functions/metabox/page.php:201
+#@ sellegance
+msgid "Slide Order by"
+msgstr ""
+
+#: functions/metabox/page.php:206
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:225
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:708
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:756
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:771
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:786
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:801
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:826
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:839
+#@ sellegance
+msgid "Title"
+msgstr ""
+
+#: functions/metabox/page.php:208
+#@ sellegance
+msgid "Random"
+msgstr ""
+
+#: functions/metabox/page.php:209
+#@ sellegance
+msgid "Menu Order"
+msgstr ""
+
+#: functions/metabox/page.php:212
+#@ sellegance
+msgid "Select the parameter by which you want the Slide Order. (Works on all Sliders except Layer Slider)"
+msgstr ""
+
+#: functions/metabox/page.php:217
+#: functions/metabox/portfolio.php:80
+#: functions/metabox/post.php:48
+#@ sellegance
+msgid "Slideshow"
+msgstr ""
+
+#: functions/metabox/page.php:220
+#: functions/metabox/portfolio.php:83
+#: functions/metabox/post.php:51
+#@ sellegance
+msgid "Animate slider automatically"
+msgstr ""
+
+#: functions/metabox/page.php:225
+#: functions/metabox/portfolio.php:88
+#: functions/metabox/post.php:56
+#@ sellegance
+msgid "Slideshow Speed"
+msgstr ""
+
+#: functions/metabox/page.php:227
+#: functions/metabox/portfolio.php:90
+#: functions/metabox/post.php:58
+#@ sellegance
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: functions/metabox/page.php:243
+#@ sellegance
+msgid "Contact Page Settings"
+msgstr ""
+
+#: functions/metabox/page.php:250
+#@ sellegance
+msgid "Show Map"
+msgstr ""
+
+#: functions/metabox/page.php:253
+#@ sellegance
+msgid "Check to show the Map on the Contact Page"
+msgstr ""
+
+#: functions/metabox/page.php:259
+#@ sellegance
+msgid "Full-Width"
+msgstr ""
+
+#: functions/metabox/page.php:262
+#@ sellegance
+msgid "Check to show the Map Full-width"
+msgstr ""
+
+#: functions/metabox/page.php:267
+#@ sellegance
+msgid "Top padding"
+msgstr ""
+
+#: functions/metabox/page.php:270
+#@ sellegance
+msgid "Check to enable Top Padding for Map"
+msgstr ""
+
+#: functions/metabox/page.php:275
+#@ sellegance
+msgid "Inner Shadows"
+msgstr ""
+
+#: functions/metabox/page.php:278
+#@ sellegance
+msgid "Check to enable Inner Shadows for map"
+msgstr ""
+
+#: functions/metabox/page.php:284
+#@ sellegance
+msgid "Map Height"
+msgstr ""
+
+#: functions/metabox/page.php:286
+#@ sellegance
+msgid "Enter the Height for the Map. Enter a Number"
+msgstr ""
+
+#: functions/metabox/page.php:292
+#@ sellegance
+msgid "Latitude"
+msgstr ""
+
+#: functions/metabox/page.php:294
+#@ sellegance
+msgid "Enter the Latitude Value for the Map. Enter a Float Number"
+msgstr ""
+
+#: functions/metabox/page.php:300
+#@ sellegance
+msgid "Longitude"
+msgstr ""
+
+#: functions/metabox/page.php:302
+#@ sellegance
+msgid "Enter the Longitude Value for the Map. Enter a Float Number"
+msgstr ""
+
+#: functions/metabox/page.php:310
+#@ sellegance
+msgid "Enter the Address in 4-5 Words for the Map. Enter Text. If you use \"Address\" Option, then \"Latitude\" and \"Longitude\" Values will not be considered"
+msgstr ""
+
+#: functions/metabox/page.php:316
+#@ sellegance
+msgid "Map Popup"
+msgstr ""
+
+#: functions/metabox/page.php:317
+#@ sellegance
+msgid "Content to show in the Map Popup. HTML Supported"
+msgstr ""
+
+#: functions/metabox/page.php:324
+#@ sellegance
+msgid "Zoom"
+msgstr ""
+
+#: functions/metabox/page.php:344
+#@ sellegance
+msgid "Select the amount of Zoom for the Map"
+msgstr ""
+
+#: functions/metabox/page.php:347
+#@ sellegance
+msgid "Map Type"
+msgstr ""
+
+#: functions/metabox/page.php:357
+#@ sellegance
+msgid "Select the Map Type"
+msgstr ""
+
+#: functions/metabox/page.php:360
+#@ sellegance
+msgid "Scrollwheel"
+msgstr ""
+
+#: functions/metabox/page.php:363
+#@ sellegance
+msgid "Check to use Scrollwheel on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:367
+#@ sellegance
+msgid "Pan Control"
+msgstr ""
+
+#: functions/metabox/page.php:370
+#@ sellegance
+msgid "Check to use Pan Control on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:374
+#@ sellegance
+msgid "Zoom Control"
+msgstr ""
+
+#: functions/metabox/page.php:377
+#@ sellegance
+msgid "Check to use Zoom Control on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:381
+#@ sellegance
+msgid "MapType Control"
+msgstr ""
+
+#: functions/metabox/page.php:384
+#@ sellegance
+msgid "Check to use MapType Control on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:388
+#@ sellegance
+msgid "Scale Control"
+msgstr ""
+
+#: functions/metabox/page.php:391
+#@ sellegance
+msgid "Check to use Scale Control on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:395
+#@ sellegance
+msgid "Street View Control"
+msgstr ""
+
+#: functions/metabox/page.php:398
+#@ sellegance
+msgid "Check to use Street View Control on the Map"
+msgstr ""
+
+#: functions/metabox/page.php:402
+#@ sellegance
+msgid "Overview Map Control"
+msgstr ""
+
+#: functions/metabox/page.php:405
+#@ sellegance
+msgid "Check to use Overview Map Control on the Map"
+msgstr ""
+
+#: functions/metabox/portfolio.php:12
+#: woocommerce/myaccount/my-orders.php:36
+#@ sellegance
+msgid "Details"
+msgstr ""
+
+#: functions/metabox/portfolio.php:20
+#: functions/posttypes/portfolio.php:60
+#@ sellegance
+msgid "Item Type"
+msgstr ""
+
+#: functions/metabox/portfolio.php:24
+#@ sellegance
+msgid "Picture"
+msgstr ""
+
+#: functions/metabox/portfolio.php:25
+#@ sellegance
+msgid "Gallery"
+msgstr ""
+
+#: functions/metabox/portfolio.php:26
+#@ sellegance
+msgid "Video"
+msgstr ""
+
+#: functions/metabox/portfolio.php:29
+#@ sellegance
+msgid "Select the Portfolio Item Type."
+msgstr ""
+
+#: functions/metabox/portfolio.php:33
+#@ sellegance
+msgid "Project Date"
+msgstr ""
+
+#: functions/metabox/portfolio.php:35
+#@ sellegance
+msgid "When the project was done?"
+msgstr ""
+
+#: functions/metabox/portfolio.php:41
+#@ sellegance
+msgid "Client"
+msgstr ""
+
+#: functions/metabox/portfolio.php:43
+#@ sellegance
+msgid "For whom was the project completed"
+msgstr ""
+
+#: functions/metabox/portfolio.php:49
+#@ sellegance
+msgid "Project URL"
+msgstr ""
+
+#: functions/metabox/portfolio.php:51
+#@ sellegance
+msgid "The Project's Link Address. Include http://"
+msgstr ""
+
+#: functions/metabox/portfolio.php:63
+#: functions/metabox/post.php:32
+#@ sellegance
+msgid "Image Settings"
+msgstr ""
+
+#: functions/metabox/portfolio.php:71
+#: functions/metabox/post.php:40
+#@ sellegance
+msgid "Images"
+msgstr ""
+
+#: functions/metabox/portfolio.php:72
+#: functions/metabox/post.php:41
+#@ sellegance
+msgid "Additional Images for your Gallery. Maximum 8 Images."
+msgstr ""
+
+#: functions/metabox/portfolio.php:102
+#@ sellegance
+msgid "Video Settings"
+msgstr ""
+
+#: functions/metabox/portfolio.php:111
+#: functions/metabox/post.php:78
+#: functions/metabox/product.php:19
+#@ sellegance
+msgid "Video Embed Code"
+msgstr ""
+
+#: functions/metabox/portfolio.php:112
+#: functions/metabox/post.php:79
+#: functions/metabox/product.php:20
+#@ sellegance
+msgid "Enter the direct URL to a YouTube or Vimeo video page."
+msgstr ""
+
+#: functions/metabox/post.php:19
+#@ sellegance
+msgid "Featured Image/Slider/Video on Single Post Page"
+msgstr ""
+
+#: functions/metabox/post.php:22
+#@ sellegance
+msgid "Check this to show the featured image, slider or video at the beginning of the post on the single post page."
+msgstr ""
+
+#: functions/metabox/slider.php:11
+#@ sellegance
+msgid "Slide Data"
+msgstr ""
+
+#: functions/metabox/slider.php:18
+#@ sellegance
+msgid "Caption"
+msgstr ""
+
+#: functions/metabox/slider.php:19
+#@ sellegance
+msgid "Text to be shown as a Caption. HTML not supported."
+msgstr ""
+
+#: functions/metabox/slider.php:27
+#@ sellegance
+msgid "Title & Caption Position"
+msgstr ""
+
+#: functions/metabox/slider.php:31
+#@ sellegance
+msgid "Left"
+msgstr ""
+
+#: functions/metabox/slider.php:32
+#@ sellegance
+msgid "Right"
+msgstr ""
+
+#: functions/metabox/slider.php:33
+#@ sellegance
+msgid "Center"
+msgstr ""
+
+#: functions/metabox/slider.php:35
+#@ sellegance
+msgid "left"
+msgstr ""
+
+#: functions/metabox/slider.php:36
+#@ sellegance
+msgid "Select Title & Caption Position."
+msgstr ""
+
+#: functions/metabox/slider.php:40
+#@ sellegance
+msgid "Title URL"
+msgstr ""
+
+#: functions/metabox/slider.php:42
+#@ sellegance
+msgid "The Slide's Link Address. Include http://"
+msgstr ""
+
+#: functions/metabox/slider.php:48
+#@ sellegance
+msgid "Header Content Color"
+msgstr ""
+
+#: functions/metabox/slider.php:52
+#: functions/metabox/slider.php:55
+#@ sellegance
+msgid "Dark"
+msgstr ""
+
+#: functions/metabox/slider.php:53
+#@ sellegance
+msgid "Light"
+msgstr ""
+
+#: functions/metabox/slider.php:56
+#@ sellegance
+msgid "Select header content color. If your image is dark please select Light style."
+msgstr ""
+
+#: functions/posttypes/brands.php:30
+#@ sellegance
+msgctxt "taxonomy general name"
+msgid "Brands"
+msgstr ""
+
+#: functions/posttypes/brands.php:31
+#@ sellegance
+msgctxt "taxonomy singular name"
+msgid "Brand"
+msgstr ""
+
+#: functions/posttypes/brands.php:32
+#@ sellegance
+msgid "Search Brands"
+msgstr ""
+
+#: functions/posttypes/brands.php:33
+#@ sellegance
+msgid "All Brands"
+msgstr ""
+
+#: functions/posttypes/brands.php:34
+#@ sellegance
+msgid "Parent Brand"
+msgstr ""
+
+#: functions/posttypes/brands.php:35
+#@ sellegance
+msgid "Parent Brand:"
+msgstr ""
+
+#: functions/posttypes/brands.php:36
+#@ sellegance
+msgid "Edit Brand"
+msgstr ""
+
+#: functions/posttypes/brands.php:37
+#@ sellegance
+msgid "Update Brand"
+msgstr ""
+
+#: functions/posttypes/brands.php:38
+#@ sellegance
+msgid "Add New Brand"
+msgstr ""
+
+#: functions/posttypes/brands.php:39
+#@ sellegance
+msgid "New Brand Name"
+msgstr ""
+
+#: functions/posttypes/brands.php:40
+#@ sellegance
+msgid "Brands"
+msgstr ""
+
+#: functions/posttypes/brands.php:79
+#: functions/posttypes/brands.php:208
+#: functions/posttypes/brands.php:250
+#: functions/posttypes/portfolio.php:59
+#@ sellegance
+msgid "Thumbnail"
+msgstr ""
+
+#: functions/posttypes/brands.php:80
+#: woocommerce/single-product-reviews.php:88
+#@ sellegance
+msgid "Name"
+msgstr ""
+
+#: functions/posttypes/brands.php:82
+#@ sellegance
+msgid "Slug"
+msgstr ""
+
+#: functions/posttypes/brands.php:83
+#@ sellegance
+msgid "Count"
+msgstr ""
+
+#: functions/posttypes/brands.php:142
+#@ sellegance
+msgid "Choose an image"
+msgstr ""
+
+#: functions/posttypes/brands.php:144
+#@ sellegance
+msgid "Use image"
+msgstr ""
+
+#: functions/posttypes/brands.php:216
+#: functions/posttypes/brands.php:256
+#@ woocommerce
+msgid "Upload/Add image"
+msgstr ""
+
+#: functions/posttypes/brands.php:217
+#: functions/posttypes/brands.php:257
+#@ woocommerce
+msgid "Remove image"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:8
+#: functions/posttypes/portfolio.php:9
+#: single-portfolio.php:76
+#: single-portfolio.php:208
+#@ sellegance
+msgid "Portfolio"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:10
+#@ sellegance
+msgid "Portfolio Item"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:11
+#@ sellegance
+msgid " Portfolio Items"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:29
+#: functions/posttypes/portfolio.php:43
+#: functions/posttypes/slider.php:43
+#@ sellegance
+#@ default
+msgid "Groups"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:30
+#: functions/posttypes/portfolio.php:61
+#@ sellegance
+msgid "Group"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:31
+#: functions/posttypes/slider.php:31
+#@ sellegance
+#@ default
+msgid "Search Groups"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:32
+#: functions/posttypes/slider.php:32
+#@ sellegance
+#@ default
+msgid "Popular Groups"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:33
+#: functions/posttypes/slider.php:33
+#@ sellegance
+#@ default
+msgid "All Groups"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:36
+#: functions/posttypes/slider.php:36
+#@ sellegance
+#@ default
+msgid "Edit Group"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:37
+#: functions/posttypes/slider.php:37
+#@ sellegance
+#@ default
+msgid "Update Group"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:38
+#: functions/posttypes/slider.php:38
+#@ sellegance
+#@ default
+msgid "Add New Group"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:39
+#: functions/posttypes/slider.php:39
+#@ sellegance
+#@ default
+msgid "New Group Name"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:119
+#: functions/posttypes/portfolio.php:128
+#@ sellegance
+msgid "Sort Portfolio Items"
+msgstr ""
+
+#: functions/posttypes/portfolio.php:119
+#@ sellegance
+msgid "Sort Portfolio"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:24
+#: functions/posttypes/posttypes.class.php:25
+#@ sellegance
+msgid "Add New"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:26
+#: includes/post-standard.php:162
+#: page-full-width.php:60
+#: page-sidebar.php:63
+#: page.php:55
+#: single.php:226
+#: taxonomy-port-group.php:158
+#: template-contact.php:151
+#: template-home-fullslider.php:35
+#: template-portfolio-nofilter.php:172
+#: template-portfolio.php:190
+#@ sellegance
+msgid "Edit"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:27
+#: woocommerce/content-product.php:52
+#: woocommerce/content-product.php:54
+#@ sellegance
+msgid "New"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:28
+#: woocommerce/loop/orderby.php:28
+#@ sellegance
+msgid "All"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:29
+#: woocommerce/loop/orderby.php:24
+#: woocommerce/myaccount/my-orders.php:82
+#@ sellegance
+#@ woocommerce
+msgid "View"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:30
+#@ sellegance
+msgid "Search"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:31
+#@ sellegance
+msgid "No"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:31
+#@ sellegance
+msgid "Found"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:32
+#@ sellegance
+msgid "No "
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:32
+#@ sellegance
+msgid " found in Trash"
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:61
+#@ default
+msgid "Custom field updated."
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:62
+#@ default
+msgid "Custom field deleted."
+msgstr ""
+
+#: functions/posttypes/posttypes.class.php:69
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: functions/posttypes/slider.php:29
+#@ default
+msgctxt "taxonomy general name"
+msgid "Groups"
+msgstr ""
+
+#: functions/posttypes/slider.php:30
+#@ default
+msgctxt "taxonomy singular name"
+msgid "Group"
+msgstr ""
+
+#: functions/taxonomy-meta.php:136
+#: functions/taxonomy-meta.php:177
+#: functions/taxonomy-meta.php:391
+#: functions/taxonomy-meta.php:418
+#@ rwtm
+msgid "Delete"
+msgstr ""
+
+#: functions/taxonomy-meta.php:145
+#: functions/taxonomy-meta.php:398
+#@ rwtm
+msgid "Select File"
+msgstr ""
+
+#: functions/taxonomy-meta.php:186
+#: functions/taxonomy-meta.php:425
+#@ rwtm
+msgid "Select Image"
+msgstr ""
+
+#: functions/theme-functions.php:18
+#@ sellegance
+msgid "Pingback:"
+msgstr ""
+
+#: functions/theme-functions.php:18
+#: functions/theme-functions.php:36
+#@ sellegance
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions/theme-functions.php:34
+#, php-format
+#@ sellegance
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/theme-functions.php:41
+#@ sellegance
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/theme-functions.php:174
+#@ sellegance
+msgid "Navigation"
+msgstr ""
+
+#: functions/theme-functions.php:304
+#@ sellegance
+msgid "Page "
+msgstr ""
+
+#: functions/theme-functions.php:304
+#@ sellegance
+msgid " of "
+msgstr ""
+
+#: functions/theme-functions.php:306
+#@ sellegance
+msgid "First"
+msgstr ""
+
+#: functions/theme-functions.php:308
+#@ sellegance
+msgid "Previous"
+msgstr ""
+
+#: functions/theme-functions.php:320
+#: woocommerce/loop/pagination.php:25
+#@ sellegance
+msgid "Next"
+msgstr ""
+
+#: functions/theme-functions.php:322
+#@ sellegance
+msgid "Last"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:72
+#@ sellegance
+msgid "Remove Tab"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:72
+#@ sellegance
+msgid "Add Tab"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:86
+#@ sellegance
+msgid "Remove Bar"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:86
+#@ sellegance
+msgid "Add Bar"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:98
+#: functions/tinymce/shortcode_generator/option-element.php:146
+#@ sellegance
+msgid "Upload"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:99
+#: functions/tinymce/shortcode_generator/option-element.php:147
+#@ sellegance
+msgid "Remove Upload"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:156
+#@ sellegance
+msgid "Remove Client"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/option-element.php:156
+#@ sellegance
+msgid "Add Client"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcode-generator.php:24
+#@ sellegance
+msgid "Choose a shortcode"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcode-generator.php:76
+#@ sellegance
+msgid "Content: "
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcode-generator.php:84
+#@ sellegance
+msgid "Add Shortcode"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:10
+#@ sellegance
+msgid "Columns"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:16
+#@ sellegance
+msgid "Container"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:23
+#@ sellegance
+msgid "Full-width (1)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:25
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:62
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:74
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:84
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:96
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:106
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:117
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:127
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:137
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:147
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:159
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:170
+#@ sellegance
+msgid "Boxed Column"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:26
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:63
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:75
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:85
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:97
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:107
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:118
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:128
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:138
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:148
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:160
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:171
+#@ sellegance
+msgid "Centered Text"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:30
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:252
+#@ sellegance
+msgid "Sets the background color. Default: #ffffff"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:35
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:257
+#@ sellegance
+msgid "Background Image"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:36
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:258
+#@ sellegance
+msgid "Sets the an image background for your banner (URL). Set it to none for a transparent background."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:44
+#@ sellegance
+msgid "Sets the horizontal padding (size in px or percentage). Default: 0px"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:51
+#@ sellegance
+msgid "Sets the vertical padding (size in px or percentage). Default: 0px"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:60
+#@ sellegance
+msgid "One Half (1/2)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:64
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:76
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:86
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:98
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:108
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:119
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:129
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:139
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:149
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:161
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:172
+#@ sellegance
+msgid "Last Column"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:64
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:76
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:86
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:98
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:108
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:119
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:129
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:139
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:149
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:161
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:172
+#@ sellegance
+msgid "Check this for the last column in a row. i.e. when the columns add up to 1."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:72
+#@ sellegance
+msgid "One Third Column (1/3)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:82
+#@ sellegance
+msgid "Two Thirds Column (2/3)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:94
+#@ sellegance
+msgid "One Fourth Column (1/4)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:104
+#@ sellegance
+msgid "Three Fourths Column (3/4)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:115
+#@ sellegance
+msgid "One Fifth Column (1/5)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:125
+#@ sellegance
+msgid "Two Fifth Column (2/5)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:135
+#@ sellegance
+msgid "Three Fifth Column (3/5)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:145
+#@ sellegance
+msgid "Four Fifth Column (4/5)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:157
+#@ sellegance
+msgid "One Sixth Column (1/6)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:168
+#@ sellegance
+msgid "Five Sixth Column (5/6)"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:185
+#@ sellegance
+msgid "Elements"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:192
+#@ sellegance
+msgid "Code"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:199
+#@ sellegance
+msgid "Banner"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:204
+#@ sellegance
+msgid "Content Color Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:205
+#@ sellegance
+msgid "Select Color of Content. Default: Dark"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:214
+#@ sellegance
+msgid "Title Align"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:215
+#@ sellegance
+msgid "Select align for titles."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:240
+#@ sellegance
+msgid "Show borders?"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:246
+#@ sellegance
+msgid "Show divider?"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:266
+#@ sellegance
+msgid "Sets the horizontal padding (size in px or percentage). Default: 20px"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:273
+#@ sellegance
+msgid "Sets the vertical padding (size in px or percentage). Default: 20px"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:286
+#@ sellegance
+msgid "Heading Size"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:297
+#@ sellegance
+msgid "Heading Align"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:307
+#@ sellegance
+msgid "Heading Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:317
+#@ sellegance
+msgid "Bold Heading Weight?"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:324
+#@ sellegance
+msgid "Sets the vertical padding (size in px or percentage). Default: 15px"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:332
+#@ sellegance
+msgid "Blockquote"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:337
+#@ sellegance
+msgid "Align"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:338
+#@ sellegance
+msgid "Select the Blockquote Alignment"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:348
+#@ sellegance
+msgid "Blockquote Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:349
+#@ sellegance
+msgid "Select the Blockquote Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:358
+#@ sellegance
+msgid "Author"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:359
+#@ sellegance
+msgid "The Author of the Blockquote. Optional"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:367
+#@ sellegance
+msgid "Divider"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:371
+#@ sellegance
+msgid "Show line?"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:378
+#@ sellegance
+msgid "Sets the top margin (size in px)."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:384
+#@ sellegance
+msgid "Sets the bottom margin (size in px)."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:393
+#@ sellegance
+msgid "Button"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:397
+#@ sellegance
+msgid "Size"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:419
+#@ sellegance
+msgid "Icon"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:423
+#@ sellegance
+msgid "Icon Size"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:424
+#@ sellegance
+msgid "Tiny is recommended to be used inline with regular text. <br/> Small is recommended to be used inline right before heading text. <br> Large is recommended to be used at the top of columns."
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:434
+#@ sellegance
+msgid "Icon Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:706
+#@ sellegance
+msgid "Toggle Panel"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:715
+#@ sellegance
+msgid "Tabbed Section"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:720
+#@ sellegance
+msgid "Tabs Style"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:738
+#@ sellegance
+msgid "Shop Shortcodes"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:744
+#@ sellegance
+msgid "Custom Big Featured Products"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:751
+#@ sellegance
+msgid "Custom Featured Products"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:766
+#@ sellegance
+msgid "Custom Latest Products"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:781
+#@ sellegance
+msgid "Custom Best Sellers"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:796
+#@ sellegance
+msgid "Custom On Sale Products"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:816
+#@ sellegance
+msgid "Recent Posts/Work"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:822
+#: functions/widgets/posts.php:13
+#@ sellegance
+msgid "Recent Posts"
+msgstr ""
+
+#: functions/tinymce/shortcode_generator/shortcodes-definitions.php:835
+#@ sellegance
+msgid "Recent Projects"
+msgstr ""
+
+#: functions/widgets/brands.php:14
+#@ sellegance
+msgid "Barberry: Brands"
+msgstr ""
+
+#: functions/widgets/brands.php:29
+#@ sellegance
+msgid "Widget Title:"
+msgstr ""
+
+#: functions/widgets/brands.php:33
+#@ sellegance
+msgid "Show Brands at most:"
+msgstr ""
+
+#: functions/widgets/brands.php:37
+#@ sellegance
+msgid "Show Logo:"
+msgstr ""
+
+#: functions/widgets/portfolio.php:6
+#@ sellegance
+msgid "Displays your Recent Portfolio Posts"
+msgstr ""
+
+#: functions/widgets/portfolio.php:7
+#@ sellegance
+msgid "Barberry: Recent Portfolio"
+msgstr ""
+
+#: functions/widgets/portfolio.php:13
+#@ sellegance
+msgid "Recent Portfolio"
+msgstr ""
+
+#: functions/widgets/portfolio.php:22
+#: functions/widgets/posts.php:23
+#@ sellegance
+msgid "Title:"
+msgstr ""
+
+#: functions/widgets/portfolio.php:29
+#@ sellegance
+msgid "No. of Portfolio Items:"
+msgstr ""
+
+#: functions/widgets/portfolio.php:35
+#@ sellegance
+msgid "Filter by Category:"
+msgstr ""
+
+#: functions/widgets/portfolio.php:49
+#@ sellegance
+msgid "\"All Portfolio\" Posts Button Text:"
+msgstr ""
+
+#: functions/widgets/posts.php:6
+#@ sellegance
+msgid "Displays your Recent or Popular Posts"
+msgstr ""
+
+#: functions/widgets/posts.php:7
+#@ sellegance
+msgid "Barberry: Blog Posts List"
+msgstr ""
+
+#: functions/widgets/posts.php:30
+#@ sellegance
+msgid "No. of Posts:"
+msgstr ""
+
+#: functions/widgets/posts.php:37
+#@ sellegance
+msgid "Display Type:"
+msgstr ""
+
+#: functions/widgets/posts.php:48
+#@ sellegance
+msgid "All Blog Posts Button Text:"
+msgstr ""
+
+#: functions/widgets/posts.php:137
+#@ sellegance
+msgid "No Comments"
+msgstr ""
+
+#: functions/widgets/posts.php:137
+#: includes/post-standard.php:156
+#@ sellegance
+msgid "1 Comment"
+msgstr ""
+
+#: functions/widgets/posts.php:137
+#: includes/post-standard.php:156
+#@ sellegance
+msgid "% Comments"
+msgstr ""
+
+#: functions/widgets/social.php:6
+#@ sellegance
+msgid "A widget that displays customized social icons "
+msgstr ""
+
+#: functions/widgets/social.php:10
+#@ sellegance
+msgid "Barberry: Social"
+msgstr ""
+
+#: functions/widgets/social.php:95
+#@ sellegance
+msgid "Barberry Social"
+msgstr ""
+
+#: functions/widgets/social.php:117
+#@ sellegance
+msgid "Widget title:"
+msgstr ""
+
+#: functions/widgets/social.php:147
+#@ sellegance
+msgid "Youtube URL"
+msgstr ""
+
+#: functions/widgets/social.php:196
+#@ sellegance
+msgid "RSS URL"
+msgstr ""
+
+#: functions/widgets/twitter.php:12
+#@ sellegance
+msgid "A list of last tweets"
+msgstr ""
+
+#: functions/widgets/twitter.php:13
+#@ sellegance
+msgid "Barberry: Twitter"
+msgstr ""
+
+#: functions/woo.php:28
+#@ sellegance
+msgid "Previous Post"
+msgstr ""
+
+#: functions/woo.php:28
+#@ sellegance
+msgid "Next Post"
+msgstr ""
+
+#: functions/woo.php:75
+#, php-format
+#@ sellegance
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: functions/woo.php:155
+#@ sellegance
+msgid "Wishlist"
+msgstr ""
+
+#: functions/woo.php:159
+#@ sellegance
+msgid "View Wishlist"
+msgstr ""
+
+#: functions/woo.php:195
+#: includes/header-loop.php:26
+#: includes/header-loop.php:165
+#@ sellegance
+msgid "item(s)"
+msgstr ""
+
+#: functions/woo.php:202
+#: includes/header-loop.php:33
+#: includes/header-loop.php:172
+#, php-format
+#@ sellegance
+msgid "%d item in the shopping cart"
+msgid_plural "%d items in the shopping cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/woo.php:217
+#: includes/header-loop.php:48
+#: includes/header-loop.php:187
+#@ sellegance
+msgid "Quantity:"
+msgstr ""
+
+#: functions/woo.php:219
+#: includes/header-loop.php:50
+#: includes/header-loop.php:189
+#: woocommerce/cart/cart.php:49
+#@ sellegance
+msgid "Remove this item"
+msgstr ""
+
+#: functions/woo.php:229
+#: includes/header-loop.php:60
+#: includes/header-loop.php:199
+#@ sellegance
+msgid "Cart subtotal"
+msgstr ""
+
+#: functions/woo.php:232
+#: includes/header-loop.php:62
+#: includes/header-loop.php:202
+#@ sellegance
+msgid "View Cart"
+msgstr ""
+
+#: functions/woo.php:234
+#: includes/header-loop.php:64
+#: includes/header-loop.php:204
+#: woocommerce/cart/cart.php:157
+#@ sellegance
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: functions/woo.php:239
+#: includes/header-loop.php:68
+#: includes/header-loop.php:208
+#@ sellegance
+msgid "No products in the cart."
+msgstr ""
+
+#: functions.php:266
+#: includes/class-tgm-plugin-activation.php:164
+#@ sellegance
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:267
+#: includes/class-tgm-plugin-activation.php:165
+#@ sellegance
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:268
+#: includes/class-tgm-plugin-activation.php:166
+#, php-format
+#@ sellegance
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:269
+#@ sellegance
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:270
+#: includes/class-tgm-plugin-activation.php:168
+#, php-format
+#@ sellegance
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:271
+#: includes/class-tgm-plugin-activation.php:169
+#, php-format
+#@ sellegance
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:272
+#: includes/class-tgm-plugin-activation.php:170
+#, php-format
+#@ sellegance
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:273
+#: includes/class-tgm-plugin-activation.php:171
+#, php-format
+#@ sellegance
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:274
+#: includes/class-tgm-plugin-activation.php:172
+#, php-format
+#@ sellegance
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:275
+#: includes/class-tgm-plugin-activation.php:173
+#, php-format
+#@ sellegance
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:276
+#: includes/class-tgm-plugin-activation.php:174
+#, php-format
+#@ sellegance
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:277
+#: includes/class-tgm-plugin-activation.php:175
+#, php-format
+#@ sellegance
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:278
+#: includes/class-tgm-plugin-activation.php:176
+#@ sellegance
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:279
+#: includes/class-tgm-plugin-activation.php:177
+#@ sellegance
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:280
+#: includes/class-tgm-plugin-activation.php:178
+#: includes/class-tgm-plugin-activation.php:490
+#@ sellegance
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:281
+#: includes/class-tgm-plugin-activation.php:179
+#: includes/class-tgm-plugin-activation.php:1846
+#@ sellegance
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:282
+#, php-format
+#@ sellegance
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:389
+#, php-format
+#@ default
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:572
+#@ sellegance
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:581
+#@ sellegance
+msgid "Product listing"
+msgstr ""
+
+#: functions.php:627
+#@ sellegance
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:628
+#@ sellegance
+msgid "Top Bar Navigation"
+msgstr ""
+
+#: functions.php:629
+#@ sellegance
+msgid "Right Header Navigation"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:167
+#@ sellegance
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:180
+#, php-format
+#@ sellegance
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:517
+#: includes/class-tgm-plugin-activation.php:2058
+#@ sellegance
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:545
+#, php-format
+#@ sellegance
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:704
+#@ sellegance
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1091
+#@ sellegance
+msgid "External Link"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1096
+#@ sellegance
+msgid "Private Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1099
+#@ sellegance
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1103
+#@ sellegance
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1106
+#@ sellegance
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1106
+#@ sellegance
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1109
+#@ sellegance
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1111
+#@ sellegance
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ sellegance
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1297
+#@ sellegance
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1298
+#@ sellegance
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1299
+#@ sellegance
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1300
+#: woocommerce/myaccount/my-orders.php:35
+#@ sellegance
+#@ woocommerce
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1318
+#@ sellegance
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1319
+#@ sellegance
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1544
+#@ sellegance
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:1829
+#@ sellegance
+msgid "Install package not available."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ sellegance
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1831
+#@ sellegance
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1832
+#@ sellegance
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1833
+#@ sellegance
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1834
+#@ sellegance
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1845
+#@ sellegance
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1955
+#@ sellegance
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ sellegance
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1956
+#: includes/class-tgm-plugin-activation.php:1965
+#@ sellegance
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1956
+#: includes/class-tgm-plugin-activation.php:1965
+#@ sellegance
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1957
+#@ sellegance
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ sellegance
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1962
+#@ sellegance
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ sellegance
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ sellegance
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ sellegance
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1966
+#@ sellegance
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ sellegance
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/post-standard.php:15
+#, php-format
+#@ sellegance
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/post-standard.php:20
+#: single.php:54
+#@ sellegance
+msgid "Posted in"
+msgstr ""
+
+#: includes/post-standard.php:22
+#: single.php:56
+#@ sellegance
+msgid "Posted on"
+msgstr ""
+
+#: includes/post-standard.php:23
+#: single.php:57
+#@ sellegance
+msgid ", "
+msgstr ""
+
+#: includes/post-standard.php:25
+#: single.php:59
+#, php-format
+#@ sellegance
+msgid "Tags: %1$s"
+msgstr ""
+
+#: includes/post-standard.php:148
+#@ sellegance
+msgid "<div class=\"clearfix\"></div><span class=\"moretag\">Read more</span>"
+msgstr ""
+
+#: includes/post-standard.php:154
+#: single.php:205
+#@ sellegance
+msgid "By"
+msgstr ""
+
+#: includes/post-standard.php:156
+#@ sellegance
+msgid "Leave a comment"
+msgstr ""
+
+#: page-full-width.php:59
+#: page-sidebar.php:62
+#: page.php:54
+#: single.php:186
+#: template-contact.php:150
+#: template-home-fullslider.php:34
+#@ sellegance
+msgid "Pages:"
+msgstr ""
+
+#: search.php:7
+#, php-format
+#@ sellegance
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:33
+#@ sellegance
+msgid "Portfolios"
+msgstr ""
+
+#: search.php:66
+#@ sellegance
+msgid "No portfolios match the search terms"
+msgstr ""
+
+#: search.php:73
+#@ sellegance
+msgid "Pages"
+msgstr ""
+
+#: search.php:84
+#@ sellegance
+msgid "No pages match the search terms"
+msgstr ""
+
+#: search.php:91
+#@ sellegance
+msgid "Posts"
+msgstr ""
+
+#: search.php:102
+#@ sellegance
+msgid "No posts match the search terms"
+msgstr ""
+
+#: search.php:114
+#, php-format
+#@ sellegance
+msgid "Your search for <em>\"%s\"</em> did not match any entries"
+msgstr ""
+
+#: search.php:126
+#@ sellegance
+msgid "Suggestions:"
+msgstr ""
+
+#: search.php:128
+#@ sellegance
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: search.php:129
+#@ sellegance
+msgid "Try different keywords."
+msgstr ""
+
+#: search.php:130
+#@ sellegance
+msgid "Try more general keywords."
+msgstr ""
+
+#: searchform.php:2
+#@ sellegance
+msgid "Type &amp; Hit Enter"
+msgstr ""
+
+#: sidebar.php:18
+#@ sellegance
+msgid "Meta"
+msgstr ""
+
+#: single-portfolio.php:76
+#: single-portfolio.php:208
+#@ sellegance
+msgid "Back to"
+msgstr ""
+
+#: single-portfolio.php:190
+#: single.php:190
+#: woocommerce/single-product/meta.php:59
+#@ sellegance
+msgid "Share:"
+msgstr ""
+
+#: single-portfolio.php:192
+#: single.php:192
+#: woocommerce/single-product/meta.php:61
+#@ sellegance
+msgid "Share on Facebook"
+msgstr ""
+
+#: single-portfolio.php:193
+#: single.php:193
+#: woocommerce/single-product/meta.php:62
+#@ sellegance
+msgid "Tweet this item"
+msgstr ""
+
+#: single-portfolio.php:195
+#: single.php:195
+#: woocommerce/single-product/meta.php:64
+#@ sellegance
+msgid "Share on Google+"
+msgstr ""
+
+#: single-portfolio.php:196
+#: single.php:196
+#: woocommerce/single-product/meta.php:65
+#@ sellegance
+msgid "Pin this item"
+msgstr ""
+
+#: single-portfolio.php:197
+#: single.php:197
+#: woocommerce/single-product/meta.php:66
+#@ sellegance
+msgid "Email a Friend"
+msgstr ""
+
+#: single-portfolio.php:198
+#: single.php:198
+#@ sellegance
+msgid "Permalink"
+msgstr ""
+
+#: single-portfolio.php:231
+#@ sellegance
+msgid "Date:"
+msgstr ""
+
+#: single-portfolio.php:238
+#@ sellegance
+msgid "Client:"
+msgstr ""
+
+#: single-portfolio.php:244
+#@ sellegance
+msgid "Categories:"
+msgstr ""
+
+#: single-portfolio.php:250
+#@ sellegance
+msgid "View Project"
+msgstr ""
+
+#: single-portfolio.php:300
+#@ sellegance
+msgid "Related Projects"
+msgstr ""
+
+#: taxonomy-brands.php:152
+#: woocommerce/archive-product.php:228
+#@ sellegance
+msgid "No products found which match your selection."
+msgstr ""
+
+#: template-portfolio.php:66
+#@ sellegance
+msgid "Show All"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:16
+#: woocommerce/cart/empty.php:14
+#@ sellegance
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:17
+#: woocommerce/cart/empty.php:15
+#@ sellegance
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+#: woocommerce/order/order-details.php:40
+#@ sellegance
+msgid "Item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+#: woocommerce/order/order-details.php:42
+#@ sellegance
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+#: woocommerce/cart/totals.php:129
+#: woocommerce/order/order-details.php:43
+#@ sellegance
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:75
+#@ sellegance
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+#@ sellegance
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+#@ sellegance
+msgid "Enter coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+#@ sellegance
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:155
+#@ sellegance
+msgid "Update Shopping Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:50
+#@ sellegance
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:18
+#@ sellegance
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:23
+#@ sellegance
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:49
+#@ sellegance
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:60
+#@ sellegance
+msgid "State"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:68
+#@ sellegance
+msgid "Postcode/Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:68
+#@ sellegance
+msgid "Postcode"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:71
+#@ sellegance
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:22
+#@ sellegance
+msgid "Shopping Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:28
+#: woocommerce/cart/totals.php:92
+#@ sellegance
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35
+#@ sellegance
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35
+#: woocommerce/cart/totals.php:120
+#@ sellegance
+msgid "[Remove]"
+msgstr ""
+
+#: woocommerce/cart/totals.php:46
+#@ sellegance
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/totals.php:110
+#@ sellegance
+msgid "Tax"
+msgstr ""
+
+#: woocommerce/cart/totals.php:120
+#@ sellegance
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:145
+#, php-format
+#@ sellegance
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:161
+#, php-format
+#@ sellegance
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:163
+#, php-format
+#@ sellegance
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/totals.php:175
+#@ sellegance
+msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure there are no other available methods for your location."
+msgstr ""
+
+#: woocommerce/cart/totals.php:187
+#, php-format
+#@ sellegance
+msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
+msgstr ""
+
+#: woocommerce/cart/totals.php:187
+#@ sellegance
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:14
+#@ woocommerce
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:17
+#@ woocommerce
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:22
+#@ woocommerce
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+#@ woocommerce
+msgid "Ship to billing address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:35
+#: woocommerce/myaccount/form-edit-address.php:45
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:170
+#@ woocommerce
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:59
+#@ woocommerce
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/content-product-slider.php:112
+#: woocommerce/content-product-slider.php:129
+#@ sellegance
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/content-product-slider.php:121
+#@ sellegance
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/content-product-slider.php:125
+#@ sellegance
+msgid "View options"
+msgstr ""
+
+#: woocommerce/content-product-slider.php:133
+#: woocommerce/single-product/add-to-cart/grouped.php:49
+#: woocommerce/single-product/add-to-cart/grouped.php:79
+#: woocommerce/single-product/add-to-cart/simple.php:41
+#: woocommerce/single-product/add-to-cart/variable.php:85
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:85
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:157
+#@ sellegance
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/content-product.php:60
+#@ sellegance
+msgid "Out of Stock"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: woocommerce/content-product.php:125
+#@ woocommerce
+msgid ""
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/content-single-product.php:7
+#@ sellegance
+msgctxt "slug"
+msgid "product-category"
+msgstr ""
+
+#: woocommerce/content-single-product.php:40
+#: woocommerce/content-single-product.php:129
+#@ sellegance
+msgid "Back to "
+msgstr ""
+
+#: woocommerce/content-single-product.php:81
+#: woocommerce/single-product/title.php:42
+#, php-format
+#@ sellegance
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/content-single-product.php:81
+#: woocommerce/single-product/review.php:36
+#: woocommerce/single-product/title.php:42
+#@ sellegance
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/content-single-product.php:81
+#: woocommerce/single-product/title.php:42
+#: woocommerce/single-product-reviews.php:46
+#@ sellegance
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/content-single-product.php:81
+#: woocommerce/single-product/title.php:42
+#@ sellegance
+msgid "Write a review"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:37
+#@ sellegance
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:38
+#@ sellegance
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:39
+#@ sellegance
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:40
+#@ sellegance
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:41
+#@ sellegance
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:42
+#@ sellegance
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:24
+#@ sellegance
+msgid "Prev"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:29
+#@ woocommerce
+msgid "Showing the single product"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:31
+#, php-format
+#@ woocommerce
+msgid "Showing all %d products"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:33
+#, php-format
+#@ woocommerce
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d products"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+#@ woocommerce
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:18
+#@ sellegance
+msgid "Change password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:27
+#@ sellegance
+msgid "You are not being able to change the password for this demo account."
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:32
+#@ woocommerce
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:36
+#@ woocommerce
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:41
+#@ woocommerce
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:28
+#: woocommerce/order/order-details.php:27
+#@ sellegance
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:30
+#: woocommerce/order/order-details.php:29
+#@ sellegance
+msgid "Back to my account"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:45
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:155
+#@ woocommerce
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:61
+#@ woocommerce
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:27
+#@ sellegance
+msgid "Registered customers"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:30
+#@ woocommerce
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:41
+#@ woocommerce
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+#@ woocommerce
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+#: woocommerce/myaccount/form-login.php:73
+#: woocommerce/myaccount/form-login.php:115
+#@ sellegance
+#@ woocommerce
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+#@ sellegance
+msgid "Create an account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:81
+#@ woocommerce
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:104
+#@ woocommerce
+msgid "Re-enter password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:22
+#@ sellegance
+msgid "My Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#@ sellegance
+msgid "My Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:27
+#: woocommerce/myaccount/my-address.php:17
+#: woocommerce/myaccount/my-address.php:23
+#@ sellegance
+msgid "Address Book"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:28
+#@ sellegance
+msgid "Change Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:29
+#@ sellegance
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+#@ woocommerce
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+#@ woocommerce
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:68
+#, php-format
+#@ sellegance
+msgid "Edit %s address"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:18
+#@ woocommerce
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:27
+#, php-format
+#@ woocommerce
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:26
+#@ woocommerce
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+#@ woocommerce
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+#@ sellegance
+msgid "Amount"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:71
+#@ woocommerce
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:15
+#@ sellegance
+msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ sellegance
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ sellegance
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ sellegance
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ sellegance
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+#@ sellegance
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details.php:36
+#@ woocommerce
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:41
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:82
+#, php-format
+#@ woocommerce
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:129
+#@ woocommerce
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:136
+#@ woocommerce
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:141
+#@ woocommerce
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:142
+#@ woocommerce
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:159
+#: woocommerce/order/order-details.php:174
+#@ woocommerce
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+#, php-format
+#@ sellegance
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+#@ sellegance
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+#@ sellegance
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+#@ sellegance
+msgid " ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:29
+#@ sellegance
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:26
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:31
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:117
+#@ sellegance
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:71
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:71
+#: woocommerce/single-product/add-to-cart/variable_v1.3.php:143
+#@ sellegance
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:40
+#@ sellegance
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:45
+#@ sellegance
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:50
+#@ sellegance
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:78
+#@ sellegance
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:22
+#@ sellegance
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:29
+#@ sellegance
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/review.php:31
+#@ sellegance
+msgid "M jS Y"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:76
+#@ sellegance
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:40
+#, php-format
+#@ sellegance
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:62
+#@ sellegance
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#@ sellegance
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+#@ sellegance
+msgid "Add Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#@ sellegance
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+#@ sellegance
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#@ sellegance
+msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+#@ sellegance
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+#@ sellegance
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+#@ sellegance
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+#@ sellegance
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+#@ sellegance
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+#@ sellegance
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:105
+#@ sellegance
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:106
+#@ sellegance
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+#@ sellegance
+msgid "Your Review"
+msgstr ""
+

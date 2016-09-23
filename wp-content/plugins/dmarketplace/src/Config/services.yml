@@ -1,0 +1,30 @@
+services:
+    container:
+        class: %container.class%
+        synthetic: true 
+    validator:
+        class: %validator.class%
+    twig:
+        class: %twig.class%
+        arguments: [%default_form_theme%]
+    form.factory:
+        class: %form.factory.class%
+        arguments: ['@validator']
+    base.controller:
+        class: %base.controller.class%
+        arguments: ['@container']
+    controller.resolver: 
+        class: %controller.resolver.class%
+        arguments: ['@container']
+        #synthetic: true
+    shortcode.seller:
+        class: %shortcode.seller.class%
+        arguments: ['@controller.resolver']
+#    repository.base: 
+#        class: %repository.base.class%
+    repository.base:
+        class: %repository.base.class%
+    repository.manager:
+        class: %repository.manager.class%
+        arguments: ['@repository.base']
+        

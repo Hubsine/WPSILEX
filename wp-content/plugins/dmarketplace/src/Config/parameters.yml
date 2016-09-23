@@ -1,0 +1,13 @@
+parameters: 
+    #init.class: DMarketPlace\Init
+    container.class: DMarketPlace\DependencyInjection\Container
+    validator.class: DMarketPlace\Framework\Validator\Validator
+    base.controller.class: DMarketPlace\Framework\Controller\BaseController
+    controller.resolver.class: DMarketPlace\Framework\Controller\Resolver\ControllerResolver     
+    shortcode.seller.class: DMarketPlace\Shortcode\SellerShortcode
+    form.factory.class: DMarketPlace\Framework\Form\FormFactory
+    twig.class: DMarketPlace\Framework\Twig\Twig
+    default_form_theme: form_div_layout.html.twig 
+    #http://symfony.com/doc/current/form/form_customization.html#form-customization-form-themes
+    repository.manager.class: DMarketPlace\Framework\Repository\RepositoryManager
+    repository.base.class: DMarketPlace\Framework\Repository\BaseRepository

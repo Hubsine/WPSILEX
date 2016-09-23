@@ -1,0 +1,8 @@
+SELLER_CREATE: 
+    action: SELLER_CREATE
+    default: { _controller: DMarketPlace\Framework\Controller\SellerController::createAction }
+SELLER_READ: 
+    action: SELLER_READ
+    default: { _controller: DMarketPlace\Framework\Controller\SellerController::readAction }    
+    
+#    method: POST

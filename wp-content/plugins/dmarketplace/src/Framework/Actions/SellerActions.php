@@ -1,8 +1,8 @@
 <?php
 
-namespace DMarketPlace\Framework\Model;
+namespace DMarketPlace\Framework\Actions;
 
-interface SellerInterface{
+interface SellerActions{
     
     const ACTION_CREATE = 'SELLER_CREATE';
     const ACTION_READ   = 'SELLER_READ';

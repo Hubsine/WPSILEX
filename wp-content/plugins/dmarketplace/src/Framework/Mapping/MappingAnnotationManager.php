@@ -1,6 +1,6 @@
 <?php
 
-namespace Framework\Mapping;
+namespace DMarketPlace\Framework\Mapping;
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Doctrine\Common\Annotations\AnnotationReader;

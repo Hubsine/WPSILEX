@@ -1,6 +1,6 @@
 <?php
 
-namespace Framework\Annotations;
+namespace DMarketPlace\Framework\Annotations;
 
 use Doctrine\Common\Annotations\Annotation;
 

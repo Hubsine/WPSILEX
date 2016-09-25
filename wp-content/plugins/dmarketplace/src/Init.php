@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage;
 use Symfony\Component\HttpKernel\Controller\ControllerResolver;
 use Symfony\Component\Yaml\Yaml;
 use DMarketPlace\Framework\Controller\BaseController;
-use Framework\Mapping\MappingAnnotationManager;
+use DMarketPlace\Framework\Mapping\MappingAnnotationManager;
 
 /**
  * Description of InitFramework

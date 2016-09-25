@@ -30,7 +30,7 @@ use Doctrine\Common\Annotations\AnnotationRegistry;
 
 $loader = new ClassLoader();
 $loader->addPsr4('DMarketPlace\\', __DIR__.'/src');
-$loader->addPsr4('Framework\\', __DIR__.'/src/Framework');
+#$loader->addPsr4('Framework\\', __DIR__.'/src/Framework');
 $loader->register();
 
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));

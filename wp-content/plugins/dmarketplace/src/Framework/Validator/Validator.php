@@ -43,7 +43,7 @@ class Validator{
     private function enableAnnotationMapping(){
         
         $this->validator = Validation::createValidatorBuilder()
-        ->enableAnnotationMapping()                
+        #->enableAnnotationMapping()                
         ->getValidator();
     }
 

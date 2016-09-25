@@ -9,6 +9,7 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use DMarketPlace\Framework\Model\SellerInterface;
+use Symfony\Component\Validator\Constraints\NotBlank;
 
 /**
  * Description of User
@@ -22,7 +23,11 @@ class SellerRegisterType extends AbstractType{
         $builder
             ->add('username', TextType::class, array(
                 'label' => 'seller_register.username',
-                'translation_domain' => 'forms'
+                'translation_domain' => 'forms',
+                'required'  => false, 
+                'constraints' => array(
+                    new NotBlank()
+                    )
             ))
             ->add('firstName', TextType::class, array(
                 'label' => 'seller_register.first_name',

@@ -26,13 +26,15 @@ include_once get_stylesheet_directory().'/dmarketplace-functions.php';
 use Composer\Autoload\ClassLoader;
 use DMarketPlace\Defines;
 use DMarketPlace\Init;
+use Doctrine\Common\Annotations\AnnotationRegistry;
 
 $loader = new ClassLoader();
 $loader->addPsr4('DMarketPlace\\', __DIR__.'/src');
 $loader->addPsr4('Framework\\', __DIR__.'/src/Framework');
 $loader->register();
 
- 
+AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
+
 new Defines();
 
 //add_action('after_setup_theme', 'launchInit', 1); 

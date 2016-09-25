@@ -3,6 +3,7 @@
 namespace Framework\Mapping;
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
+use Doctrine\Common\Annotations\AnnotationReader;
 
 /**
  * Description of MappingAnnotationManager
@@ -17,6 +18,7 @@ class MappingAnnotationManager {
     }
     
     public function loadAnnotation(){
+        #AnnotationReader::addGlobalIgnoredName('WpUsers');       
         
 //        if($annotationFolder = opendir(DM_FRAMEWORK_DIR.'/Mapping/Annotations')){
 //            #echo DM_FRAMEWORK_DIR.'/Mapping/Annotations';
@@ -29,9 +31,11 @@ class MappingAnnotationManager {
 //            closedir($annotationFolder);
 //        }
         
-        AnnotationRegistry::registerAutoloadNamespace(
-                'Framework\Mapping\Annotations', 
-                DM_SRC_DIR);
+//        AnnotationRegistry::registerAutoloadNamespace(
+//                'Framework\Mapping\Annotations', 
+//                DM_SRC_DIR);
+        
+#        AnnotationRegistry::registerLoader('ComposerAutoloaderInit6c24c9d92f8a663060f301e99ebb982e::loadClassLoader');
     }
     
 }

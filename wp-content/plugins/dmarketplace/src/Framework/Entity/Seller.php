@@ -10,7 +10,7 @@ use Framework\Mapping\Annotations as WpMapping;
 /**
  * Description of Seller
  *
- * @WpMapping\WpUsers({WpUsers::TABLE_NAME})
+ * WpMapping\WpUsers({WpUsers::TABLE_NAME})
  */
 class Seller implements SellerInterface {
     

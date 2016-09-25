@@ -11,7 +11,7 @@ use Doctrine\Common\Annotations\Annotation;
  * @Annotation
  * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
  *
- * @author nsi
+ * @author Hubsine
  */
 class WpUsers{
     

@@ -11,98 +11,26 @@ use Framework\Mapping\Annotations as WpMapping;
  *
  * WpMapping\WpUsers({WpUsers::TABLE_NAME})
  */
-class Seller{
+class Seller extends \WP_User{
     
     public function __construct(){
-        
-        
+        parent::__construct();
     }
 
     /**
      *
-     * @var String
-     * 
-     * @WpMapping\WpUsers(column="user_login")
-     * @Assert\NotBlank(groups={"SellerRegistration"})
-     * 
+     * @var integer
      */
-    protected $username;
+    protected $id;
     
     /**
      *
-     * @var String
-     * 
-     * WpMapping\Email(column="user_email")
-     * @Assert\NotBlank()
-     */
-    protected $email;
-    
-    /**
-     *
-     * @var String
-     * 
-     * @Assert\NotBlank(groups={"SellerRegistration"})
-     * 
-     */
-    protected $firstName;
-    
-    /**
-     *
-     * @var String
-     * 
-     * @Assert\NotBlank(groups={"SellerRegistration"})
-     * 
-     */
-    protected $lastName;
-    
-    /**
-     *
-     * @var String
+     * @var trait DMarketPlace\Framework\Traits\DmActionEntity
      */
     use DmActionEntity;
 
-    public function getUsername(){
-        return $this->username;
-    }
-    
-    public function setUsername($username){
-        
-        $this->username = $username;
-        
-        return $this;
-    }
-    
-    public function getEmail(){
-        return $this->email;
-    }
-    
-    public function setEmail($email){
-        
-        $this->email = $email;
-        
-        return $this;
+    public function getId(){
+        return $this->id;
     }
 
-    public function getFirstName(){
-        return $this->firstName;
-    }
-    
-    public function setFirstName($firstName){
-        
-        $this->firstName = $firstName;
-        
-        return $this;
-    }
-    
-    public function getLastName(){
-        return $this->lastName;
-    }
-    
-    public function setLastName($lastName){
-        
-        $this->lastName = $lastName;
-        
-        return $this;
-    }
-    
 }

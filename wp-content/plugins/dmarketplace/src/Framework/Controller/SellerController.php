@@ -21,22 +21,23 @@ class SellerController extends BaseController{
     public function createAction(){
         
         $seller = new Seller();
-        //$seller->setUsername('Hipopeur');
-        $seller->setLastName('Diallo');
-        //$seller->setFirstName('Mouhamadou');
+        $seller->user_pass = wp_generate_password(8, TRUE);
         
         $form = $this->createBuilderForm(SellerRegisterType::class, $seller)->getForm();
        
         $request = Init::$request;
         $form->handleRequest($request);
 
-        #$violations = $this->validate($seller);
-        $repo = $this->get('repository.manager')->getRepository('Seller');
-
         //$repo->getRepository('Seller');
         if($form->isValid()){
-            var_dump($form->getData());
-            //return 'sucess';
+            
+            $repo = $this->get('repository.manager')->getRepository('Seller');
+            $repo->createSeller($form);
+            
+            if($form->isValid()){
+                //Send password email
+            }
+            
         }
        
         return $this->renderView('seller_register_form.html.twig', array('form' => $form->createView()));

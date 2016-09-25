@@ -1,8 +1,10 @@
 ## YAML Template.
 
 seller_register:
-    username: "Identifiant :" 
-    email: "E-mail :"
+    user_login: "Identifiant :" 
+    user_email: "E-mail :"
     first_name: "Prénom :"
     last_name: "Nom :"
+    nickname: "Pseudo :"
+    display_name: "Nom marchant :"
     submit: Envoyer

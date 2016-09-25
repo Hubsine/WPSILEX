@@ -4,15 +4,15 @@ namespace DMarketPlace\Framework\Traits;
 
 trait DmActionEntity {
     
-    protected $dmAction;
+    protected $dm_action;
     
     public function getDmAction(){
-        return $this->dmAction;
+        return $this->dm_action;
     }
     
     public function setDmAction($dmAction){
         
-        $this->dmAction = $dmAction;
+        $this->dm_action = $dmAction;
         
         return $this;
         

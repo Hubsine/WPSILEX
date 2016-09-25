@@ -1,1 +1,5 @@
 not_blank: Cette valeur ne doit pas être vide.
+existing:
+    unique: Désolé, cet élément existe déjà !
+    user_login: Désolé, cet identifiant existe déjà !
+    user_email: Désolé, cette adresse e-mail est déjà utilisé !

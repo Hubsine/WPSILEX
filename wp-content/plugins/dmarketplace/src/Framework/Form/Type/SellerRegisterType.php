@@ -26,36 +26,41 @@ class SellerRegisterType extends AbstractType{
         $this->constraints = new SellerRegisterConstraint();
     }
 
-        public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('username', TextType::class, array(
-                'label' => 'seller_register.username',
-                'translation_domain' => 'forms',
-                'constraints' => $this->constraints->username
-            ))
-            ->add('firstName', TextType::class, array(
-                'label' => 'seller_register.first_name',
-                'translation_domain' => 'forms', 
-                'constraints' => $this->constraints->firstName
-            ))
-            ->add('lastName', TextType::class, array(
-                'label' => 'seller_register.last_name',
-                'translation_domain' => 'forms', 
-                'constraints' => $this->constraints->lastName
-            ))
-            ->add('email', EmailType::class, array(
-                'label' => 'seller_register.email', 
-                'constraints'   => $this->constraints->email
-            ))
-            ->add('dmAction', HiddenType::class, array(
-                'data'  => SellerActions::ACTION_CREATE
-            ))    
-            ->add('save', SubmitType::class, array(
-                'label' => 'seller_register.submit',
-                'translation_domain' => 'forms'
-            ))
-            ->setAction('')
+                ->add('user_login', TextType::class, array(
+                    'label' => 'seller_register.user_login',
+                    'constraints' => $this->constraints->user_login
+                ))
+                ->add('nickname', TextType::class, array(
+                    'label' => 'seller_register.nickname',
+                    'constraints' => $this->constraints->nickname
+                ))
+                ->add('display_name', TextType::class, array(
+                    'label' => 'seller_register.display_name', 
+                    'constraints' => $this->constraints->display_name
+                ))
+                ->add('user_email', EmailType::class, array(
+                    'label' => 'seller_register.user_email', 
+                    'constraints'   => $this->constraints->user_email
+                ))
+                ->add('first_name', TextType::class, array(
+                    'label' => 'seller_register.first_name',
+                    'constraints' => $this->constraints->first_name,
+                    'required'  => false
+                ))
+                ->add('last_name', TextType::class, array(
+                    'label' => 'seller_register.last_name',
+                    'constraints' => $this->constraints->last_name
+                ))
+                ->add('dm_action', HiddenType::class, array(
+                    'data'  => SellerActions::ACTION_CREATE
+                ))    
+                ->add('save', SubmitType::class, array(
+                    'label' => 'seller_register.submit'
+                ))
+                ->setAction('')
                 
         ;
     }
@@ -63,8 +68,9 @@ class SellerRegisterType extends AbstractType{
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-        'data_class' => 'DMarketPlace\Framework\Entity\Seller',
-            'translation_domain' => 'forms'
+            'data_class' => 'DMarketPlace\Framework\Entity\Seller',
+            'translation_domain' => 'forms', 
+            #'validation_groups' => 'SellerRegistration'
     ));
     }
 

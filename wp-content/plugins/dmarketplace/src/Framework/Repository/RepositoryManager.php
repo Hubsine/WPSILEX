@@ -9,6 +9,7 @@
 namespace DMarketPlace\Framework\Repository;
 
 use DMarketPlace\Framework\Repository\BaseRepository;
+use DMarketPlace\Framework\Mapping\MappingAnnotationManager;
 use Symfony\Component\Debug\Exception\ClassNotFoundException;
 
 /**
@@ -22,14 +23,17 @@ class RepositoryManager {
      * Unique BaseRepository for all repository
      */
     private $baseRepository;
-    
-    public function __construct(BaseRepository $baseRepository) {
+    public $annotationManager;
+
+
+    public function __construct(BaseRepository $baseRepository, MappingAnnotationManager $annotationManager) {
         
         $this->baseRepository = $baseRepository;
+        $this->annotationManager = $annotationManager;
         
     }
 
-        /**
+    /**
      * 
      * Construit une instance de RepositoryInterface avec en paramère le service BaseRepository
      * 

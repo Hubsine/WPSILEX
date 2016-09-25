@@ -51,7 +51,6 @@ class Init {
        
         $this->load(); 
         $this->loadActions();
-        new MappingAnnotationManager();
         
         #$this->container->get('repository.manager');
         $this->loadShortcode(); #Si on appel pas immédiatement les shortcodes, ces derniers ne sont pas initialisés

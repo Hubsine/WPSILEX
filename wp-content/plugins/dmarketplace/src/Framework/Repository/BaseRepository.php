@@ -9,16 +9,40 @@
 namespace DMarketPlace\Framework\Repository;
 
 use DMarketPlace\Framework\Repository\BaseRepository as _BaseRepository;
+use DMarketPlace\Framework\Repository\RepositoryInterface;
 
 /**
  * Description of BaseRepository
  *
  * @author nsi
  */
-class BaseRepository {
+class BaseRepository implements RepositoryInterface{
     
+    /**
+     * @deprecated since version number
+     * @param _BaseRepository $baseRepository
+     * @return type
+     */
     public function setBaseRepository(_BaseRepository $baseRepository){
         
         return self::$_instance = $baseRepository;
     }
+    
+    public function find($id){
+        
+    }
+    
+    public function findAll(){
+        
+    }
+    
+    public function findBy($criteria){
+        
+    }
+    
+    public function findOneBy($criteria){
+        
+    }
+    
+   
 }

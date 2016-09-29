@@ -30,35 +30,41 @@ class SellerRegisterType extends AbstractType{
     {
         $builder
                 ->add('user_login', TextType::class, array(
-                    'label' => 'seller_register.user_login',
+                    'label' => 'seller.register.user_login',
+                    'label_attr' => array(
+                        'data-toggle'=>'tooltip', 
+                        'data-placement'=>'auto top',
+                        'data-trigger' => 'hover',
+                        'data-title' => 'seller.register.tooltip.user_login',
+                        ),
                     'constraints' => $this->constraints->user_login
                 ))
                 ->add('nickname', TextType::class, array(
-                    'label' => 'seller_register.nickname',
+                    'label' => 'seller.register.nickname',
                     'constraints' => $this->constraints->nickname
                 ))
                 ->add('display_name', TextType::class, array(
-                    'label' => 'seller_register.display_name', 
+                    'label' => 'seller.register.display_name', 
                     'constraints' => $this->constraints->display_name
                 ))
                 ->add('user_email', EmailType::class, array(
-                    'label' => 'seller_register.user_email', 
+                    'label' => 'seller.register.user_email', 
                     'constraints'   => $this->constraints->user_email
                 ))
                 ->add('first_name', TextType::class, array(
-                    'label' => 'seller_register.first_name',
+                    'label' => 'seller.register.first_name',
                     'constraints' => $this->constraints->first_name,
                     'required'  => false
                 ))
                 ->add('last_name', TextType::class, array(
-                    'label' => 'seller_register.last_name',
+                    'label' => 'seller.register.last_name',
                     'constraints' => $this->constraints->last_name
                 ))
                 ->add('dm_action', HiddenType::class, array(
                     'data'  => SellerActions::ACTION_CREATE
                 ))    
                 ->add('save', SubmitType::class, array(
-                    'label' => 'seller_register.submit'
+                    'label' => 'seller.register.submit'
                 ))
                 ->setAction('')
                 

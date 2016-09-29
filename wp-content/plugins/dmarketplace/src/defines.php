@@ -12,7 +12,7 @@ class Defines{
         
         define('DM_FRAMEWORK_DIR',         DM_SRC_DIR.'/Framework');
         define('DM_CONFIG_DIR',            DM_SRC_DIR.'/Config');
-        define('DM_RESOURCES_DIR',         DM_SRC_DIR.'/Resources');
+        define('DM_RESOURCES_DIR',         DM_SRC_DIR.'/resources');
         
         define('DM_VIEWS_DIR',             DM_RESOURCES_DIR.'/views');
         define('DM_VIEWS_FORMS_DIR',       DM_VIEWS_DIR.'/forms');
@@ -22,6 +22,17 @@ class Defines{
         define('DM_VENDOR_DIR', realpath(__DIR__.'/../vendor')); 
         define('DM_VENDOR_FORM_DIR', DM_VENDOR_DIR.'/symfony/form');
         define('DM_VENDOR_VALIDATOR_DIR', DM_VENDOR_DIR.'/symfony/validator');
+        
+        
+        // URI
+        define('DM_PLUGIN_URI', plugins_url('/dmarketplace'));
+        define('DM_RESOURCES_URI', DM_PLUGIN_URI.'/src/resources');
+        define('DM_VENDOR_URI', DM_PLUGIN_URI.'/vendor');
+        
+        define('DM_BOOTSTRAP_URI', DM_VENDOR_URI.'/twbs/bootstrap');
+        define('DM_FORTAWESOME_URI', DM_VENDOR_URI.'/fortawesome/font-awesome');
+        
+        
         
         #define('ACTIONS_DIR',           DM_PLUGIN_DIR.'/Actions');
 

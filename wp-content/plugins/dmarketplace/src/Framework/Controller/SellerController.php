@@ -40,7 +40,7 @@ class SellerController extends BaseController{
             
         }
        
-        return $this->renderView('seller_register_form.html.twig', array('form' => $form->createView()));
+        return $this->renderView('@DMarketPlace:Forms/seller_register_form.html.twig', array('form' => $form->createView()));
         
     }
     

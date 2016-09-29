@@ -1,0 +1,74 @@
+
+{% extends "bootstrap_3_horizontal_layout.html.twig" %}
+
+
+
+
+{% block form_label -%}
+{% spaceless %}
+    
+    {# Override bootstrap_3_layout #}
+    {%- set label_attr = label_attr|merge({class: (label_attr.class|default('') ~ ' control-label')|trim}) -%}
+   
+    {% if label is same as(false) %}
+        <div class="{{ block('form_label_class') }}"></div>
+    {% else %}
+        {% set label_attr = label_attr|merge({class: (label_attr.class|default('') ~ ' ' ~ block('form_label_class'))|trim}) %}
+        
+        {# On tratuit le data-title et on ajoute le span #}
+        {% set tooltip_span_start = '' %}
+        {% set tooltip_span_end   = '' %}
+        {% if label_attr['data-title'] is defined %}
+            {% set tooltip_span_start = '<span class="tooltipInfo">' %}
+            {% set tooltip_span_end   = '</span>' %}
+
+            {% set label_attr = label_attr|merge({'data-title': label_attr['data-title']|trans({}, 'forms')} ) %}
+        {% endif %}
+      
+        {# Ovveride Bootstrap form_div_layout #}
+        {% if label is not same as(false) -%}
+        {% if not compound -%}
+            {% set label_attr = label_attr|merge({'for': id}) %}
+        {%- endif -%}
+        {% if required -%}
+            {% set label_attr = label_attr|merge({'class': (label_attr.class|default('') ~ ' requiredddd')|trim}) %}
+        {%- endif -%}
+        {% if label is empty -%}
+            {%- if label_format is not empty -%}
+                {% set label = label_format|replace({
+                    '%name%': name,
+                    '%id%': id,
+                }) %}
+            {%- else -%}
+                {% set label = name|humanize %}
+            {%- endif -%}
+        {%- endif -%}
+        <label{% for attrname, attrvalue in label_attr %} {{ attrname }}="{{ attrvalue }}"{% endfor %}>{{ tooltip_span_start|raw }}{{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }} {{ tooltip_span_end|raw }}</label>
+    {%- endif -%}
+        
+    {% endif %}
+{% endspaceless %}
+{%- endblock form_label %}
+
+
+
+
+
+
+
+
+
+
+
+
+{% block form_errors -%}
+    {% if errors|length > 0 -%}
+    {% if form.parent %}<span class="help-block">{% else %}<div class="alert alert-danger">{% endif %}
+    <ul class="list-unstyled">
+        {%- for error in errors -%}
+            <li>{# <span class="glyphicon glyphicon-exclamation-sign"></span>#}<i class="fa fa-exclamation" aria-hidden="true"></i> {{ error.message|trans({}, 'validators') }}</li>
+        {%- endfor -%}
+    </ul>
+    {% if form.parent %}</span>{% else %}</div>{% endif %}
+    {%- endif %}
+{%- endblock form_errors %}

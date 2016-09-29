@@ -110,20 +110,47 @@ class Init {
 
     public function load_wp_resources(){
         
+        ###
+        # CSS
+        ###
         wp_enqueue_style(
                 'fortawesome', 
-                plugins_url('dmarketplace/vendor/fortawesome/font-awesome/css/font-awesome.min.css'), 
+                DM_FORTAWESOME_URI.'/css/font-awesome.min.css', 
                 array(), 
                 '4.6.3', 
                 false);
         
         wp_enqueue_style(
                 'bootstrap', 
-                plugins_url('dmarketplace/vendor/twbs/bootstrap/dist/css/bootstrap.min.css'), 
+                DM_BOOTSTRAP_URI.'/dist/css/bootstrap.min.css', 
                 array(), 
                 '3.3.7', 
                 false);
         
+        wp_enqueue_style(
+                'dmarketplace',
+                DM_RESOURCES_URI.'/css/dmarketplace.css',
+                array(),
+                false,
+                false
+                );
+        
+        ###
+        # JS
+        ###
+        wp_enqueue_script(
+                'bootstrap-min', 
+                DM_BOOTSTRAP_URI.'/dist/js/bootstrap.min.js', 
+                array(), 
+                '3.3.7', 
+                true);
+
+        wp_enqueue_script(
+                'dmarketplace', 
+                DM_RESOURCES_URI.'/js/dmarketplace.js',
+                array(), 
+                false, 
+                true);        
     }
 
     public function disable_wp_emojicons() {

@@ -1,0 +1,15 @@
+## YAML Template.
+
+seller:
+    register:
+        user_login: "Identifiant :" 
+        user_email: "E-mail :"
+        first_name: "Prénom :"
+        last_name: "Nom :"
+        nickname: "Pseudo :"
+        display_name: "Nom marchant :"
+        submit: Envoyer
+        tooltip: 
+            user_login: > 
+                Identifiant unique permettant de vous connecter à votre futur compte.
+                Il ne sera pas possible de le modifier. 

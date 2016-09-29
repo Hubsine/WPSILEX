@@ -40,7 +40,7 @@ class Twig {
     
     public function load(){
         
-        $twig = new \Twig_Environment();
+        $twig = new \Twig_Environment(null, array('debug' => true));
         
         $this->loadTemplating($twig);
         $this->loadTranslation($twig);
@@ -112,12 +112,17 @@ class Twig {
         
         //Resources views
         $loader = new \Twig_Loader_Filesystem(array(
-            DM_VIEWS_DIR,
-            DM_VIEWS_FORMS_DIR,
-            DM_VIEWS_FORMS_DIR.'/extends',
+//            DM_VIEWS_DIR,
+//            DM_VIEWS_FORMS_DIR,
+//            DM_VIEWS_FORMS_DIR.'/extends',
             $vendorTwigBridgeDir.'/Resources/views/Form',
         ));
         
+        $loader->addPath(DM_VIEWS_DIR, 'DMarketPlace');
+        $loader->addPath(DM_VIEWS_FORMS_DIR, 'DMarketPlace:Forms');
+        $loader->addPath(DM_VIEWS_FORMS_DIR.'/extends', 'DMarketPlace:Forms:Extends');
+        
+                
         $twig->setLoader($loader);
         //$twig = new \Twig_Environment($loader);
         $formEngine = new TwigRendererEngine(array($this->defaultFormTheme));
@@ -126,6 +131,7 @@ class Twig {
         $twig->addExtension(
             new FormExtension(new TwigRenderer($formEngine))
         );
+        $twig->addExtension(new \Twig_Extension_Debug());
         
         return $twig;
     }

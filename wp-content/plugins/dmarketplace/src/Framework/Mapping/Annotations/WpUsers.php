@@ -6,6 +6,8 @@ use Doctrine\Common\Annotations\Annotation;
 
 
 /**
+ * 
+ * @deprecated non utilisé, à supprimer donc
  * Description of WpUsers
  * 
  * @Annotation

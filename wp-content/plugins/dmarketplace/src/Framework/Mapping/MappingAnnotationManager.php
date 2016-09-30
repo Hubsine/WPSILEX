@@ -7,7 +7,7 @@ use Doctrine\Common\Annotations\AnnotationReader;
 
 /**
  * Description of MappingAnnotationManager
- *
+ * @deprecated non utilisé
  * @author nsi
  */
 class MappingAnnotationManager {

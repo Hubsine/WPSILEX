@@ -24,11 +24,12 @@ class Twig {
     
     public $defaultFormTheme;
     private $twigEngine;
-    private $localesTransFolder = array('forms', 'messages', 'validators');
+    public $translator;
 
 
-    public function __construct($defaultFormTheme) {
+    public function __construct(Translator $translator, $defaultFormTheme) {
         
+        $this->translator = $translator;
         $this->defaultFormTheme = apply_filters('default_form_theme', $defaultFormTheme);
         
         $this->load();
@@ -43,18 +44,30 @@ class Twig {
         $twig = new \Twig_Environment(null, array('debug' => true));
         
         $this->loadTemplating($twig);
-        $this->loadTranslation($twig);
+        #$this->loadTranslation($twig);
+        $this->addTranslationExtension($twig);
         
         $this->twigEngine = new TwigEngine($twig, new TemplateNameParser());
     }
     
+    public function addTranslationExtension(\Twig_Environment $twig){
+        
+        $twig->addExtension(new TranslationExtension($this->translator));
+        
+        return $twig;
+    }
+
+    /**
+     * @deprecated Deplacer dans Translator => A supprimer
+     * @param \Twig_Environment $twig
+     * @return \Twig_Environment
+     */
     public function loadTranslation(\Twig_Environment $twig){
         
         $localeToLoad = Init::$request->getLocale();
-        $translator = new Translator($localeToLoad);
-        $translator->addLoader('yaml', new YamlFileLoader());
-        $translator->addLoader('xlf', new XliffFileLoader());
-        
+        //$translator = new Translator($localeToLoad);
+        $this->translator->addLoader('yaml', new YamlFileLoader());
+        $this->translator->addLoader('xlf', new XliffFileLoader());
         
         foreach ($this->localesTransFolder as $key => $domainFolderName) {
                 
@@ -67,7 +80,7 @@ class Twig {
                         $locale = explode('.',pathinfo($ymlTransFile, PATHINFO_FILENAME));
 
                         if(isset($locale[1])){
-                            $translator->addResource(
+                            $this->translator->addResource(
                                     'yaml', 
                                     $ymlTransFile, 
                                     $locale[1], 
@@ -83,13 +96,13 @@ class Twig {
         }
         
         //Load Symfony Validator Translation       
-        $translator->addResource(
+        $this->translator->addResource(
             'xlf',
             DM_VENDOR_FORM_DIR.'/Resources/translations/validators.'.$localeToLoad.'.xlf',
             $localeToLoad,
             'validators'
         );
-        $translator->addResource(
+        $this->translator->addResource(
             'xlf',
             DM_VENDOR_VALIDATOR_DIR.'/Resources/translations/validators.'.$localeToLoad.'.xlf',
             $localeToLoad,
@@ -97,8 +110,8 @@ class Twig {
         );
 
         // add the TranslationExtension (gives us trans and transChoice filters)
-        $this->translator = $translator;
-        $twig->addExtension(new TranslationExtension($translator));
+        #$this->translator = $translator;
+        $twig->addExtension(new TranslationExtension($this->translator));
         
         return $twig;
         
@@ -121,6 +134,7 @@ class Twig {
         $loader->addPath(DM_VIEWS_DIR, 'DMarketPlace');
         $loader->addPath(DM_VIEWS_FORMS_DIR, 'DMarketPlace:Forms');
         $loader->addPath(DM_VIEWS_FORMS_DIR.'/extends', 'DMarketPlace:Forms:Extends');
+        $loader->addPath(DM_VIEWS_DIR.'/mails', 'DMarketPlace:Mails');
         
                 
         $twig->setLoader($loader);

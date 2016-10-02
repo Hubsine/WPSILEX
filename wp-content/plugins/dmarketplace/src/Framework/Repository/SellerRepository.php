@@ -27,7 +27,7 @@ class SellerRepository extends BaseRepository{
         }
         
         $wpUser = wp_insert_user($form->getData());
-        $wpUser = false; # To delete
+        #$wpUser = false; # A supprimer, c'etait juste pour le test
         
         if($wpUser instanceof \WP_Error){
             
@@ -45,6 +45,8 @@ class SellerRepository extends BaseRepository{
                     break;
             }
             
+        }else{
+            if(is_int($wpUser)) $form->getData ()->ID = $wpUser;
         }
         
         return $form;

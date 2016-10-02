@@ -11,7 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use DMarketPlace\Framework\Model\SellerInterface;
 use DMarketPlace\Framework\Form\Constraints\SellerRegisterConstraint;
-use DMarketPlace\Framework\Actions\SellerActions;
+use DMarketPlace\Framework\Utils\SellerUtil;
 
 /**
  * Description of User
@@ -60,8 +60,9 @@ class SellerRegisterType extends AbstractType{
                     'label' => 'seller.register.last_name',
                     'constraints' => $this->constraints->last_name
                 ))
+                // Pour le moment inutile, à supprimer avec la class si pas utilise
                 ->add('dm_action', HiddenType::class, array(
-                    'data'  => SellerActions::ACTION_CREATE
+                    'data'  => SellerUtil::ACTION_CREATE
                 ))    
                 ->add('save', SubmitType::class, array(
                     'label' => 'seller.register.submit'

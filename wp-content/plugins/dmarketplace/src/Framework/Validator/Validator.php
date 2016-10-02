@@ -47,9 +47,9 @@ class Validator{
         ->getValidator();
     }
 
-    public function validate($entityObject){
+    public function validate($value, $constraints = null, $groups = null){
         
-        return $this->validator->validate($entityObject);    
+        return $this->validator->validate($value, $constraints, $groups);    
         
     }
     

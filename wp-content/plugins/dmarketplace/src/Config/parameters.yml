@@ -12,3 +12,12 @@ parameters:
     repository.manager.class: DMarketPlace\Framework\Repository\RepositoryManager
     repository.base.class: DMarketPlace\Framework\Repository\BaseRepository
     mapping.annotation_manager.class: DMarketPlace\Framework\Mapping\MappingAnnotationManager
+    translator.class: DMarketPlace\Translator
+    wp.roles_caps.class: DMarketPlace\WpRolesCaps
+    
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_user: shonen.shojo@gmail.com
+    mailer_password: 16781741
+    
+    locale: fr

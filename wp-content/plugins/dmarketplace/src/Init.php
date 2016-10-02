@@ -31,7 +31,7 @@ class Init {
     public function __construct() {
         
         add_action('init', array($this, 'dm_session_start'));
-        add_action('init', array($this, 'disable_wp_emojicons') );
+        #add_action('init', array($this, 'disable_wp_emojicons') );
         add_action('wp_enqueue_scripts', array($this, 'load_wp_resources'));
         
         $localeToLoad = $this->getLocaleFromWp();
@@ -51,6 +51,9 @@ class Init {
        
         $this->load(); 
         $this->loadActions();
+        
+        $this->container->get('translator');
+        $this->container->get('wp.roles_caps');
         
         #$this->container->get('repository.manager');
         $this->loadShortcode(); #Si on appel pas immédiatement les shortcodes, ces derniers ne sont pas initialisés
@@ -170,4 +173,5 @@ class Init {
     public function getLocaleFromWp(){
         return explode('_', get_locale())[0];
     }
+    
 }

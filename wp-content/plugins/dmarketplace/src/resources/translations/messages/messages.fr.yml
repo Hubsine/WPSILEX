@@ -1,0 +1,5 @@
+seller:
+    display_role_name:
+        seller: Vendeur
+#        email: En attente de la validations s'activation
+#        admin: En attente de la validation par un admin

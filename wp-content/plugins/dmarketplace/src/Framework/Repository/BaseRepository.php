@@ -10,6 +10,7 @@ namespace DMarketPlace\Framework\Repository;
 
 use DMarketPlace\Framework\Repository\BaseRepository as _BaseRepository;
 use DMarketPlace\Framework\Repository\RepositoryInterface;
+use DMarketPlace\Framework\Entity\UserMeta;
 
 /**
  * Description of BaseRepository
@@ -18,14 +19,16 @@ use DMarketPlace\Framework\Repository\RepositoryInterface;
  */
 class BaseRepository implements RepositoryInterface{
     
-    /**
-     * @deprecated since version number
-     * @param _BaseRepository $baseRepository
-     * @return type
-     */
-    public function setBaseRepository(_BaseRepository $baseRepository){
+    public $wpdb;
+    public $tablePrefix;
+
+    public function __construct(){
         
-        return self::$_instance = $baseRepository;
+        global $wpdb;
+        
+        $this->wpdb = $wpdb;
+        $this->tablePrefix = $wpdb->base_prefix;
+       
     }
     
     public function find($id){
@@ -44,5 +47,40 @@ class BaseRepository implements RepositoryInterface{
         
     }
     
-   
+    public function deleteUser($userId){
+        
+        #$this->wpdb->delete(USER_TABLE, array('ID' => $userId));
+        return $response = $this->wpdb->query( 
+            $this->wpdb->prepare( 
+		"
+                DELETE FROM ".$this->wpdb->users."
+		WHERE ID = %d
+		",
+	        $userId 
+            )
+        );
+        
+    }
+
+    public function deleteBy($table, array $where, $whereFormat = null){
+        
+        $this->wpdb->delete( $table, $where, $where_format = null );
+        
+    }
+
+    public function insertUserMeta($metas){
+        
+        if(is_array($metas)){
+            foreach ($metas as $key => $userMeta) {
+                if($userMeta instanceof UserMeta){
+                    add_user_meta($userMeta->user_id, $userMeta->meta_key, $userMeta->meta_value);
+                }
+            }
+        }
+        
+        if($metas instanceof UserMeta){
+            add_user_meta($metas->user_id, $metas->meta_key, $meta->meta_value);
+        }
+    }
+    
 }

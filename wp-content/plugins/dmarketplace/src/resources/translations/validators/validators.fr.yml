@@ -3,3 +3,4 @@ existing:
     unique: Désolé, cet élément existe déjà !
     user_login: Désolé, cet identifiant existe déjà !
     user_email: Désolé, cette adresse e-mail est déjà utilisé !
+add_meta_error: "Une erreur inconnu empêche la validation de votre compte. Code erreur \"%code_error%\""    

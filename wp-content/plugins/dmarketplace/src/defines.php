@@ -1,14 +1,11 @@
 <?php
 
-namespace DMarketPlace;
 
-class Defines{
-    
-    public function __construct() {
 
 
         define('DM_PLUGIN_DIR',            realpath(__DIR__.'/..')); 
         define('DM_SRC_DIR',               DM_PLUGIN_DIR.'/src');
+        define('DM_LIB_DIR',               DM_PLUGIN_DIR.'/lib');
         
         define('DM_FRAMEWORK_DIR',         DM_SRC_DIR.'/Framework');
         define('DM_CONFIG_DIR',            DM_SRC_DIR.'/Config');
@@ -32,6 +29,9 @@ class Defines{
         define('DM_BOOTSTRAP_URI', DM_VENDOR_URI.'/twbs/bootstrap');
         define('DM_FORTAWESOME_URI', DM_VENDOR_URI.'/fortawesome/font-awesome');
         
+        // DB
+        define('USER_TABLE', 'wp_users');
+        define('POST_TABLE', 'wp_posts');
         
         
         #define('ACTIONS_DIR',           DM_PLUGIN_DIR.'/Actions');
@@ -63,5 +63,3 @@ class Defines{
 //        global $localesTransFolder;
 //        $localesTransFolder = array('Form', 'Validator', 'Message');
     
-    }
-}

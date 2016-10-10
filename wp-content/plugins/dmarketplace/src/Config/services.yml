@@ -9,7 +9,7 @@ services:
         arguments: [%locale%]
     twig:
         class: %twig.class%
-        arguments: ['@translator', %default_form_theme%]
+        arguments: ['@translator', %form_theme%]
     form.factory:
         class: %form.factory.class%
         arguments: ['@validator']
@@ -23,17 +23,17 @@ services:
     shortcode.seller:
         class: %shortcode.seller.class%
         arguments: ['@controller.resolver']
-#    repository.base: 
-#        class: %repository.base.class%
     repository.base:
         class: %repository.base.class%
-    mappin.annotation_manager: 
-        class: %mapping.annotation_manager.class%    
+    #mappin.annotation_manager: 
+        #class: %mapping.annotation_manager.class%    
     repository.manager:
         class: %repository.manager.class%
-        arguments: ['@repository.base', '@mappin.annotation_manager']
+        arguments: ['@repository.base']
     wp.roles_caps:
         class: %wp.roles_caps.class%
         arguments: ['@translator']
-    
+    swift.message:
+        class: %swift.message.class%
+        arguments: [%mailer.param%]
         

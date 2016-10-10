@@ -26,7 +26,6 @@ class Twig {
     private $twigEngine;
     public $translator;
 
-
     public function __construct(Translator $translator, $defaultFormTheme) {
         
         $this->translator = $translator;
@@ -39,89 +38,27 @@ class Twig {
 
     }
     
-    public function load(){
+    protected function load(){
         
-        $twig = new \Twig_Environment(null, array('debug' => true));
+        $twig = new \Twig_Environment(null);
         
         $this->loadTemplating($twig);
-        #$this->loadTranslation($twig);
         $this->addTranslationExtension($twig);
         
         $this->twigEngine = new TwigEngine($twig, new TemplateNameParser());
     }
     
-    public function addTranslationExtension(\Twig_Environment $twig){
+    protected function addTranslationExtension(\Twig_Environment $twig){
         
         $twig->addExtension(new TranslationExtension($this->translator));
         
         return $twig;
     }
-
-    /**
-     * @deprecated Deplacer dans Translator => A supprimer
-     * @param \Twig_Environment $twig
-     * @return \Twig_Environment
-     */
-    public function loadTranslation(\Twig_Environment $twig){
-        
-        $localeToLoad = Init::$request->getLocale();
-        //$translator = new Translator($localeToLoad);
-        $this->translator->addLoader('yaml', new YamlFileLoader());
-        $this->translator->addLoader('xlf', new XliffFileLoader());
-        
-        foreach ($this->localesTransFolder as $key => $domainFolderName) {
-                
-            $currentFolder = DM_LOCALES_TRANS_DIR.'/'.$domainFolderName;
-
-            if($currentResourceFolder = opendir($currentFolder)){
-                while (false !== ($transFile = readdir($currentResourceFolder))) {
-                    if(pathinfo($transFile, PATHINFO_EXTENSION) === 'yml'){
-                        $ymlTransFile = $currentFolder.'/'.$transFile;
-                        $locale = explode('.',pathinfo($ymlTransFile, PATHINFO_FILENAME));
-
-                        if(isset($locale[1])){
-                            $this->translator->addResource(
-                                    'yaml', 
-                                    $ymlTransFile, 
-                                    $locale[1], 
-                                    strtolower($domainFolderName)
-                                    );
-                        }
-                    }
-                    //$translator->addResource('yaml', $translationFile, basename($translationFile));
-                }
-                closedir($currentResourceFolder);
-            }
-
-        }
-        
-        //Load Symfony Validator Translation       
-        $this->translator->addResource(
-            'xlf',
-            DM_VENDOR_FORM_DIR.'/Resources/translations/validators.'.$localeToLoad.'.xlf',
-            $localeToLoad,
-            'validators'
-        );
-        $this->translator->addResource(
-            'xlf',
-            DM_VENDOR_VALIDATOR_DIR.'/Resources/translations/validators.'.$localeToLoad.'.xlf',
-            $localeToLoad,
-            'validators'
-        );
-
-        // add the TranslationExtension (gives us trans and transChoice filters)
-        #$this->translator = $translator;
-        $twig->addExtension(new TranslationExtension($this->translator));
-        
-        return $twig;
-        
-    }
-
+    
     protected function loadTemplating(\Twig_Environment $twig){
         
         $appVariableReflection = new \ReflectionClass('\Symfony\Bridge\Twig\AppVariable');
         $vendorTwigBridgeDir = dirname($appVariableReflection->getFileName());
-        // the path to your other templates
         
         //Resources views
         $loader = new \Twig_Loader_Filesystem(array(
@@ -131,6 +68,7 @@ class Twig {
             $vendorTwigBridgeDir.'/Resources/views/Form',
         ));
         
+#        $loader->addPath($vendorTwigBridgeDir.'/Resources/views/Form');
         $loader->addPath(DM_VIEWS_DIR, 'DMarketPlace');
         $loader->addPath(DM_VIEWS_FORMS_DIR, 'DMarketPlace:Forms');
         $loader->addPath(DM_VIEWS_FORMS_DIR.'/extends', 'DMarketPlace:Forms:Extends');
@@ -139,7 +77,7 @@ class Twig {
                 
         $twig->setLoader($loader);
         //$twig = new \Twig_Environment($loader);
-        $formEngine = new TwigRendererEngine(array($this->defaultFormTheme));
+        $formEngine = new TwigRendererEngine(array($this->defaultFormTheme = 'form_div_layout.html.twig'));
         $formEngine->setEnvironment($twig);
         
         $twig->addExtension(
@@ -151,7 +89,7 @@ class Twig {
     }
 
 
-    public function render($name, array $parameters = array()){
+    public function render($name, $parameters = array()){
         return $this->twigEngine->render($name, $parameters);
     }
 }

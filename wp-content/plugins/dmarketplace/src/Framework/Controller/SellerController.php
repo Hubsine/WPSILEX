@@ -10,6 +10,7 @@ use DMarketPlace\Framework\Entity\UserMeta;
 use DMarketPlace\Framework\Form\Constraints\UserMetaConstraint;
 use DMarketPlace\Framework\Utils\SellerUtil;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Form\FormError;
 use DMarketPlace\Init;
 
 /**
@@ -32,17 +33,15 @@ class SellerController extends BaseController{
         $request = Init::$request;
         $form->handleRequest($request);
 
-        //$repo->getRepository('Seller');
-        if(!$form->isValid()){
+        if($form->isValid() && $request->isMethod('POST')){
             
             // A decomenter pour pouvoir inserer le user dans la bdd
-            //$repo = $this->get('repository.manager')->getRepository('Seller');
+            $repo = $this->get('repository.manager')->getRepository('Seller');
             //$repo->createSeller($form);
             
             if(!$form->isValid()){
                 
-                $userId = $form->getData()->ID;
-                $userMetaConstraint = new UserMetaConstraint();
+                $userId = ($form->getData()->ID === 0) ? null : $form->getData()->ID;
                 
                 $sellerMeta1 = new UserMeta(
                     array(
@@ -60,20 +59,39 @@ class SellerController extends BaseController{
                 );
                 
                 $validator = $this->get('validator');
+                $translator = $this->get('translator');
                 
-                if($violations = $validator->validate($sellerMeta1, $userMetaConstraint->user_id)){
-                    var_dump($violations);
+                $violationsMeta1 = $validator->validate($sellerMeta1);
+                $violationsMeta2 = $validator->validate($sellerMeta2);
+                
+                if(0 !== count($violationsMeta1 || 0 !== count($violationsMeta2))){
+                    
+                    $errorMsg = $translator->trans('add_meta_error', array('%code_error%' => 'sellerController.create.add_meta'), 'validators');
+                    $form->addError(new FormError($errorMsg));
+                    $repo->deleteUser($userId);
+                    
+//                    $message = $this->get('swift.message')->newMessage()
+//                        ->setSubject('test')
+//                        ->setTo($form->getData()->user_email)
+//                        ->setBody('here twig render view');
+                    
+                    
+                }else{
+                    $repo->insertUserMeta(array($sellerMeta1, $sellerMeta2));
+                    
+                    // Envoi du mail d'activation du mail 
+                    
                 }
                 
-                // Ajout du status du seller en "Attente de la validation de l'email"
-              
-                // Créer la vue avec twig 
+                
                 
             }
             
         }
        
-        return $this->renderView('@DMarketPlace:Forms/seller_register_form.html.twig', array('form' => $form->createView()));
+        echo $formTwig = \Redux::getOption('redux_builder_hubsine', 'forms-seller-register');
+        #@DMarketPlace:Forms/seller_register_form.html.twig
+        return $this->renderView('@DMarketPlace:Forms/'.$formTwig, array('form' => $form->createView()));
         
     }
     

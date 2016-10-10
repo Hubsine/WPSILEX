@@ -48,15 +48,26 @@ class Init {
         
         $this->container = new Container();
         $this->container->set('container', $this->container);
+        
+        
        
+        #global $container;
+        #$container = $this->container;
+        
         $this->load(); 
         $this->loadActions();
         
+        $this->container->get('form.factory');
+        
         $this->container->get('translator');
         $this->container->get('wp.roles_caps');
+        $this->container->get('shortcode.seller');
+        
+//        $this->container->get('translator');
+//        $this->container->get('wp.roles_caps');
         
         #$this->container->get('repository.manager');
-        $this->loadShortcode(); #Si on appel pas immédiatement les shortcodes, ces derniers ne sont pas initialisés
+        #$this->loadShortcode(); #Si on appel pas immédiatement les shortcodes, ces derniers ne sont pas initialisés
         //$baseController = new BaseController($this->container);
 
         //$baseController = $this->container->get('base.controller');
@@ -107,9 +118,9 @@ class Init {
         //$this->container->set('form.factory', $formFactoryService);
     }
 
-    public function loadShortcode(){ 
-        $this->container->get('shortcode.seller');
-    }
+//    public function loadShortcode(){ 
+//        $this->container->get('shortcode.seller');
+//    }
 
     public function load_wp_resources(){
         
@@ -156,6 +167,9 @@ class Init {
                 true);        
     }
 
+    /**
+     * @deprecated since version number
+     */
     public function disable_wp_emojicons() {
       // all actions related to emojis
       remove_action( 'admin_print_styles', 'print_emoji_styles' );

@@ -31,7 +31,7 @@ class FormFactory{
         $this->validator = $validator;
         
         $this->loadExtensions(); 
-        
+
     }
     
     protected function loadExtensions(){
@@ -64,7 +64,7 @@ class FormFactory{
     
     public function createBuilder($type = 'Symfony\Component\Form\Extension\Core\Type\FormType', $data = null, array $options = array()){
 
-        return $formFactory = Forms::createFormFactoryBuilder()
+        return $formFactory = $this->builder
             ->addExtensions($this->extensions)
             ->getFormFactory()
             ->createBuilder($type, $data, $options)

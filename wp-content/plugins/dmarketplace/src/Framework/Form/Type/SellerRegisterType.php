@@ -61,9 +61,9 @@ class SellerRegisterType extends AbstractType{
                     'constraints' => $this->constraints->last_name
                 ))
                 // Pour le moment inutile, à supprimer avec la class si pas utilise
-                ->add('dm_action', HiddenType::class, array(
-                    'data'  => SellerUtil::ACTION_CREATE
-                ))    
+//                ->add('dm_action', HiddenType::class, array(
+//                    'data'  => SellerUtil::ACTION_CREATE
+//                ))    
                 ->add('save', SubmitType::class, array(
                     'label' => 'seller.register.submit'
                 ))

@@ -7,17 +7,28 @@ parameters:
     shortcode.seller.class: DMarketPlace\Shortcode\SellerShortcode
     form.factory.class: DMarketPlace\Framework\Form\FormFactory
     twig.class: DMarketPlace\Framework\Twig\Twig
-    default_form_theme: form_div_layout.html.twig 
+    form_theme: 
+        - form_div_layout.html.twig 
+        - bootstrap_3_layout.html.twig
+        - form_table_layout.html.twig
     #http://symfony.com/doc/current/form/form_customization.html#form-customization-form-themes
     repository.manager.class: DMarketPlace\Framework\Repository\RepositoryManager
     repository.base.class: DMarketPlace\Framework\Repository\BaseRepository
-    mapping.annotation_manager.class: DMarketPlace\Framework\Mapping\MappingAnnotationManager
+    #mapping.annotation_manager.class: DMarketPlace\Framework\Mapping\MappingAnnotationManager
     translator.class: DMarketPlace\Translator
     wp.roles_caps.class: DMarketPlace\WpRolesCaps
+    swift.message.class: DMarketPlace\Mailer\SwiftMessage
     
-    mailer_transport: gmail
-    mailer_host: smtp.gmail.com
-    mailer_user: shonen.shojo@gmail.com
-    mailer_password: 16781741
+    mailer.param:
+        - transport: 
+            - MailTransport
+            - SendMailTransport
+            - SmtpTransport 
+        #SmtpTransport peut prendre en paramètre smtp.gmail.com
+        - host: smtp.gmail.com
+        - user: shonen.shojo@gmail.com
+        - password: 16781741
+        - from_default: contact@wpsilex.com
+        - from_register: register@wpsilex.com
     
     locale: fr

@@ -43,8 +43,8 @@ class Validator{
     private function enableAnnotationMapping(){
         
         $this->validator = Validation::createValidatorBuilder()
-        #->enableAnnotationMapping()                
-        ->getValidator();
+            ->addMethodMapping('loadValidatorMetadata')
+            ->getValidator();
     }
 
     public function validate($value, $constraints = null, $groups = null){

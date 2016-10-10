@@ -1,6 +1,0 @@
-## YAML Template.
-
-seller_registser:
-    username: "Identifiant :" 
-    first_name: "Prénom :"
-    last_name: "Nom :"

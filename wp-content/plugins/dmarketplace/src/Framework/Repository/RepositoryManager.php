@@ -23,13 +23,13 @@ class RepositoryManager {
      * Unique BaseRepository for all repository
      */
     private $baseRepository;
-    public $annotationManager;
+    #public $annotationManager;
 
 
-    public function __construct(BaseRepository $baseRepository, MappingAnnotationManager $annotationManager) {
+    public function __construct(BaseRepository $baseRepository/*, MappingAnnotationManager $annotationManager*/) {
         
         $this->baseRepository = $baseRepository;
-        $this->annotationManager = $annotationManager;
+        #$this->annotationManager = $annotationManager;
         
     }
 

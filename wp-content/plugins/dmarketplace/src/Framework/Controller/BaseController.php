@@ -45,7 +45,7 @@ class BaseController {
         return $this->get('form.factory')->createBuilder($type, $data, $options);
     }
 
-    public function renderView($name, array $parameters = array()){
+    public function renderView($name, $parameters = array()){
         return $this->get('twig')->render($name, $parameters);
     }
     

@@ -17,6 +17,7 @@
         "doctrine/cache": "^1.6",
         "symfony/class-loader": "^3.1",
         "fortawesome/font-awesome": "^4.6",
-        "twbs/bootstrap": "^3.3"
+        "twbs/bootstrap": "^3.3",
+        "swiftmailer/swiftmailer": "^5.4"
     }
 }

@@ -6,6 +6,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 use DMarketPlace\Framework\Traits\DmActionEntity;
 use Framework\Mapping\Annotations as WpMapping;
 use DMarketPlace\Framework\Utils\SellerUtil;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
+use Symfony\Component\Validator\Constraints\Type;
 
 /**
  * Description of Seller
@@ -35,19 +37,12 @@ class Seller extends \WP_User{
         
         parent::__construct();
         
-        
     }
     
-    /**
-     *
-     * @var array DMarketPlace\Framework\Entity\UserMeta
-     */
-    public $seller_meta;
-
     /**
      *
      * @var trait DMarketPlace\Framework\Traits\DmActionEntity
      */
     use DmActionEntity;
-
+    
 }

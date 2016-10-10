@@ -18,7 +18,6 @@ use Symfony\Component\Form\FormError as SyFormError;
 class FormError{
 
     public static function addWpError(\WP_Error $wpError){
-        
         return new SyFormError($wpError->get_error_message());
     }
 }

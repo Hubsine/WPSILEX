@@ -15,7 +15,7 @@ use DMarketPlace\Init;
 class Translator extends BaseTranslator {
     
     #public $translator;
-    private $localesTransFolder = array('forms', 'messages', 'validators');
+    private $localesTransFolder = array('forms', 'messages', 'validators', 'admin');
 
     public function __construct($locale) {
         

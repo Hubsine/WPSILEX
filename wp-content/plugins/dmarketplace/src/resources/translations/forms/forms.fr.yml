@@ -13,3 +13,6 @@ seller:
             user_login: > 
                 Identifiant unique permettant de vous connecter à votre futur compte.
                 Il ne sera pas possible de le modifier. 
+        email:
+            subject: 'Bienvenue %username% !'
+            message: "Bonjour %username% !\n\nPour valider votre compte utilisateur, merci de vous rendre sur %confirmationUrl%\n\nCordialement,\nL'équipe.\n"        

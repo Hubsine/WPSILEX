@@ -1,7 +1,7 @@
 <?php
 
 
-
+        define('DM_OPT_NAME', 'dmarketplace');
 
         define('DM_PLUGIN_DIR',            realpath(__DIR__.'/..')); 
         define('DM_SRC_DIR',               DM_PLUGIN_DIR.'/src');

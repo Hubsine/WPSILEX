@@ -3,6 +3,7 @@
 namespace DMarketPlace\Framework\Controller;
 
 use DMarketPlace\Framework\Controller\BaseController;
+use DMarketPlace\Framework\Traits\SellerController as SellerControllerTrait;
 use DMarketPlace\Framework\Repository\SellerRepository;
 use DMarketPlace\Framework\Form\Type\SellerRegisterType;
 use DMarketPlace\Framework\Entity\Seller;
@@ -15,6 +16,10 @@ use DMarketPlace\Init;
 
 /**
  * Description of SellerController
+ * 
+ * WP Page 
+ *  - Seller register => contient le shortcode qui gère le formulaire d'inscription d'un vendeur
+ *  - Confirmation url => Contient le shortcode qui gère la confirmation d'un email 
  *
  * @author nsi
  */
@@ -22,18 +27,23 @@ class SellerController extends BaseController{
     
     protected $repo;
     
+    use SellerControllerTrait;
+    
     public function createAction(){
-        
+
         $seller = new Seller();
         $seller->user_pass = wp_generate_password(8, TRUE);
         $seller->roles(array(SellerUtil::ROLENAME_SELLER));
+        $seller->nickname = 'Hipopeur';
+        $seller->user_email = 'shonen.shojo@gmail.com';
+        $seller->ID = 987;
         
         $form = $this->createBuilderForm(SellerRegisterType::class, $seller)->getForm();
        
         $request = Init::$request;
         $form->handleRequest($request);
 
-        if($form->isValid() && $request->isMethod('POST')){
+        if(!$form->isValid() /*&& $request->isMethod('POST')*/){
             
             // A decomenter pour pouvoir inserer le user dans la bdd
             $repo = $this->get('repository.manager')->getRepository('Seller');
@@ -54,7 +64,7 @@ class SellerController extends BaseController{
                     array(
                         'user_id' => $userId,
                         'meta_key' => SellerUtil::META_KEY_ACTIVATION_EMAIL,
-                        'meta_value' => SellerUtil::getEmailConfirmationToken()
+                        'meta_value' => SellerUtil::generateEmailConfirmationToken()
                     )
                 );
                 
@@ -64,23 +74,37 @@ class SellerController extends BaseController{
                 $violationsMeta1 = $validator->validate($sellerMeta1);
                 $violationsMeta2 = $validator->validate($sellerMeta2);
                 
+                
                 if(0 !== count($violationsMeta1 || 0 !== count($violationsMeta2))){
-                    
+                   
                     $errorMsg = $translator->trans('add_meta_error', array('%code_error%' => 'sellerController.create.add_meta'), 'validators');
                     $form->addError(new FormError($errorMsg));
                     $repo->deleteUser($userId);
+                  
+                    $messageSubject = $translator->trans(
+                            'seller.register.email.subject', 
+                            array('%username%' => $form->getData()->nickname),
+                            'forms');
+         
+                    $messageBody = $this->renderView(
+                            '@DMarketPlace:Mails/check_email.html.twig', 
+                            array('username' => $form->getData()->nickname, 'confirmationUrl' => $this->generateConfirmationUrl($form->getData())));
                     
-//                    $message = $this->get('swift.message')->newMessage()
-//                        ->setSubject('test')
-//                        ->setTo($form->getData()->user_email)
-//                        ->setBody('here twig render view');
+                    $message = $this->newMessage()
+                        ->setSubject($messageSubject)
+                        ->setTo($form->getData()->user_email)
+                        ->setBody($messageBody);
                     
+                    // Envoi du mail 
                     
                 }else{
                     $repo->insertUserMeta(array($sellerMeta1, $sellerMeta2));
                     
                     // Envoi du mail d'activation du mail 
-                    
+                    $message = $this->newMessage()
+                        ->setSubject('test')
+                        ->setTo($form->getData()->user_email)
+                        ->setBody('here twig render view');
                 }
                 
                 
@@ -89,7 +113,8 @@ class SellerController extends BaseController{
             
         }
        
-        echo $formTwig = \Redux::getOption('redux_builder_hubsine', 'forms-seller-register');
+        $formTwig = SellerUtil::getRegisterFormName();
+        
         #@DMarketPlace:Forms/seller_register_form.html.twig
         return $this->renderView('@DMarketPlace:Forms/'.$formTwig, array('form' => $form->createView()));
         
@@ -97,5 +122,9 @@ class SellerController extends BaseController{
     
     public function readAction(){
         return 'readAction';
+    }
+    
+    private function sendCheckEmail(){
+        
     }
 }

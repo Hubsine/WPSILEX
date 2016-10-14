@@ -24,17 +24,21 @@ class SellerShortcode extends BaseShortcode{
     public function __construct(ControllerResolver $controllerResolver) {
        
         parent::__construct($controllerResolver);
-        
-        add_shortcode( 'seller_register_form', array( $this, 'display_register_form' ) );
+       
+        add_shortcode( 'seller_register_form', array( $this, 'display_seller_register_form' ) );
+        add_shortcode( 'check_register_email', array($this, 'check_register_email' ) );
     }
     
-    public function display_register_form($atts){
-        
+    public function display_seller_register_form($atts){
+ 
         $sellerController = $this->controllerResolver->getController(Init::$request);
 
         return $sellerController[0]->createAction();
         
-
+    }
+    
+    public function check_register_email(){
+        return 'check email page';
     }
 }
 

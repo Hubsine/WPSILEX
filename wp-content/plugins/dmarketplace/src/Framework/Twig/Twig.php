@@ -40,7 +40,7 @@ class Twig {
     
     protected function load(){
         
-        $twig = new \Twig_Environment(null);
+        $twig = new \Twig_Environment(null, array('debug' => true));
         
         $this->loadTemplating($twig);
         $this->addTranslationExtension($twig);

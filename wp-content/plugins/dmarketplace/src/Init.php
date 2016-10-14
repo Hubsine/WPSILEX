@@ -18,6 +18,7 @@ use DMarketPlace\Framework\Mapping\MappingAnnotationManager;
 
 /**
  * Description of InitFramework
+ * 
  *
  * @author nsi
  */
@@ -32,7 +33,12 @@ class Init {
         
         add_action('init', array($this, 'dm_session_start'));
         #add_action('init', array($this, 'disable_wp_emojicons') );
-        add_action('wp_enqueue_scripts', array($this, 'load_wp_resources'));
+        
+        add_action( 'wp_ajax_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
+        #add_action( 'wp_ajax_nopriv_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
+
+        add_action('admin_enqueue_scripts', array($this, 'load_wp_back_end_resources'));
+        add_action('wp_enqueue_scripts', array($this, 'load_wp_front_end_resources'));
         
         $localeToLoad = $this->getLocaleFromWp();
         $localeToLoad = apply_filters('set_locale_translation', $localeToLoad);
@@ -83,7 +89,9 @@ class Init {
         
     }
     
+
     public function dm_session_start(){
+        
         if(!session_id()){
             session_start();
         }
@@ -122,49 +130,80 @@ class Init {
 //        $this->container->get('shortcode.seller');
 //    }
 
-    public function load_wp_resources(){
+    public function load_wp_back_end_resources(){
         
         ###
-        # CSS
+        # CSS Back End
+        ###
+        
+        ###
+        # JS Back End
+        ###
+        wp_enqueue_script(
+                'dm-back-end',
+                DM_RESOURCES_URI . '/js/back_end.js',
+                array('jquery'),
+                false,
+                true
+                );
+        
+        wp_localize_script('dm-back-end', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
+    }
+    
+    public function load_wp_front_end_resources(){
+        
+        ###
+        # CSS Front End
         ###
         wp_enqueue_style(
                 'fortawesome', 
-                DM_FORTAWESOME_URI.'/css/font-awesome.min.css', 
+                DM_FORTAWESOME_URI . '/css/font-awesome.min.css', 
                 array(), 
                 '4.6.3', 
                 false);
         
         wp_enqueue_style(
                 'bootstrap', 
-                DM_BOOTSTRAP_URI.'/dist/css/bootstrap.min.css', 
+                DM_BOOTSTRAP_URI . '/dist/css/bootstrap.min.css', 
                 array(), 
                 '3.3.7', 
                 false);
         
         wp_enqueue_style(
                 'dmarketplace',
-                DM_RESOURCES_URI.'/css/dmarketplace.css',
+                DM_RESOURCES_URI . '/css/dmarketplace.css',
                 array(),
                 false,
                 false
                 );
         
         ###
-        # JS
+        # JS Front End
         ###
         wp_enqueue_script(
                 'bootstrap-min', 
-                DM_BOOTSTRAP_URI.'/dist/js/bootstrap.min.js', 
+                DM_BOOTSTRAP_URI . '/dist/js/bootstrap.min.js', 
                 array(), 
                 '3.3.7', 
                 true);
 
         wp_enqueue_script(
                 'dmarketplace', 
-                DM_RESOURCES_URI.'/js/dmarketplace.js',
+                DM_RESOURCES_URI . '/js/dmarketplace.js',
                 array(), 
                 false, 
-                true);        
+                true);   
+    }
+
+    public function dm_test_mailer_transport(){
+        
+        $email = $_POST['dm_dest_email'];
+        
+        echo json_encode(
+                array('class' => 'notice ', 'message' => 'Message')
+        );
+
+        die();
     }
 
     /**
@@ -187,5 +226,7 @@ class Init {
     public function getLocaleFromWp(){
         return explode('_', get_locale())[0];
     }
+    
+  
     
 }

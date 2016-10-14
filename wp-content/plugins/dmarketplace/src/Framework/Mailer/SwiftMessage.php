@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace DMarketPlace\Mailer;
+namespace DMarketPlace\Framework\Mailer;
 
 /**
  * Description of Mailer

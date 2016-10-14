@@ -1,0 +1,15 @@
+{% trans_default_domain 'forms' %}
+
+{% block subject %}
+    {% autoescape false %}
+        {{ 'seller.register.email.subject'|trans({'%username%': username, '%confirmationUrl%': confirmationUrl}) }}
+    {% endautoescape %}
+{% endblock subject %}
+
+{% block body_text %}
+    {% autoescape false %}
+        {{ 'seller.register.email.message'|trans({'%username%': username, '%confirmationUrl%': confirmationUrl}) }}
+    {% endautoescape %}
+{% endblock body_text %}
+
+{% block body_html %}{% endblock body_html %}

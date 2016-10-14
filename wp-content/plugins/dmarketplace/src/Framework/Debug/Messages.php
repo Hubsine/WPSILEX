@@ -16,4 +16,6 @@ namespace DMarketPlace\Framework\Debug;
 class Messages {
     
     public static $classInstanceOf = "La class %s doit être une instance de la class %s";
+    public static $requiredAValue = "Vous devez fournir une valeur pour %s. %s";
+    
 }

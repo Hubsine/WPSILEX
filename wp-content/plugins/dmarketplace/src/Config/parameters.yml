@@ -17,7 +17,7 @@ parameters:
     #mapping.annotation_manager.class: DMarketPlace\Framework\Mapping\MappingAnnotationManager
     translator.class: DMarketPlace\Translator
     wp.roles_caps.class: DMarketPlace\WpRolesCaps
-    swift.message.class: DMarketPlace\Mailer\SwiftMessage
+    swift.message.class: DMarketPlace\Framework\Mailer\SwiftMessage
     
     mailer.param:
         - transport: 

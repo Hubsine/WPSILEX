@@ -12,7 +12,8 @@
 
     
     // This is your option name where all the Redux data is stored.
-    $opt_name = "redux_builder_hubsine";
+    $opt_name = "dmarketplace";
+    add_thickbox();
 
     /**
      * ---> SET ARGUMENTS
@@ -23,7 +24,7 @@
     $theme = wp_get_theme(); // For use with some settings. Not necessary.
 
     $args = array(
-        'opt_name' => 'redux_builder_hubsine',
+        'opt_name' => 'dmarketplace',
         'dev_mode' => TRUE,
         'use_cdn' => TRUE,
         'display_name' => 'DMarketPlace',
@@ -191,26 +192,165 @@
             ),
         )
     ) );
-
+    
+    ###
+    # Templating Section
+    ###
+    Redux::setSection( $opt_name, array(
+        'title'      => __( 'Templating', 'redux-framework-demo' ),
+        'desc'       => __( 'Ici changez l\'affichage de chaque formulaire ', 'redux-framework-demo' ),
+        'id'         => 'dm-templating',
+        #'subsection' => false,
+//        'fields' => array(
+//            array(
+//                'id'       => 'opt-textt',
+//                'type'     => 'text',
+//                'title'    => __( 'Example Text', 'redux-framework-demo' ),
+//                'desc'     => __( 'Example description.', 'redux-framework-demo' ),
+//                'subtitle' => __( 'Example subtitle.', 'redux-framework-demo' ),
+//            )
+//        )
+    ) );
+    
     Redux::setSection( $opt_name, array(
         'title'      => __( 'Forms', 'redux-framework-demo' ),
-        'desc'       => __( 'Ici changez l\'affichage de chaque formulaire ', 'redux-framework-demo' ) . '<a href="http://docs.reduxframework.com/core/fields/textarea/" target="_blank">http://docs.reduxframework.com/core/fields/textarea/</a>',
+        'desc'       => __( 'Ici changez l\'affichage de chaque formulaire ', 'redux-framework-demo' ),
         'id'         => 'dm-forms',
-        #'subsection' => false,
+        'subsection' => true,
         'fields'     => array(
             array(
-                'id'       => 'forms-seller-register',
+                'id'       => 'dm-forms-seller-register',
                 'type'     => 'select',
                 'title'    => __( 'Seller register', 'redux-framework-demo' ),
                 'subtitle' => __( 'Subtitle', 'redux-framework-demo' ),
                 'desc'     => __( 'Formulaire utilisé pour l\'inscription d\'un vendeur', 'redux-framework-demo' ),
-                'default'  => 'Default Text',
+                'default'  => 'seller_register_form.html.twig',
                 'options'  => array(
                     'seller_register_form.html.twig' => 'Horizontal form',
                     'bootstrap_3_layout.html.twig' => 'Simple forme',
                     'form_table_layout.html.twig' => 'Table form'
                 )
             ),
+        )
+    ) );
+    
+    ###
+    # Pages Section
+    ###
+    Redux::setSection( $opt_name, array(
+        'title'      => __( 'Pages', 'redux-framework-demo' ),
+        'desc'       => __( 'Paramètres liés aux Pages ', 'redux-framework-demo' ),
+        'id'         => 'dm-pages',
+        #'subsection' => false,
+        'fields'     => array(
+//            array(
+//                'id'       => 'dm-seller-register-page',
+//                'type'     => 'select',
+//                'title'    => __( 'Seller register page', 'redux-framework-demo' ),
+//                'subtitle' => __( 'Sellectionnez la page où vous voulez afficher le formulaire d\'inscrption d\'un vendeur', 'redux-framework-demo' ),
+//                'desc'     => __( 'Formulaire utilisé pour l\'inscription d\'un vendeur', 'redux-framework-demo' ),
+//                'default'  => 'Default Text',
+//                'data'     => 'pages'
+//            ),
+            array(
+                'id'       => 'dm-check-email-page',
+                'type'     => 'select',
+                'title'    => __( 'Check email page', 'redux-framework-demo' ),
+                'subtitle' => __( 'Sellectionnez la page qui gère la validation de l\'email', 'redux-framework-demo' ),
+                'desc'     => __( 'Formulaire utilisé pour l\'inscription d\'un vendeur', 'redux-framework-demo' ),
+                'default'  => '',
+                'data'     => 'pages'
+            ),
+        )
+    ) );
+    
+    ###
+    # Mailer Section
+    ###
+    Redux::setSection( $opt_name, array(
+        'title'      => __( 'Mailer', 'redux-framework-demo' ),
+        'desc'       => __( 'Paramètres liés aux mails. DMarket place utilise la bibliothèque <a target="_blank" href="http://swiftmailer.org/">SwiftMailer</a>', 'redux-framework-demo' ),
+        'id'         => 'dm-mailer',
+        #'subsection' => false,
+        'fields'     => array(
+            array(
+                'id'       => 'dm-mailer-transport',
+                'type'     => 'select',
+                'title'    => __( 'Mailer transport', 'redux-framework-demo' ),
+                'subtitle' => __( 'Sellectionnez le "transport" pour l\'envoi d\'email', 'redux-framework-demo' ),
+                'desc'     => 'Voir la doc pour la configuration : <a target="_blank" href="http://swiftmailer.org/docs/sending.html">SwiftMailer documentation</a>', 
+                'default'  => 'mail',
+                'options'  => array(
+                    'mail'      => 'Mail transport',
+                    'smtp'      => 'SMTP transport',
+                    'sendmail'  => 'Sendmail transport'
+                    
+                )
+            ),
+            ###
+            # SMTP Sub options
+            ###
+            array(
+                'id'       => 'dm-smtp-smtp',
+                'type'     => 'text',
+                'title'    => __( 'SMTP', 'redux-framework-demo' ),
+                'subtitle' => __( 'Exemple : smtp.example.org', 'redux-framework-demo' ),
+                'required' => array('dm-mailer-transport', 'equals', 'smtp')
+            ),
+            array(
+                'id'       => 'dm-smtp-security',
+                'type'     => 'select',
+                'title'    => __( 'SMTP security', 'redux-framework-demo' ),
+                'subtitle' => __( 'ssl ou tls', 'redux-framework-demo' ),
+                'desc'     => 'Utiliser si tls ou ssl est configurer sur votre serveur',
+                'required' => array('dm-mailer-transport', 'equals', 'smtp'),
+                'options'  => array(
+                    'ssl'   => 'SSL',
+                    'tls'   => 'TLS'
+                ) 
+            ),
+            array(
+                'id'       => 'dm-smtp-port',
+                'type'     => 'text',
+                'title'    => __( 'SMTP port', 'redux-framework-demo' ),
+                'subtitle' => 'Default port is 25',
+                'default'  => '25',
+                'required' => array('dm-mailer-transport', 'equals', 'smtp')
+            ),
+            array(
+                'id'       => 'dm-smtp-username',
+                'type'     => 'text',
+                'title'    => __( 'SMTP username', 'redux-framework-demo' ),
+                'required' => array('dm-mailer-transport', 'equals', 'smtp')
+            ),
+            array(
+                'id'       => 'dm-smtp-password',
+                'type'     => 'password',
+                'title'    => __( 'SMTP password', 'redux-framework-demo' ),
+                'required' => array('dm-mailer-transport', 'equals', 'smtp')
+            ),
+            ###
+            # Sendmail Sub Options
+            ###
+            array(
+                'id'       => 'dm-sendmail-command',
+                'type'     => 'text',
+                'title'    => __( 'Sendmail command', 'redux-framework-demo' ),
+                'subtitle' => 'Default value is "/usr/sbin/exim -bs"',
+                'default'  => '/usr/sbin/exim -bs',
+                'required' => array('dm-mailer-transport', 'equals', 'sendmail')
+            ),
+            ###
+            # dm-mailer-transport test send mail
+            ###
+            array (
+                'id'            => 'dm-test-mailer-transport',
+                'type'          => 'raw',
+                'title'         => 'Tester l\'envoi d\'email',
+                'subtitle'      => 'Après avoir configurer votre "transport", vous pouvez tester si tout fonction.',
+                #'content'       => '<input type="email"></input><button>Tester</button>'
+                'content_path'  => DM_RESOURCES_DIR . '/includes/dm-test-mailer-transport.php'
+            )
         )
     ) );
     

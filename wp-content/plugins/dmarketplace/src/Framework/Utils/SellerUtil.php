@@ -28,10 +28,14 @@ class SellerUtil extends Util{
 
     const META_KEY_SELLER_STATUS              = 'seller_status';
     const META_KEY_ACTIVATION_EMAIL           = 'seller_email_activation_status';
-
     const META_VALUE_PENDING_EMAIL_VALIDATION        = 'pending_email_validation';
     
-    #const SELLER
+    public static function getRegisterFormName(){
+        
+        $formName = parent::getReduxOption('dm-forms-seller-register');
+        
+        return ( empty( $formName ) || $formName === 'Default Text' ) ? 'seller_register_form.html.twig' : $formName  ;
+    }
     
 }
 

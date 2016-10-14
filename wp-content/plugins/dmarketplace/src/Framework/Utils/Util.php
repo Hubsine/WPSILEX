@@ -10,9 +10,20 @@ namespace DMarketPlace\Framework\Utils;
 
 class Util{
     
-    public static function getEmailConfirmationToken(){
+    const META_KEY_CONFIRMATION_EMAIL_TOKEN = 'dm-confirmation-email-token-%s';
+    
+    public static function generateEmailConfirmationToken(){
         return md5(uniqid(rand(), true));
     }
 
+    public static function getConfirmationPage(){
+        return self::getReduxOption('dm-check-email-page');
+    }
+
+    public static function getReduxOption($optionId){
+        
+        return \Redux::getOption(DM_OPT_NAME, $optionId);
+        
+    }
 }
 

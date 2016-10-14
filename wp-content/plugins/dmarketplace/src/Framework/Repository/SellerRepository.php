@@ -23,7 +23,7 @@ class SellerRepository extends BaseRepository{
         $isSeller = ($form->getData() instanceof Seller) ? true : false;
 
         if(null === $isSeller){
-            throw Errors::classInstanceOfError(sprintf(Messages::$classInstanceOf, Seller::class, SellerRegisterType::class));
+            throw Errors::classInstanceOfError(Messages::$classInstanceOf, Seller::class, SellerRegisterType::class);
         }
         
         $wpUser = wp_insert_user($form->getData());

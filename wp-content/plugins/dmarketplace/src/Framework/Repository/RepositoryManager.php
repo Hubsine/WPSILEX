@@ -11,24 +11,31 @@ namespace DMarketPlace\Framework\Repository;
 use DMarketPlace\Framework\Repository\BaseRepository;
 use DMarketPlace\Framework\Mapping\MappingAnnotationManager;
 use Symfony\Component\Debug\Exception\ClassNotFoundException;
+use DMarketPlace\Framework\Repository\RepositoryInterface;
 
 /**
  * Description of RepositoryManager
  *
  * @author nsi
  */
-class RepositoryManager {
+class RepositoryManager implements RepositoryInterface{
     
     /**
      * Unique BaseRepository for all repository
      */
-    private $baseRepository;
+    public $wpdb;
+    public $tablePrefix;
+    
     #public $annotationManager;
 
 
-    public function __construct(BaseRepository $baseRepository/*, MappingAnnotationManager $annotationManager*/) {
+    public function __construct() {
         
-        $this->baseRepository = $baseRepository;
+        global $wpdb;
+        
+        $this->wpdb = $wpdb;
+        $this->tablePrefix = $wpdb->base_prefix;
+        
         #$this->annotationManager = $annotationManager;
         
     }
@@ -39,14 +46,16 @@ class RepositoryManager {
      * 
      * @param String $repositoryName
      */
-    public function getRepository($repositoryName){
+    public function getRepository($repositoryClass){
 
         try {
             
-            $class = 'DMarketPlace\Framework\Repository\\'.$repositoryName.'Repository';
+            #$class = 'DMarketPlace\Framework\Repository\\'.$repositoryName.'Repository';
             
-            if(class_exists($class)){
-                return $repo = new $class();
+            if(class_exists($repositoryClass)){
+                $repo = new $repositoryClass();
+                $repo->_em = $this;
+                return $repo;
                 #return $baseRepo = $repo->setBaseRepository($this->baseRepository);
             }
                     
@@ -56,6 +65,49 @@ class RepositoryManager {
             echo $exc->getTraceAsString();
         }
 
+    }
+    
+    public function find($id){
+        
+    }
+    
+    public function findAll(){
+        
+    }
+    
+    public function findBy($criteria){
+        
+    }
+    
+    public function findOneBy($criteria){
+        
+    }
+    
+    
+
+    public function deleteBy($table, array $where, $whereFormat = null){
+        
+        $this->wpdb->delete( $table, $where, $where_format = null );
+        
+    }
+
+    public function insertUserMeta($metas){
+        
+        if(is_array($metas)){
+            foreach ($metas as $key => $userMeta) {
+                if($userMeta instanceof UserMeta){
+                    add_user_meta($userMeta->user_id, $userMeta->meta_key, $userMeta->meta_value);
+                }
+            }
+        }
+        
+        if($metas instanceof UserMeta){
+            add_user_meta($metas->user_id, $metas->meta_key, $meta->meta_value);
+        }
+    }
+    
+    public function insert($entity){
+        
     }
     
 }

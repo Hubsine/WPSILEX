@@ -46,7 +46,7 @@ class SellerController extends BaseController{
         if(!$form->isValid() /*&& $request->isMethod('POST')*/){
             
             // A decomenter pour pouvoir inserer le user dans la bdd
-            $repo = $this->get('repository.manager')->getRepository('Seller');
+            $repo = $this->get('repository.manager')->getRepository(SellerUtil::REPOSITORY_CLASS);
             //$repo->createSeller($form);
             
             if(!$form->isValid()){

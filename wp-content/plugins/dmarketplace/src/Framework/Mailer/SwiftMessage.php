@@ -8,6 +8,8 @@
 
 namespace DMarketPlace\Framework\Mailer;
 
+use DMarketPlace\Framework\Utils\Util;
+
 /**
  * Description of Mailer
  *
@@ -21,22 +23,25 @@ class SwiftMessage extends \Swift_Message{
 //    private $password;
     
     private $mailerParam;
+    private $_from;
 
 
-    public function __construct(array $mailerParam) {
+    public function __construct() {
         
-        $this->mailerParam = $mailerParam;
+        $this->setFrom(Util::getReduxOption('dm-mailer-from'));
         
-        foreach ($mailerParam as $key => $value) {
-            $this->mailerParam[key($value)] = array_shift($value);
-        }
+//        $this->mailerParam = $mailerParam;
+//        
+//        foreach ($mailerParam as $key => $value) {
+//            $this->mailerParam[key($value)] = array_shift($value);
+//        }
         
     }
-    
+
     public function newMessage($subject = null, $body = null, $contentType = null, $charset = null){
         
         return self::newInstance($subject, $body, $contentType, $charset)
-            ->setFrom($this->mailerParam['from_default']);
+            ->setFrom($this->_from);
     }
     
     public function sendWith(SwiftMessage $message, $transport){

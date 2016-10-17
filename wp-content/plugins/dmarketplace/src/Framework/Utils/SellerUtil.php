@@ -3,6 +3,7 @@
 namespace DMarketPlace\Framework\Utils;
 
 use DMarketPlace\Framework\Utils\Util;
+use DMarketPlace\Framework\Repository\SellerRepository;
 
 /**
  * @deprecated non utiliser, à supprimer au mieux
@@ -14,6 +15,7 @@ class SellerUtil extends Util{
     const ACTION_UPDATE = 'SELLER_UPDATE';
     const ACTION_DELETE = 'SELLER_DELETE';
     
+    const REPOSITORY_CLASS   = SellerRepository::class;
     const ROLENAME_SELLER              = 'seller_role';
     
     // Status 

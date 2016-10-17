@@ -1,37 +1,46 @@
 jQuery(document).ready(function($) {
-   
-    console.log('front_end_js');
-
+        
     $('#dm-test-mailer-transport-button').click(function(event){
 
         event.preventDefault();
         
-//        var data = {
-//			action: 'dm_test_mailer_transport',
-//                        dm_dest_email: $('#dm-test-mailer-transport-email').val()
-//		};
-//
-//		// since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
-//		jQuery.post(ajaxurl, data, function(response) {
-//			alert('Got this from the server: ' + response);
-//		});
-                
+        $('#dm-test-mailer-transport-response').removeClass().html('');
+        var dmData = {
+            action: 'dm_test_mailer_transport',
+            dmMailerData: {
+                from:       $('#dm-mailer-from').val(),
+                transport:  $('#dm-mailer-transport-select').val(),
+                smtp:       $('#dm-smtp-smtp')              .val(),
+                security:   $('#dm-smtp-security-select')   .val(),
+                port:       $('#dm-smtp-port')              .val(),
+                username:   $('#dm-smtp-username')          .val(),
+                password:   $('#dm-smtp-password')          .val(),
+                command:    $('#dm-sendmail-command')       .val(),
+                to: $('#dm-test-mailer-transport-email').val()
+            }
+        };
+        
+        console.log(dmData);
+        
         $.post({
             url: ajaxurl,
-            dataType: 'json',
-            data: {
-                action: 'dm_test_mailer_transport',
-                dm_dest_email: $('#dm-test-mailer-transport-email').val()
-            },
+            //dataType: 'json',
+            data: dmData,
             success: function(data, textStatus, jqXHR){
-                console.log('success');
-                console.log(data);
-                $('#dm-test-mailer-transport-response').addClass('notice notice-success').toggle();
+                
+                if(data.success){
+                    $('#dm-test-mailer-transport-response').addClass('notice notice-success').html(data.data.message).show();
+                }else{
+                    $('#dm-test-mailer-transport-response').addClass('notice notice-error').html(data.data.message).show();
+                }
+                
             },
-            error: function(data){
-                console.log('error');
-                console.log(data);
-                $('#dm-test-mailer-transport-response').addClass('notice notice-error').toggle();
+            error: function(jqXHR, textStatus, errorThrown){
+                
+                $('#dm-test-mailer-transport-response').addClass('notice notice-error').html(
+                        errorThrown + "'<br'>" +
+                        jqXHR.responseText
+                        ).show();
             }
         });
 

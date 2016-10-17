@@ -274,6 +274,12 @@
         #'subsection' => false,
         'fields'     => array(
             array(
+                'id'       => 'dm-mailer-from',
+                'type'     => 'text',
+                'title'    => 'Mailer from',
+                'desc'     => 'utiliser dans le champ from des email envoyé.'
+            ),
+            array(
                 'id'       => 'dm-mailer-transport',
                 'type'     => 'select',
                 'title'    => __( 'Mailer transport', 'redux-framework-demo' ),
@@ -314,7 +320,6 @@
                 'type'     => 'text',
                 'title'    => __( 'SMTP port', 'redux-framework-demo' ),
                 'subtitle' => 'Default port is 25',
-                'default'  => '25',
                 'required' => array('dm-mailer-transport', 'equals', 'smtp')
             ),
             array(

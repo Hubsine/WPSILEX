@@ -26,7 +26,8 @@ class SellerRepository extends BaseRepository{
             throw Errors::classInstanceOfError(Messages::$classInstanceOf, Seller::class, SellerRegisterType::class);
         }
         
-        $wpUser = wp_insert_user($form->getData());
+        #$wpUser = wp_insert_user($form->getData());
+        $wpUser = $this->_em->insert($form->getData());
         #$wpUser = false; # A supprimer, c'etait juste pour le test
         
         if($wpUser instanceof \WP_Error){
@@ -50,6 +51,23 @@ class SellerRepository extends BaseRepository{
         }
         
         return $form;
+    }
+    
+    public function deleteUser($userId){
+        
+        #$this->wpdb->delete(USER_TABLE, array('ID' => $userId));
+        $em = $this->_em;
+        
+        return $response = $em->wpdb->query( 
+            $em->wpdb->prepare( 
+		"
+                DELETE FROM ".$em->wpdb->users."
+		WHERE ID = %d
+		",
+	        $userId 
+            )
+        );
+        
     }
     
 }

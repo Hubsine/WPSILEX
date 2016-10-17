@@ -34,9 +34,6 @@ class Init {
         add_action('init', array($this, 'dm_session_start'));
         #add_action('init', array($this, 'disable_wp_emojicons') );
         
-        add_action( 'wp_ajax_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
-        #add_action( 'wp_ajax_nopriv_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
-
         add_action('admin_enqueue_scripts', array($this, 'load_wp_back_end_resources'));
         add_action('wp_enqueue_scripts', array($this, 'load_wp_front_end_resources'));
         
@@ -55,16 +52,17 @@ class Init {
         $this->container = new Container();
         $this->container->set('container', $this->container);
         
-        
-       
-        #global $container;
-        #$container = $this->container;
-        
+        ###
+        # Load Config and Action
+        ###
         $this->load(); 
         $this->loadActions();
         
+        ###
+        # Init default Service before used
+        ###
+        $this->container->get('swift.mailer');
         $this->container->get('form.factory');
-        
         $this->container->get('translator');
         $this->container->get('wp.roles_caps');
         $this->container->get('shortcode.seller');
@@ -193,17 +191,6 @@ class Init {
                 array(), 
                 false, 
                 true);   
-    }
-
-    public function dm_test_mailer_transport(){
-        
-        $email = $_POST['dm_dest_email'];
-        
-        echo json_encode(
-                array('class' => 'notice ', 'message' => 'Message')
-        );
-
-        die();
     }
 
     /**

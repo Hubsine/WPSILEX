@@ -22,4 +22,10 @@ interface RepositoryInterface {
     public function findBy($criteria);
     
     public function findOneBy($criteria);
+    
+    public function deleteBy($table, array $where, $whereFormat = null);
+    
+    public function insertUserMeta($metas);
+    
+    public function insert($entity);
 }

@@ -7,6 +7,7 @@ use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\Email;
 use Symfony\Component\Validator\Constraints\Type;
 use DMarketPlace\Framework\Validator\Constraints\Unique;
+use DMarketPlace\Framework\Validator\Constraints\UniqueLogin;
 
 /**
  * Description of SellerRegisterConstraint

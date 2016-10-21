@@ -38,16 +38,12 @@ class SwiftMessage extends \Swift_Message{
 
     public function newMessage($subject = null, $body = null, $contentType = null, $charset = null){
 
-        $from = (!empty(Util::getReduxOption('dm-mailer-from')) ? Util::getReduxOption('dm-mailer-from') : get_option('admin_email') );
+        $fromEmail = (!empty(\Util::getReduxOption('dm-mailer-from-email')) ? \Util::getReduxOption('dm-mailer-from-email') : get_option('admin_email') );
+        $fromName = (!empty(\Util::getReduxOption('dm-mailer-from-name')) ? \Util::getReduxOption('dm-mailer-from-name') : get_option('blogname'));
+        
         return self::newInstance($subject, $body, $contentType, $charset)
-            ->setFrom($from);
+            ->setFrom($fromEmail, $fromName);
     }
     
-    public function sendWith(SwiftMessage $message, $transport){
-        
-        if(in_array($this->mailerParam['transport'], $transport)){
-            
-        }
-    }
     
 }

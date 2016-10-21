@@ -28,26 +28,21 @@ class UniqueValidator extends ConstraintValidator{
         switch ($column){
             
             case 'user_login':
-                $existe = (username_exists($value) !== false) ? true : false; 
+                $existe = (username_exists($value) === false) ? false : true; 
                 break;
             
             case 'user_email':
-                $existe = (email_exists($value) !== false) ? true : false;  
+                $existe = (email_exists($value) === false) ? false : true;  
                 break;
         }
-        
         
         if($existe){
             $this
                 ->context
-                ->buildViolation($constraint->message)
+                ->buildViolation($message)
                 ->addViolation();
         }
-//        if (!preg_match('/^[a-zA-Z0-9]+$/', $value, $matches)) {
-//            $this->context->buildViolation($constraint->message)
-//                ->setParameter('%string%', $value)
-//                ->addViolation();
-//        }
+        
     }
     
 }

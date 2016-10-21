@@ -8,7 +8,8 @@ jQuery(document).ready(function($) {
         var dmData = {
             action: 'dm_test_mailer_transport',
             dmMailerData: {
-                from:       $('#dm-mailer-from').val(),
+                from_email: $('#dm-mailer-from-email')      .val(),
+                from_name:  $('#dm-mailer-from-name')       .val(),
                 transport:  $('#dm-mailer-transport-select').val(),
                 smtp:       $('#dm-smtp-smtp')              .val(),
                 security:   $('#dm-smtp-security-select')   .val(),

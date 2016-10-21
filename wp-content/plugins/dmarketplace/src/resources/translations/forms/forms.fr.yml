@@ -15,4 +15,4 @@ seller:
                 Il ne sera pas possible de le modifier. 
         email:
             subject: 'Bienvenue %username% !'
-            message: "Bonjour %username% !\n\nPour valider votre compte utilisateur, merci de vous rendre sur %confirmationUrl%\n\nCordialement,\nL'équipe.\n"        
+            message: "Bonjour %username% !\n\n Pour valider votre compte utilisateur, merci de vous rendre sur %confirmationUrl%\n\n Cordialement,\n L'équipe. \n"        

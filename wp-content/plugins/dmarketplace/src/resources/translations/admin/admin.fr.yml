@@ -20,9 +20,16 @@ redux:
         title: Mailer
         desc: Paramètres liés aux mails. DMarketPlace utilise la bibliothèque <a target="_blank" href="http://swiftmailer.org/">SwiftMailer</a>
         fields: 
-            dm-mailer-from:
-                title: Expéditeur
+            dm-mailer-from-email:
+                title: E-mail Expéditeur
                 desc: Utiliser dans le champ "from" des email envoyé.
+            dm-mailer-from-name:
+                title: Nom de l'expéditeur
+                subtitle: Utiliser dans le champ "from" des email envoyé.    
+    dm-swiftmailer:
+        title: Transport
+        desc: Configuration du transporteur
+        fields:
             dm-mailer-transport:
                 title: Transport
                 subtitle: Voir la doc pour la configuration <a target="_blank" href="http://swiftmailer.org/docs/sending.html">SwiftMailer documentation</a> 

@@ -17,27 +17,19 @@ use DMarketPlace\Framework\Mailer\SwiftMessage;
  */
 class SwiftMailer extends \Swift_Mailer{
     
-    public function __construct(\Swift_Transport $transport = null) {
+    public function __construct() {
         
-        if(null === $transport){
-            $transport = new \Swift_MailTransport();
-        }
+        $transport = \Util::getSwiftTransport();
         parent::__construct($transport);
-        
-        #$this->dm_test_mailer_transport();
-        
-        //var_dump($re);
-        
-        #$this->dm_test_mailer_transport();
         
         add_action( 'wp_ajax_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
         #add_action( 'wp_ajax_nopriv_dm_test_mailer_transport', array($this, 'dm_test_mailer_transport'));
     }
 
+    
     public function dm_test_mailer_transport(){
         
         $dmData = (!empty($_POST['dmMailerData'])) ? $_POST['dmMailerData'] : null ;
-        #define('DOING_AJAX', true);
         
         switch ($dmData['transport']){
             
@@ -56,7 +48,7 @@ class SwiftMailer extends \Swift_Mailer{
                 $transport = \Swift_SmtpTransport::newInstance($host, $port, $security);
                 $transport->setUsername($username);
                 $transport->setPassword($password);
-                $transport->setAuthMode('login');
+                #$transport->setAuthMode('login');
                 break;
             
             case 'sendmail':
@@ -94,8 +86,12 @@ class SwiftMailer extends \Swift_Mailer{
            
             $message = SwiftMessage::newInstance('Test email', 'body email');
             $message->setTo($dmData['to']);
-            (!empty($dmData['from'])) ? $message->setFrom($dmData['from']) : 'contact@wpsilex.com';
+            
+            $fromEmail = (!empty($dmData['from_email'])) ? $dmData['from_email'] : 'contact@wpsilex.com';
+            $fromName = (!empty($dmData['from_name'])) ? $dmData['from_name'] : get_option('blogname');
           
+            $message->setFrom($fromEmail, $fromName);
+            
             $failedRecipients = array();
             
             try {

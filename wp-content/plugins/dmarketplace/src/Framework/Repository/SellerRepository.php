@@ -50,21 +50,5 @@ class SellerRepository extends BaseRepository{
         return $form;
     }
     
-    public function deleteUser($userId){
-        
-        #$this->wpdb->delete(USER_TABLE, array('ID' => $userId));
-        $em = $this->_em;
-        
-        return $response = $em->wpdb->query( 
-            $em->wpdb->prepare( 
-		"
-                DELETE FROM ".$em->wpdb->users."
-		WHERE ID = %d
-		",
-	        $userId 
-            )
-        );
-        
-    }
     
 }

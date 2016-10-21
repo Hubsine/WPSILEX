@@ -245,7 +245,7 @@
     ) );
     
     ###
-    # Mailer Section
+    # Mailer Section - General
     ###
     Redux::setSection( $opt_name, array(
         'title'      => $translator->trans('redux.dm-mailer.title', array(), \Util::ADMIN_TRANS_DOMAIN),
@@ -254,22 +254,40 @@
         #'subsection' => false,
         'fields'     => array(
             array(
-                'id'       => 'dm-mailer-from',
+                'id'       => 'dm-mailer-from-email',
                 'type'     => 'text',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-mailer-from.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'desc'     => $translator->trans('redux.dm-mailer.fields.dm-mailer-from.desc', array(), \Util::ADMIN_TRANS_DOMAIN)
+                'title'    => $translator->trans('redux.dm-mailer.fields.dm-mailer-from-email.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'desc'     => $translator->trans('redux.dm-mailer.fields.dm-mailer-from-email.desc', array(), \Util::ADMIN_TRANS_DOMAIN)
             ),
+            array(
+                'id'       => 'dm-mailer-from-name',
+                'type'     => 'text',
+                'title'    => $translator->trans('redux.dm-mailer.fields.dm-mailer-from-name.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'subtitle' => $translator->trans('redux.dm-mailer.fields.dm-mailer-from-name.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN)
+            )
+        )
+    ) );
+    
+    ###
+    # Mailer Section - Transport
+    ###
+    Redux::setSection( $opt_name, array(
+        'title'      => $translator->trans('redux.dm-swiftmailer.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+        'desc'       => $translator->trans('redux.dm-swiftmailer.desc', array(), \Util::ADMIN_TRANS_DOMAIN),
+        'id'         => 'dm-swiftmailer-transport',
+        'subsection' => true,
+        'fields'     => array(
             array(
                 'id'       => 'dm-mailer-transport',
                 'type'     => 'select',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'subtitle' => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'desc'     => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.desc', array(), \Util::ADMIN_TRANS_DOMAIN), 
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'subtitle' => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'desc'     => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.desc', array(), \Util::ADMIN_TRANS_DOMAIN), 
                 'default'  => 'mail',
                 'options'  => array(
-                    'mail'      => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.options.mail', array(), \Util::ADMIN_TRANS_DOMAIN),
-                    'smtp'      => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.options.smtp', array(), \Util::ADMIN_TRANS_DOMAIN),
-                    'sendmail'  => $translator->trans('redux.dm-mailer.fields.dm-mailer-transport.options.sendmail', array(), \Util::ADMIN_TRANS_DOMAIN)
+                    'mail'      => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.options.mail', array(), \Util::ADMIN_TRANS_DOMAIN),
+                    'smtp'      => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.options.smtp', array(), \Util::ADMIN_TRANS_DOMAIN),
+                    'sendmail'  => $translator->trans('redux.dm-swiftmailer.fields.dm-mailer-transport.options.sendmail', array(), \Util::ADMIN_TRANS_DOMAIN)
                 )
             ),
             ###
@@ -278,38 +296,38 @@
             array(
                 'id'       => 'dm-smtp-smtp',
                 'type'     => 'text',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-smtp.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'desc'     => $translator->trans('redux.dm-mailer.fields.dm-smtp-smtp.desc', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-smtp.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'desc'     => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-smtp.desc', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'required' => array('dm-mailer-transport', 'equals', 'smtp')
             ),
             array(
                 'id'       => 'dm-smtp-security',
                 'type'     => 'select',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-security.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'desc'     => $translator->trans('redux.dm-mailer.fields.dm-smtp-security.desc', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-security.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'desc'     => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-security.desc', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'required' => array('dm-mailer-transport', 'equals', 'smtp'),
                 'options'  => array(
-                    'ssl'   => $translator->trans('redux.dm-mailer.fields.dm-smtp-security.options.ssl', array(), \Util::ADMIN_TRANS_DOMAIN),
-                    'tls'   => $translator->trans('redux.dm-mailer.fields.dm-smtp-security.options.tls', array(), \Util::ADMIN_TRANS_DOMAIN)
+                    'ssl'   => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-security.options.ssl', array(), \Util::ADMIN_TRANS_DOMAIN),
+                    'tls'   => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-security.options.tls', array(), \Util::ADMIN_TRANS_DOMAIN)
                 ) 
             ),
             array(
                 'id'       => 'dm-smtp-port',
                 'type'     => 'text',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-port.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'subtitle' => $translator->trans('redux.dm-mailer.fields.dm-smtp-port.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-port.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'subtitle' => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-port.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'required' => array('dm-mailer-transport', 'equals', 'smtp')
             ),
             array(
                 'id'       => 'dm-smtp-username',
                 'type'     => 'text',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-username.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-username.title', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'required' => array('dm-mailer-transport', 'equals', 'smtp')
             ),
             array(
                 'id'       => 'dm-smtp-password',
                 'type'     => 'password',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-password.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-password.title', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'required' => array('dm-mailer-transport', 'equals', 'smtp')
             ),
             ###
@@ -318,8 +336,8 @@
             array(
                 'id'       => 'dm-sendmail-command',
                 'type'     => 'text',
-                'title'    => $translator->trans('redux.dm-mailer.fields.dm-smtp-command.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'subtitle' => $translator->trans('redux.dm-mailer.fields.dm-smtp-command.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'    => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-command.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'subtitle' => $translator->trans('redux.dm-swiftmailer.fields.dm-smtp-command.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'default'  => '/usr/sbin/exim -bs',
                 'required' => array('dm-mailer-transport', 'equals', 'sendmail')
             ),
@@ -329,8 +347,8 @@
             array (
                 'id'            => 'dm-test-mailer-transport',
                 'type'          => 'raw',
-                'title'         => $translator->trans('redux.dm-mailer.fields.dm-test-mailer-transport.title', array(), \Util::ADMIN_TRANS_DOMAIN),
-                'subtitle'      => $translator->trans('redux.dm-mailer.fields.dm-test-mailer-transport.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'title'         => $translator->trans('redux.dm-swiftmailer.fields.dm-test-mailer-transport.title', array(), \Util::ADMIN_TRANS_DOMAIN),
+                'subtitle'      => $translator->trans('redux.dm-swiftmailer.fields.dm-test-mailer-transport.subtitle', array(), \Util::ADMIN_TRANS_DOMAIN),
                 'content_path'  => DM_RESOURCES_DIR . '/includes/dm-test-mailer-transport.php'
             )
         )

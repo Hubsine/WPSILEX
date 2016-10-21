@@ -50,10 +50,13 @@ class BaseController {
     }
     
     public function validate($entityObject){
-       
         return $this->get('validator')->validate($entityObject);      
     }
     
+    public function trans($id, array $parameters = array(), $domain = null, $locale = null){
+        return $this->get('translator')->trans($id, $parameters, $domain, $locale);
+    }
+
     public function newMessage($subject = null, $body = null, $contentType = null, $charset = null){
         return $this->get('swift.message')->newMessage($subject, $body, $contentType, $charset);
     }

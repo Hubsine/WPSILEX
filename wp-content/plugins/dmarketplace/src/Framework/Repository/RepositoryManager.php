@@ -85,7 +85,18 @@ class RepositoryManager implements RepositoryInterface{
         
     }
     
-    
+    public function deleteUser(\WP_User $user){
+        
+        $this->wpdb->query( 
+            $this->wpdb->prepare( 
+		"
+                DELETE FROM ".$this->wpdb->users."
+		WHERE ID = %d
+		",
+	        $user->ID
+            )
+        );
+    }
 
     public function deleteBy($table, array $where, $whereFormat = null){
         
@@ -104,7 +115,7 @@ class RepositoryManager implements RepositoryInterface{
         }
         
         if($metas instanceof UserMeta){
-            add_user_meta($metas->user_id, $metas->meta_key, $meta->meta_value);
+            add_user_meta($metas->user_id, $metas->meta_key, $metas->meta_value);
         }
     }
     

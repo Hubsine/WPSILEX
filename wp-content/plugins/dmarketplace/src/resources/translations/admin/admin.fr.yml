@@ -1,0 +1,56 @@
+redux:
+    dm-templating:
+        title: "Template"
+    dm-forms:
+        title: Formulaires
+        desc: Ici vous pouvez changez l'affichage de chaque formulaire
+        fields:
+            dm-forms-seller-register:
+                title: Inscription vendeur
+                desc: Formulaire utilisé pour l'inscription d'un vendeur
+    dm-pages:
+        title: Pages
+        desc: Paramètres liés aux Pages
+        fields: 
+            dm-check-email-page:
+                title: Page de confirmation
+                subtitle: Sellectionnez la page qui gère la validation de l'email     
+                desc: Formulaire utilisé pour l'inscription d'un vendeur  
+    dm-mailer:
+        title: Mailer
+        desc: Paramètres liés aux mails. DMarketPlace utilise la bibliothèque <a target="_blank" href="http://swiftmailer.org/">SwiftMailer</a>
+        fields: 
+            dm-mailer-from:
+                title: Expéditeur
+                desc: Utiliser dans le champ "from" des email envoyé.
+            dm-mailer-transport:
+                title: Transport
+                subtitle: Voir la doc pour la configuration <a target="_blank" href="http://swiftmailer.org/docs/sending.html">SwiftMailer documentation</a> 
+                desc: Sellectionnez le "transport" pour l'envoi d'email
+                options:
+                    mail: Mail de PHP
+                    smtp: SMTP
+                    sendmail: Sendmail
+            dm-smtp-smtp:
+                title: SMTP
+                desc: Exemple => smtp.example.org 
+            dm-smtp-security:
+                title: Sécurité SMTP
+                desc: ssl ou tls
+                options:
+                    ssl: SSL
+                    tls: TLS
+            dm-smtp-port:
+                title: Port SMTP
+                subtitle: Le port par défaut est 25
+            dm-smtp-username:
+                title: Identifiant SMTP
+            dm-smtp-password:
+                title: Mot de passe SMTP
+            dm-sendmail-command:
+                title: Command sendmail
+                subtitle: La valeur par defaut est "/usr/sbin/exim -bs"
+            dm-test-mailer-transport:
+                title: Tester l'envoi d'email
+                subtitle: Après avoir configurer votre "transport", vous pouvez tester si tout fonctionne.     
+                    

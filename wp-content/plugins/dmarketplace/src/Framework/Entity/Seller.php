@@ -5,7 +5,7 @@ namespace DMarketPlace\Framework\Entity;
 use Symfony\Component\Validator\Constraints as Assert;
 use DMarketPlace\Framework\Traits\DmActionEntity;
 use Framework\Mapping\Annotations as WpMapping;
-use DMarketPlace\Framework\Utils\SellerUtil;
+
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\Validator\Constraints\Type;
 

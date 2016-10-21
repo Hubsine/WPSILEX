@@ -6,11 +6,10 @@
  * and open the template in the editor.
  */
 
-namespace DMarketPlace\Framework\Utils;
-
 class Util{
     
     const META_KEY_CONFIRMATION_EMAIL_TOKEN = 'dm-confirmation-email-token-%s';
+    const ADMIN_TRANS_DOMAIN = 'admin';
     
     public static function generateEmailConfirmationToken(){
         return md5(uniqid(rand(), true));

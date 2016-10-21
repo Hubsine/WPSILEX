@@ -2,9 +2,7 @@
 
 namespace DMarketPlace\Framework\Traits;
 
-use DMarketPlace\Framework\Utils\SellerUtil;
-use DMarketPlace\Framework\Debug\Errors;
-use DMarketPlace\Framework\Debug\Messages;
+#
 use DMarketPlace\Framework\Entity\Seller;
 
 /**
@@ -16,14 +14,14 @@ trait SellerController {
     
     protected function generateConfirmationUrl(Seller $seller){
         
-        $pageId = SellerUtil::getConfirmationPage();
+        $pageId = \Util::getConfirmationPage();
 
         if(empty($pageId)){ 
             throw Errors::requiredAValue(Messages::$requiredAValue, 'dm-check-email-page', "Voir la doc http://hubsine.com/doc");
         }
         
-        $token = SellerUtil::generateEmailConfirmationToken();
-        $metaKey = sprintf(SellerUtil::META_KEY_CONFIRMATION_EMAIL_TOKEN, $seller->ID);
+        $token = \Util::generateEmailConfirmationToken();
+        $metaKey = sprintf(\Util::META_KEY_CONFIRMATION_EMAIL_TOKEN, $seller->ID);
         
         add_user_meta($seller->ID, $metaKey, $token, true);
         

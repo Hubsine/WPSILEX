@@ -1,14 +1,11 @@
 <?php
 
-namespace DMarketPlace\Framework\Utils;
-
-use DMarketPlace\Framework\Utils\Util;
 use DMarketPlace\Framework\Repository\SellerRepository;
 
 /**
  * @deprecated non utiliser, à supprimer au mieux
  */
-class SellerUtil extends Util{
+class SellerUtil{
     
     const ACTION_CREATE = 'SELLER_CREATE';
     const ACTION_READ   = 'SELLER_READ';
@@ -34,7 +31,7 @@ class SellerUtil extends Util{
     
     public static function getRegisterFormName(){
         
-        $formName = parent::getReduxOption('dm-forms-seller-register');
+        $formName = \Util::getReduxOption('dm-forms-seller-register');
         
         return ( empty( $formName ) || $formName === 'Default Text' ) ? 'seller_register_form.html.twig' : $formName  ;
     }

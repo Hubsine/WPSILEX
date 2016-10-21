@@ -13,7 +13,7 @@ parameters:
         - form_table_layout.html.twig
     #http://symfony.com/doc/current/form/form_customization.html#form-customization-form-themes
     repository.manager.class: DMarketPlace\Framework\Repository\RepositoryManager
-    repository.base.class: DMarketPlace\Framework\Repository\BaseRepository
+    #repository.base.class: DMarketPlace\Framework\Repository\BaseRepository
     #mapping.annotation_manager.class: DMarketPlace\Framework\Mapping\MappingAnnotationManager
     translator.class: DMarketPlace\Translator
     wp.roles_caps.class: DMarketPlace\WpRolesCaps

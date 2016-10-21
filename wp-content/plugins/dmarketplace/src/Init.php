@@ -47,10 +47,12 @@ class Init {
         //self::$request = self::$request->create('*', 'GET', array('_controller' => 'DMarketPlace\Framework\Controller\SellerController::createAction'));
         
         
-      
-        
+        global $dmContainer;
+
+
         $this->container = new Container();
         $this->container->set('container', $this->container);
+        $dmContainer = $this->container;
         
         ###
         # Load Config and Action

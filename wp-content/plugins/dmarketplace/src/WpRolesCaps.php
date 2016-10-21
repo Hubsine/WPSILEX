@@ -37,7 +37,7 @@ class WpRolesCaps {
 //        );
         
         add_role(
-            SellerUtil::ROLENAME_SELLER, 
+            \SellerUtil::ROLENAME_SELLER, 
             $this->translator->trans('seller.display_role_name.seller', array(), 'messages'), 
             array(
                 'edit_published_posts' => true,

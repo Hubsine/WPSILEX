@@ -26,8 +26,8 @@ services:
     repository.manager:
         class: %repository.manager.class%
         #arguments: ['@repository.base']    
-    repository.base:
-        class: %repository.base.class%
+#    repository.base:
+#        class: %repository.base.class%
         #arguments: ['@repository.manager']
     #mappin.annotation_manager: 
         #class: %mapping.annotation_manager.class%    

@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace DMarketPlace\Framework\Debug;
+#namespace DMarketPlace\Framework\Debug;
 
 use Symfony\Component\Form\FormError as SyFormError;
 
@@ -15,7 +15,7 @@ use Symfony\Component\Form\FormError as SyFormError;
  *
  * @author Hubsine
  */
-class FormError{
+class DmFormError{
 
     public static function addWpError(\WP_Error $wpError){
         return new SyFormError($wpError->get_error_message());

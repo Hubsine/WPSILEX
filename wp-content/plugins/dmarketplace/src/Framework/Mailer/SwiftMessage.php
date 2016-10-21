@@ -8,7 +8,7 @@
 
 namespace DMarketPlace\Framework\Mailer;
 
-use DMarketPlace\Framework\Utils\Util;
+use Util;
 
 /**
  * Description of Mailer
@@ -23,12 +23,10 @@ class SwiftMessage extends \Swift_Message{
 //    private $password;
     
     private $mailerParam;
-    private $_from;
-
 
     public function __construct() {
         
-        $this->setFrom(Util::getReduxOption('dm-mailer-from'));
+        
         
 //        $this->mailerParam = $mailerParam;
 //        
@@ -39,9 +37,10 @@ class SwiftMessage extends \Swift_Message{
     }
 
     public function newMessage($subject = null, $body = null, $contentType = null, $charset = null){
-        
+
+        $from = (!empty(Util::getReduxOption('dm-mailer-from')) ? Util::getReduxOption('dm-mailer-from') : get_option('admin_email') );
         return self::newInstance($subject, $body, $contentType, $charset)
-            ->setFrom($this->_from);
+            ->setFrom($from);
     }
     
     public function sendWith(SwiftMessage $message, $transport){

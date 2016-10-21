@@ -6,16 +6,17 @@
  * and open the template in the editor.
  */
 
-namespace DMarketPlace\Framework\Debug;
+#namespace DMarketPlace\Framework\Debug;
 
 /**
  * Description of Messages
  *
  * @author Hubsine
  */
-class Messages {
+class DmMessages {
     
     public static $classInstanceOf = "La class %s doit être une instance de la class %s";
     public static $requiredAValue = "Vous devez fournir une valeur pour %s. %s";
+    public static $classNotFound = "Class %s not found";
     
 }

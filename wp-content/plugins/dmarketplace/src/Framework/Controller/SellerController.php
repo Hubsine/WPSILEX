@@ -9,7 +9,7 @@ use DMarketPlace\Framework\Form\Type\SellerRegisterType;
 use DMarketPlace\Framework\Entity\Seller;
 use DMarketPlace\Framework\Entity\UserMeta;
 use DMarketPlace\Framework\Form\Constraints\UserMetaConstraint;
-use DMarketPlace\Framework\Utils\SellerUtil;
+
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Form\FormError;
 use DMarketPlace\Init;
@@ -33,7 +33,7 @@ class SellerController extends BaseController{
 
         $seller = new Seller();
         $seller->user_pass = wp_generate_password(8, TRUE);
-        $seller->roles(array(SellerUtil::ROLENAME_SELLER));
+        $seller->roles(array(\SellerUtil::ROLENAME_SELLER));
         $seller->nickname = 'Hipopeur';
         $seller->user_email = 'shonen.shojo@gmail.com';
         $seller->ID = 987;
@@ -44,9 +44,9 @@ class SellerController extends BaseController{
         $form->handleRequest($request);
 
         if(!$form->isValid() /*&& $request->isMethod('POST')*/){
-            
+          
             // A decomenter pour pouvoir inserer le user dans la bdd
-            $repo = $this->get('repository.manager')->getRepository(SellerUtil::REPOSITORY_CLASS);
+            $repo = $this->get('repository.manager')->getRepository(\SellerUtil::REPOSITORY_CLASS);
             //$repo->createSeller($form);
             
             if(!$form->isValid()){
@@ -56,15 +56,15 @@ class SellerController extends BaseController{
                 $sellerMeta1 = new UserMeta(
                     array(
                         'user_id' => $userId,
-                        'meta_key' => SellerUtil::META_KEY_SELLER_STATUS,
-                        'meta_value' => SellerUtil::META_VALUE_PENDING_EMAIL_VALIDATION
+                        'meta_key' => \SellerUtil::META_KEY_SELLER_STATUS,
+                        'meta_value' => \SellerUtil::META_VALUE_PENDING_EMAIL_VALIDATION
                     )
                 );
                 $sellerMeta2 = new UserMeta(
                     array(
                         'user_id' => $userId,
-                        'meta_key' => SellerUtil::META_KEY_ACTIVATION_EMAIL,
-                        'meta_value' => SellerUtil::generateEmailConfirmationToken()
+                        'meta_key' => \SellerUtil::META_KEY_ACTIVATION_EMAIL,
+                        'meta_value' => \Util::generateEmailConfirmationToken()
                     )
                 );
                 
@@ -113,7 +113,7 @@ class SellerController extends BaseController{
             
         }
        
-        $formTwig = SellerUtil::getRegisterFormName();
+        $formTwig = \SellerUtil::getRegisterFormName();
         
         #@DMarketPlace:Forms/seller_register_form.html.twig
         return $this->renderView('@DMarketPlace:Forms/'.$formTwig, array('form' => $form->createView()));

@@ -12,6 +12,8 @@ use DMarketPlace\Framework\Repository\BaseRepository;
 use DMarketPlace\Framework\Mapping\MappingAnnotationManager;
 use Symfony\Component\Debug\Exception\ClassNotFoundException;
 use DMarketPlace\Framework\Repository\RepositoryInterface;
+#use DMarketPlace\Framework\Debug\Errors;
+#use DMarketPlace\Framework\Debug\Messages;
 
 /**
  * Description of RepositoryManager
@@ -59,7 +61,7 @@ class RepositoryManager implements RepositoryInterface{
                 #return $baseRepo = $repo->setBaseRepository($this->baseRepository);
             }
                     
-            throw new \Exception('Class not found');
+            throw \DmErrors::classNotFound(\DmMessages::$classNotFound, $repositoryClass);
             
         } catch (Exception $exc) {
             echo $exc->getTraceAsString();

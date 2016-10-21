@@ -17,7 +17,7 @@ use DMarketPlace\Framework\Repository\RepositoryManager;
  *
  * @author nsi
  */
-class BaseRepository{
+abstract class BaseRepository{
     
     public $_em;
     

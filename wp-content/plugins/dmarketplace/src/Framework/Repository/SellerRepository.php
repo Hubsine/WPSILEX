@@ -7,9 +7,6 @@ use DMarketPlace\Framework\Repository\RepositoryInterface;
 use DMarketPlace\Framework\Entity\Seller;
 use DMarketPlace\Framework\Form\Type\SellerRegisterType;
 use Symfony\Component\Form\FormInterface;
-use DMarketPlace\Framework\Debug\Errors;
-use DMarketPlace\Framework\Debug\FormError;
-use DMarketPlace\Framework\Debug\Messages;
 
 /**
  * Description of SellerRepository
@@ -23,7 +20,7 @@ class SellerRepository extends BaseRepository{
         $isSeller = ($form->getData() instanceof Seller) ? true : false;
 
         if(null === $isSeller){
-            throw Errors::classInstanceOfError(Messages::$classInstanceOf, Seller::class, SellerRegisterType::class);
+            throw \DmErrors::classInstanceOfError(\DmMessages::$classInstanceOf, Seller::class, SellerRegisterType::class);
         }
         
         #$wpUser = wp_insert_user($form->getData());
